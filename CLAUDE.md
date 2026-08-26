@@ -1,38 +1,59 @@
-# CLAUDE.md — SQL Learning Vault
+# CLAUDE.md — Data Engineering Learn Vault
 
 > Auto-loaded context untuk Claude Code sessions. Jangan delete.
+> Router sebenar untuk per-session load order = `vault/00_INDEX.md`. Baca fail tu dulu, pilih
+> track, then baca hanya file track tu — jangan load seluruh vault setiap session.
 
 ---
 
 ## 🎯 Goal
 
-Belajar SQL dari beginner sampai DE-level. Target: boleh handle real project — data warehouse, incremental load, platform SQL (Databricks/Snowflake).
+Belajar SQL/Python/Power BI dari beginner sampai DE-level, plus tutup gap real-world guna
+`vault/DE-Mastery/` (SRE Playbook dipetakan ke 10 repo sebenar). Target: boleh handle real
+project — data warehouse, incremental load, platform SQL (Databricks/Snowflake).
+
+Big picture / tier sequencing → `vault/01_MASTER-ROADMAP.md`.
+
+---
+
+## 🧭 Tracks
+
+| Track | Content | State files | Status |
+|---|---|---|---|
+| **SQL** | `vault/sql/` | `state/progress-sql.md`, `state/handoff-sql.md` | Active — see Sources below |
+| **Python** | `vault/python/` | `state/progress-python.md`, `state/handoff-python.md` | Active |
+| **Power BI** | `vault/Microsoft Power BI Developer and Architect/` | `state/progress-powerbi.md`, `state/handoff-powerbi.md` | Registered, not started |
+| **DE-Mastery** | `vault/DE-Mastery/` | `DE-Mastery/Progress-Tracker.md` | User-owned — sessions read only, never write `MASTER_CONTEXT.md` |
+
+Full read/write ownership per track → `vault/00_INDEX.md` (this is the authority, not this file).
 
 ---
 
 ## 📂 Vault Structure
 
 ```
-vault/sql/
-  notes/          ← Isi content di sini setiap session
-  problems/       ← Practice queries
-  quiz/
-    checkpoints/  ← Post-module drill files
-    html/         ← Interactive quiz
-  
-vault/state/
-  progress-sql.md ← Update setiap hujung session
-  handoff-sql.md  ← Update setiap hujung session
+.claude/
+  skills/cikgu/   ← teaching pedagogy (analogy, hint style, DoD gate) — /cikgu
 
-shared/
-  dialect-map.md
-  errors-gotchas.md
-  glossary.md
+vault/
+  00_INDEX.md     ← session router, READ FIRST
+  01_MASTER-ROADMAP.md
+  _rules/
+    heart.md      ← the session ritual + Definition of Done (authoritative)
+    goal.md
+    topic-template.md   ← fixed 7-section shape for every topic note
+  sql/, python/, Microsoft Power BI Developer and Architect/
+  DE-Mastery/     ← user-owned, sessions read-only
+  shared/
+    dialect-map.md, errors-gotchas.md, glossary.md
+    gym-and-troubleshooting-doctrine.md   ← dormant until Tier 3
+  state/
+    progress-<track>.md, handoff-<track>.md   ← update every session end
 ```
 
 ---
 
-## 📚 Sources
+## 📚 SQL Sources
 
 | Module | Topic | Source | Timestamp |
 |--------|-------|--------|-----------|
@@ -51,38 +72,44 @@ shared/
 
 Video Baraa: https://www.youtube.com/watch?v=SSKVgrwhzus
 
+> This table is the live source of truth for SQL module/timestamp mapping. `_rules/goal.md`
+> carries an older, superseded version — see the note appended there. Teach each module
+> anchored on its transcript/timestamp above — the timestamp is the starting point to source
+> real examples from, not a literal transcript reading.
+
 ---
 
 ## 📍 Current Position
 
-Baca `vault/state/progress-sql.md` dan `vault/state/handoff-sql.md` untuk latest position sebelum mula.
+Baca `vault/state/progress-<track>.md` dan `vault/state/handoff-<track>.md` (track yang
+berkenaan) untuk latest position sebelum mula.
 
 ---
 
-## 📋 Session Rules (ikut setiap kali)
+## 📋 Session Rules
 
-### Masa belajar
-1. Baca `handoff-sql.md` dulu — tahu exact next step
-2. Ajar topic ikut Baraa transcript / Ansh Big Data
-3. Isi `*(fill during session)*` dalam note file yang berkenaan
-4. Bagi contoh SQL + analogi (PK=IC, FK=invoice, Index=phonebook, Partition=warehouse floor)
-5. Lepas explain, bagi drill/quiz minimum 3 soalan sebelum teruskan
+Full ritual (per-topic flow, quiz rules, Definition of Done, end-of-session writes) lives in
+`vault/_rules/heart.md` — that is the authoritative version, followed exactly, not restated here.
 
-### Hujung session (WAJIB)
-1. Update `vault/state/progress-sql.md` — tukar status module, tambah session log
-2. Update `vault/state/handoff-sql.md` — tulis exact next step untuk session berikut
-3. Simpan semua note changes
+Teaching pedagogy (analogy discipline, hint style, evolution ladder, interview drill) →
+`.claude/skills/cikgu/SKILL.md`, invoked with `/cikgu`. It plugs into heart.md's flow; it does
+not replace it.
 
-### Format note
+**One rule worth stating twice because it's cross-track:** before generating any resume bullet
+or interview-answer claim, in ANY track, check `vault/DE-Mastery/Interview-Prep/defend-or-drop.md`
+and `integrity-rules.md` first. Never claim evidence that isn't actually cited there.
+
+### Format note (applies to every track)
 - Bahasa: BM casual (lah, je, kan) + technical terms kekal English
-- SQL code blocks wajib ada NULL handling & edge case notes
-- Setiap concept: WHAT → WHY → WHEN (bila nak guna dalam DE project)
+- Setiap concept: WHAT → WHY → WHEN (bila nak guna dalam DE project) — full shape in
+  `_rules/topic-template.md`
 
 ---
 
 ## ⚡ Quick Commands
 
-- **"teruskan"** → baca handoff, sambung dari last position
+- **"teruskan"** → baca handoff track semasa, sambung dari last position
 - **"quiz M[n]"** → buat drill untuk module tu
 - **"isi M[n]"** → fill note file untuk module tu dari transcript
 - **"update state"** → update progress + handoff files sekarang
+- **"/cikgu"** → load teaching-pedagogy skill untuk session ni

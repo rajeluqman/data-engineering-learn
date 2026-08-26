@@ -33,10 +33,12 @@
 3. One DE problem (pipeline / dedup / incremental / lakehouse context)
 4. One DA problem (business requirement messy → convert to SQL)
 5. One hack/pitfall
-6. Write notes → `sql/notes/MX-topic.md` (append)
+6. Write notes → `sql/notes/MX-topic.md` (append), shaped per `_rules/topic-template.md`'s
+   7 sections
 7. Write quiz → `sql/quiz/MX-topic-quiz.md` (new file per topic)
 8. Write problems → `sql/problems/MX-topic-problems.md` (append)
-9. Update `state/progress-sql.md` — module status, scores, weak spots
+9. Update `state/progress-sql.md` — module status (per the Definition of Done below, never on
+   feel), scores, weak spots
 
 ### Per topic (Python)
 - Same flow, files go to `python/` equivalents
@@ -68,6 +70,33 @@
   - Tier 3: Senior / interview curveball
 - Checkpoint quiz every 3–4 modules (stored in `sql/quiz/checkpoints/`)
 - Adaptive: if score < 70%, flag weak spot in progress-tracker, revisit before next module
+
+## Definition of Done — when a module/chapter/course actually flips to ✅
+
+A topic's status becomes ✅ only when **all three** gates pass. Any one alone is gameable —
+each catches a different failure mode:
+
+1. **Teach-back** — user explains the concept in their own words, no notes open. Catches
+   "I recognise it but can't produce it."
+2. **Quiz ≥ 80%** (8/10) — a higher bar than the 70% remedial-flag above. That gap (70–79%) is
+   deliberate: it means "not failing, not done yet — keep drilling," not the same thing as
+   "complete." Catches gaps across the topic's surface, not just the parts practiced.
+3. **≥ 3 coding/practice exercises completed** — catches "I understand it but can't type it,"
+   the exact gap `.claude/skills/cikgu/SKILL.md`'s Plan-in-Comments-Then-Fill method exists
+   to bridge.
+
+Track progress per gate as counters in `state/progress-<track>.md` (teach-back ☐/✅, quiz score,
+exercises n/3) — not as a single status word. The status column only ever shows ✅ once all
+three read done.
+
+**Honesty limit:** quiz scores are self-reported — quizzes render as `.md`/`.html` and are taken
+outside the session, so a session cannot verify a score it wasn't told. This gate is an honesty
+contract, same family as `DE-Mastery/Interview-Prep/integrity-rules.md` — don't claim a gate
+passed without it actually having happened.
+
+**Existing modules marked ✅ before this rule existed** (e.g. SQL M0) keep their status but are
+tagged `(pre-DoD)` in `progress-sql.md` — not silently re-opened, not silently laundered into a
+gated pass either. Re-gating them is the user's call, not automatic.
 
 ## SQL dialect rules
 

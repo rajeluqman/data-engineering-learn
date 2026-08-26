@@ -189,6 +189,17 @@ Verified this roadmap against the live vault. Findings:
 **Net:** foundation (Tier 1–2) is well-built and correctly sequenced. The only structural hole
 was Tier 3, plus the "banking = start" mislabel. Both are addressed here.
 
+7. **(2026-08-26) Cikgu teaching skill + gym/troubleshoot doctrine ported from the 21-repo
+   scan.** `.claude/skills/cikgu/SKILL.md` added — pedagogy only (analogy discipline, evolution
+   ladder, hint style, C-P-I-D-I-R interview drill, Definition-of-Done enforcement), distilled
+   from `banking-multisource-lakehouse-airflow-dag`'s cikgu.md (most evolved pedagogy of 6
+   versions found) and `pharma_novartis_sttm`'s gym (hypothesis-log + evidence-gate method).
+   `shared/gym-and-troubleshooting-doctrine.md` added as reference — **dormant, activates at
+   the Tier 3 exit gate above**, not before. `banking-multisource-lakehouse` and
+   `creative_intelligence_lab` both explicitly rejected building a gym as over-scope for a
+   single production repo; that call doesn't transfer to a dedicated learning vault, but the
+   Tier-1-before-Tier-3 sequencing lock still applies — captured now, not activated early.
+
 ---
 
 ## Sequencing decision (locked)

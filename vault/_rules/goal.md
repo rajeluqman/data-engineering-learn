@@ -50,3 +50,10 @@ high-volume pattern practice.
 - Lakehouse: rajeluqman/banking-multisource-lakehouse (Phase 1–6)
 - AILA integration: host HTML quiz + progress DB (KIV)
 - GitHub repo: version vault (KIV)
+
+## Superseded note (2026-08-26, append-only — do not rewrite the table above)
+
+The SQL module table above (M0–M9) is superseded by root `CLAUDE.md`'s Sources table, which
+carries M0–M11 **with Baraa video timestamps** and matches `state/progress-sql.md`'s current
+module list. Read `CLAUDE.md` for the live module/source mapping; this file's table is kept
+as-is per the append-only rule, not corrected in place.

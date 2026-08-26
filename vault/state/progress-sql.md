@@ -11,20 +11,24 @@ Last updated: 2026-08-26
 
 ## SQL Modules
 
-| Module | Topic | Status | Quiz score | Weak spots |
-|--------|-------|--------|------------|------------|
-| M0 | Orientation | ✅ Done | — | — |
-| M1 | DQL Core | 🔄 In progress | — | GROUP BY tertinggal, WHERE vs HAVING |
-| M2 | DDL/DML + Keys | ☐ Not started | — | — |
-| M3 | Joins & Set Ops | ☐ Not started | — | — |
-| M4 | Functions | ☐ Not started | — | — |
-| M5 | Window Functions | ☐ Not started | — | — |
-| M6 | Subqueries & CTE | ☐ Not started | — | — |
-| M7 | Advanced SQL Objects | ☐ Not started | — | — |
-| M8 | Programmable Objects | ☐ Not started | — | — |
-| M9 | Performance & Optimisation | ☐ Not started | — | — |
-| M10 | DE Project: Data Warehouse | ☐ Not started | — | — |
-| M11 | DE Platform SQL | ☐ Not started | — | — |
+> Status flips to ✅ only when all 3 Definition-of-Done gates pass (see `_rules/heart.md`):
+> teach-back, quiz ≥80%, ≥3 exercises. Rows marked `(pre-DoD)` were completed before this rule
+> existed — status kept as-is, not silently re-opened or silently upgraded.
+
+| Module | Topic | Status | Teach-back | Quiz score | Exercises | Weak spots |
+|--------|-------|--------|------------|------------|-----------|------------|
+| M0 | Orientation | ✅ Done (pre-DoD) | — | — | — | — |
+| M1 | DQL Core | 🔄 In progress | ☐ | — | 0/3 | GROUP BY tertinggal, WHERE vs HAVING |
+| M2 | DDL/DML + Keys | ☐ Not started | ☐ | — | 0/3 | — |
+| M3 | Joins & Set Ops | ☐ Not started | ☐ | — | 0/3 | — |
+| M4 | Functions | ☐ Not started | ☐ | — | 0/3 | — |
+| M5 | Window Functions | ☐ Not started | ☐ | — | 0/3 | — |
+| M6 | Subqueries & CTE | ☐ Not started | ☐ | — | 0/3 | — |
+| M7 | Advanced SQL Objects | ☐ Not started | ☐ | — | 0/3 | — |
+| M8 | Programmable Objects | ☐ Not started | ☐ | — | 0/3 | — |
+| M9 | Performance & Optimisation | ☐ Not started | ☐ | — | 0/3 | — |
+| M10 | DE Project: Data Warehouse | ☐ Not started | ☐ | — | 0/3 | — |
+| M11 | DE Platform SQL | ☐ Not started | ☐ | — | 0/3 | — |
 
 ## Session Log
 
