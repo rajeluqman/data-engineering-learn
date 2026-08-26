@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{QUIZ_TITLE}}</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0f1117; color: #e2e8f0; min-height: 100vh;
+      display: flex; align-items: center; justify-content: center; padding: 2rem;
+    }
+    .quiz-container {
+      background: #1a1f2e; border-radius: 16px; padding: 2rem;
+      max-width: 720px; width: 100%; box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+    }
+    .quiz-header { margin-bottom: 2rem; }
+    .quiz-title { font-size: 1.4rem; font-weight: 700; color: #7c6af7; }
+    .quiz-meta { font-size: 0.85rem; color: #64748b; margin-top: 0.25rem; }
+    .score-bar {
+      background: #0f1117; border-radius: 8px; padding: 0.75rem 1rem;
+      margin-bottom: 1.5rem; display: flex; justify-content: space-between;
+      font-size: 0.9rem; color: #94a3b8;
+    }
+    .score-value { color: #7c6af7; font-weight: 700; font-size: 1.1rem; }
+    .question-card {
+      background: #0f1117; border-radius: 12px; padding: 1.5rem;
+      margin-bottom: 1rem; border: 1px solid #2d3748;
+    }
+    .question-num { font-size: 0.75rem; color: #64748b; margin-bottom: 0.5rem; }
+    .question-tier {
+      display: inline-block; font-size: 0.7rem; padding: 0.15rem 0.5rem;
+      border-radius: 4px; margin-bottom: 0.75rem;
+      background: #1e293b; color: #94a3b8;
+    }
+    .tier-1 { background: #1a2e1a; color: #4ade80; }
+    .tier-2 { background: #1a1e2e; color: #60a5fa; }
+    .tier-3 { background: #2e1a1a; color: #f87171; }
+    .question-text { font-size: 1rem; line-height: 1.6; margin-bottom: 1rem; }
+    .code-block {
+      background: #0a0d14; border-radius: 8px; padding: 1rem;
+      font-family: 'Consolas', 'Monaco', monospace; font-size: 0.85rem;
+      color: #a5f3fc; margin-bottom: 1rem; overflow-x: auto;
+      border: 1px solid #1e293b;
+    }
+    .options { display: flex; flex-direction: column; gap: 0.5rem; }
+    .option-btn {
+      background: #1e293b; border: 1px solid #334155; border-radius: 8px;
+      padding: 0.75rem 1rem; text-align: left; cursor: pointer;
+      color: #e2e8f0; font-size: 0.9rem; transition: all 0.2s;
+    }
+    .option-btn:hover:not(:disabled) { background: #2d3748; border-color: #7c6af7; }
+    .option-btn.correct { background: #1a2e1a; border-color: #4ade80; color: #4ade80; }
+    .option-btn.wrong { background: #2e1a1a; border-color: #f87171; color: #f87171; }
+    .option-btn:disabled { cursor: default; }
+    .explanation {
+      margin-top: 0.75rem; padding: 0.75rem; background: #1a1f2e;
+      border-radius: 8px; font-size: 0.85rem; color: #94a3b8;
+      border-left: 3px solid #7c6af7; display: none;
+    }
+    .explanation.show { display: block; }
+    .nav-btn {
+      background: #7c6af7; color: white; border: none; border-radius: 8px;
+      padding: 0.75rem 2rem; font-size: 0.95rem; cursor: pointer;
+      margin-top: 1rem; width: 100%; font-weight: 600; transition: background 0.2s;
+    }
+    .nav-btn:hover { background: #6d5ee0; }
+    .nav-btn:disabled { background: #2d3748; color: #64748b; cursor: default; }
+    .result-screen {
+      text-align: center; padding: 2rem; display: none;
+    }
+    .result-score { font-size: 3rem; font-weight: 700; color: #7c6af7; }
+    .result-msg { color: #94a3b8; margin-top: 0.5rem; }
+  </style>
+</head>
+<body>
+<div class="quiz-container">
+  <div class="quiz-header">
+    <div class="quiz-title">{{QUIZ_TITLE}}</div>
+    <div class="quiz-meta">{{QUIZ_META}}</div>
+  </div>
+  <div class="score-bar">
+    <span>Score</span>
+    <span class="score-value" id="scoreDisplay">0 / {{TOTAL_Q}}</span>
+  </div>
+  <div id="quizContent"></div>
+  <div class="result-screen" id="resultScreen">
+    <div class="result-score" id="finalScore"></div>
+    <div class="result-msg" id="resultMsg"></div>
+  </div>
+</div>
+<script>
+const questions = {{QUESTIONS_JSON}};
+let current = 0, score = 0, answered = [];
+function render() {
+  const q = questions[current];
+  const tierClass = ['','tier-1','tier-2','tier-3'][q.tier] || '';
+  const tierLabel = ['','Tier 1 — Recall','Tier 2 — Applied','Tier 3 — Senior'][q.tier] || '';
+  const codeBlock = q.code ? `<div class="code-block">${q.code}</div>` : '';
+  document.getElementById('quizContent').innerHTML = `
+    <div class="question-card">
+      <div class="question-num">Question ${current+1} of ${questions.length}</div>
+      <div class="question-tier ${tierClass}">${tierLabel}</div>
+      <div class="question-text">${q.question}</div>
+      ${codeBlock}
+      <div class="options" id="opts">
+        ${q.options.map((o,i)=>`
+          <button class="option-btn" onclick="answer(${i})">${o}</button>
+        `).join('')}
+      </div>
+      <div class="explanation" id="exp">${q.explanation}</div>
+    </div>
+    <button class="nav-btn" id="nextBtn" onclick="next()" disabled>
+      ${current < questions.length-1 ? 'Next Question &rarr;' : 'See Results'}
+    </button>
+  `;
+  document.getElementById('scoreDisplay').textContent =
+    `${score} / ${questions.length}`;
+}
+function answer(i) {
+  if (answered[current] !== undefined) return;
+  answered[current] = i;
+  const btns = document.querySelectorAll('.option-btn');
+  btns.forEach(b => b.disabled = true);
+  btns[i].classList.add(i === questions[current].correct ? 'correct' : 'wrong');
+  if (i !== questions[current].correct)
+    btns[questions[current].correct].classList.add('correct');
+  if (i === questions[current].correct) score++;
+  document.getElementById('exp').classList.add('show');
+  document.getElementById('nextBtn').disabled = false;
+  document.getElementById('scoreDisplay').textContent =
+    `${score} / ${questions.length}`;
+}
+function next() {
+  current++;
+  if (current >= questions.length) {
+    document.getElementById('quizContent').style.display = 'none';
+    document.getElementById('resultScreen').style.display = 'block';
+    const pct = Math.round(score/questions.length*100);
+    document.getElementById('finalScore').textContent = `${score}/${questions.length} (${pct}%)`;
+    document.getElementById('resultMsg').textContent =
+      pct >= 70 ? '✅ Good job! Move to next module.' :
+      '⚠️ Weak spot detected — flag for review before next module.';
+  } else { render(); }
+}
+render();
+</script>
+</body>
+</html>
