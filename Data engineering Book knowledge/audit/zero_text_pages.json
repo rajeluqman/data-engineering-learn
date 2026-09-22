@@ -1,0 +1,88 @@
+{
+  "Big-Book-of-Data-Engineering-4th-Edition.pdf": [
+    1
+  ],
+  "Data Pipelines with Apache Airflow, 2nd Edition.pdf": [
+    4,
+    174,
+    320,
+    410,
+    412
+  ],
+  "Database Internals alex petrov.pdf": [
+    5,
+    22,
+    35,
+    46,
+    59,
+    74,
+    90,
+    94,
+    99,
+    104,
+    109,
+    114,
+    119,
+    124,
+    127,
+    140,
+    154,
+    168,
+    183,
+    197,
+    211,
+    218,
+    221,
+    224,
+    227,
+    230,
+    233,
+    236,
+    238
+  ],
+  "Fundamentals of Data Engineering (Reis, JoeHousley, Matt).pdf": [
+    17,
+    25,
+    27,
+    95,
+    179,
+    257,
+    295,
+    393,
+    423
+  ],
+  "Martin-Kleppmann---Designing-Data-Intensive-Applications_-O\u2019Reilly-Media-(2017).pdf": [
+    1,
+    2,
+    4,
+    6,
+    14,
+    20,
+    22,
+    46,
+    128,
+    162,
+    234,
+    286,
+    332
+  ],
+  "Wiley_The_Data_Warehouse_Toolkit_The_Definitive_Guide_to_Dimensional third edition.pdf": [
+    1,
+    2,
+    4,
+    10,
+    28,
+    72,
+    202,
+    236,
+    264,
+    316,
+    374,
+    410,
+    438,
+    464
+  ],
+  "streaming-systems-the-what-where-when-and-how-of-large-scale-data-processing.pdf": [
+    1
+  ]
+}

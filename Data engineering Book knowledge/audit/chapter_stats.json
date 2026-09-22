@@ -1,0 +1,902 @@
+[
+  {
+    "source_id": "airflow_2e",
+    "chapter_title": "1 Meet Apache Airflow",
+    "pdf_page_start": 33,
+    "pdf_page_end": 50,
+    "page_count": 18,
+    "word_count": 6017,
+    "band": "medium",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "airflow_2e",
+    "chapter_title": "2 Anatomy of an Airflow DAG",
+    "pdf_page_start": 51,
+    "pdf_page_end": 74,
+    "page_count": 24,
+    "word_count": 5928,
+    "band": "medium",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "airflow_2e",
+    "chapter_title": "3 Time-based scheduling",
+    "pdf_page_start": 75,
+    "pdf_page_end": 97,
+    "page_count": 23,
+    "word_count": 7479,
+    "band": "medium",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "airflow_2e",
+    "chapter_title": "4 Asset-aware scheduling",
+    "pdf_page_start": 98,
+    "pdf_page_end": 115,
+    "page_count": 18,
+    "word_count": 4780,
+    "band": "medium",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "airflow_2e",
+    "chapter_title": "5 Templating tasks using the Airflow context",
+    "pdf_page_start": 116,
+    "pdf_page_end": 140,
+    "page_count": 25,
+    "word_count": 6865,
+    "band": "medium",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "airflow_2e",
+    "chapter_title": "6 Defining dependencies between tasks",
+    "pdf_page_start": 141,
+    "pdf_page_end": 174,
+    "page_count": 34,
+    "word_count": 9355,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "airflow_2e",
+    "chapter_title": "7 Triggering workflows with external input",
+    "pdf_page_start": 177,
+    "pdf_page_end": 193,
+    "page_count": 17,
+    "word_count": 4666,
+    "band": "medium",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "airflow_2e",
+    "chapter_title": "8 Communicating with external systems",
+    "pdf_page_start": 194,
+    "pdf_page_end": 217,
+    "page_count": 24,
+    "word_count": 6796,
+    "band": "medium",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "airflow_2e",
+    "chapter_title": "9 Extending Airflow with custom operators and sensors",
+    "pdf_page_start": 218,
+    "pdf_page_end": 255,
+    "page_count": 38,
+    "word_count": 11102,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "airflow_2e",
+    "chapter_title": "10 Testing",
+    "pdf_page_start": 256,
+    "pdf_page_end": 286,
+    "page_count": 31,
+    "word_count": 8446,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "airflow_2e",
+    "chapter_title": "11 Running tasks in containers",
+    "pdf_page_start": 287,
+    "pdf_page_end": 318,
+    "page_count": 32,
+    "word_count": 9565,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "airflow_2e",
+    "chapter_title": "12 Best practices",
+    "pdf_page_start": 321,
+    "pdf_page_end": 351,
+    "page_count": 31,
+    "word_count": 9495,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "airflow_2e",
+    "chapter_title": "13 Project: Finding the fastest way to get around NYC",
+    "pdf_page_start": 352,
+    "pdf_page_end": 372,
+    "page_count": 21,
+    "word_count": 5426,
+    "band": "medium",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "airflow_2e",
+    "chapter_title": "14 Project: Keeping family traditions alive with Airflow and generative AI",
+    "pdf_page_start": 373,
+    "pdf_page_end": 410,
+    "page_count": 38,
+    "word_count": 10794,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "airflow_2e",
+    "chapter_title": "15 Operating Airflow in production",
+    "pdf_page_start": 413,
+    "pdf_page_end": 453,
+    "page_count": 41,
+    "word_count": 13540,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "airflow_2e",
+    "chapter_title": "16 Securing Airflow",
+    "pdf_page_start": 454,
+    "pdf_page_end": 473,
+    "page_count": 20,
+    "word_count": 5577,
+    "band": "medium",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "airflow_2e",
+    "chapter_title": "17 Airflow deployment options",
+    "pdf_page_start": 474,
+    "pdf_page_end": 499,
+    "page_count": 26,
+    "word_count": 6498,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "airflow_2e",
+    "chapter_title": "Appendix A Running code samples",
+    "pdf_page_start": 500,
+    "pdf_page_end": 503,
+    "page_count": 4,
+    "word_count": 867,
+    "band": "short",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "airflow_2e",
+    "chapter_title": "Appendix B Prometheus metric mapping",
+    "pdf_page_start": 504,
+    "pdf_page_end": 505,
+    "page_count": 2,
+    "word_count": 281,
+    "band": "short",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "fundamentals_de",
+    "chapter_title": "Chapter 1. Data Engineering Described",
+    "pdf_page_start": 28,
+    "pdf_page_end": 57,
+    "page_count": 30,
+    "word_count": 10698,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "fundamentals_de",
+    "chapter_title": "Chapter 2. The Data Engineering Lifecycle",
+    "pdf_page_start": 58,
+    "pdf_page_end": 95,
+    "page_count": 38,
+    "word_count": 13992,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "fundamentals_de",
+    "chapter_title": "Chapter 3. Designing Good Data Architecture",
+    "pdf_page_start": 96,
+    "pdf_page_end": 139,
+    "page_count": 44,
+    "word_count": 15434,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "fundamentals_de",
+    "chapter_title": "Chapter 4. Choosing Technologies Across the Data Engineering Lifecycle",
+    "pdf_page_start": 140,
+    "pdf_page_end": 177,
+    "page_count": 38,
+    "word_count": 14333,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "fundamentals_de",
+    "chapter_title": "Chapter 5. Data Generation in Source Systems",
+    "pdf_page_start": 180,
+    "pdf_page_end": 213,
+    "page_count": 34,
+    "word_count": 12064,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "fundamentals_de",
+    "chapter_title": "Chapter 6. Storage",
+    "pdf_page_start": 214,
+    "pdf_page_end": 257,
+    "page_count": 44,
+    "word_count": 16116,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "fundamentals_de",
+    "chapter_title": "Chapter 7. Ingestion",
+    "pdf_page_start": 258,
+    "pdf_page_end": 295,
+    "page_count": 38,
+    "word_count": 13557,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "fundamentals_de",
+    "chapter_title": "Chapter 8. Queries, Modeling, and Transformation",
+    "pdf_page_start": 296,
+    "pdf_page_end": 361,
+    "page_count": 66,
+    "word_count": 24272,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "fundamentals_de",
+    "chapter_title": "Chapter 9. Serving Data for Analytics, Machine Learning, and Reverse ETL",
+    "pdf_page_start": 362,
+    "pdf_page_end": 391,
+    "page_count": 30,
+    "word_count": 11561,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "fundamentals_de",
+    "chapter_title": "Chapter 10. Security and Privacy",
+    "pdf_page_start": 394,
+    "pdf_page_end": 403,
+    "page_count": 10,
+    "word_count": 3611,
+    "band": "short",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "fundamentals_de",
+    "chapter_title": "Chapter 11. The Future of Data Engineering",
+    "pdf_page_start": 404,
+    "pdf_page_end": 415,
+    "page_count": 12,
+    "word_count": 4759,
+    "band": "medium",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "fundamentals_de",
+    "chapter_title": "Appendix A. Serialization and Compression Technical Details",
+    "pdf_page_start": 416,
+    "pdf_page_end": 423,
+    "page_count": 8,
+    "word_count": 2291,
+    "band": "short",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "fundamentals_de",
+    "chapter_title": "Appendix B. Cloud Networking",
+    "pdf_page_start": 424,
+    "pdf_page_end": 427,
+    "page_count": 4,
+    "word_count": 1286,
+    "band": "short",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "ddia_kleppmann",
+    "chapter_title": "Chapter 1. Reliable, Scalable and Maintainable Applications",
+    "pdf_page_start": 23,
+    "pdf_page_end": 46,
+    "page_count": 24,
+    "word_count": 8762,
+    "band": "medium",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "ddia_kleppmann",
+    "chapter_title": "Chapter 2. Data Models and Query Languages",
+    "pdf_page_start": 47,
+    "pdf_page_end": 88,
+    "page_count": 42,
+    "word_count": 14211,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "ddia_kleppmann",
+    "chapter_title": "Chapter 3. Storage and Retrieval",
+    "pdf_page_start": 89,
+    "pdf_page_end": 128,
+    "page_count": 40,
+    "word_count": 15266,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "ddia_kleppmann",
+    "chapter_title": "Chapter 4. Encoding and Evolution",
+    "pdf_page_start": 129,
+    "pdf_page_end": 162,
+    "page_count": 34,
+    "word_count": 12988,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "ddia_kleppmann",
+    "chapter_title": "Chapter 5. Replication",
+    "pdf_page_start": 167,
+    "pdf_page_end": 212,
+    "page_count": 46,
+    "word_count": 17751,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "ddia_kleppmann",
+    "chapter_title": "Chapter 6. Partitioning",
+    "pdf_page_start": 213,
+    "pdf_page_end": 234,
+    "page_count": 22,
+    "word_count": 7859,
+    "band": "medium",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "ddia_kleppmann",
+    "chapter_title": "Chapter 7. Transactions",
+    "pdf_page_start": 235,
+    "pdf_page_end": 286,
+    "page_count": 52,
+    "word_count": 19750,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "ddia_kleppmann",
+    "chapter_title": "Chapter 8. The Trouble with Distributed Systems",
+    "pdf_page_start": 287,
+    "pdf_page_end": 332,
+    "page_count": 46,
+    "word_count": 19073,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "ddia_kleppmann",
+    "chapter_title": "Chapter 9. Consistency and Consensus",
+    "pdf_page_start": 333,
+    "pdf_page_end": 396,
+    "page_count": 64,
+    "word_count": 26317,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "ddia_kleppmann",
+    "chapter_title": "Chapter 10. Batch Processing",
+    "pdf_page_start": 399,
+    "pdf_page_end": 446,
+    "page_count": 48,
+    "word_count": 20860,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "ddia_kleppmann",
+    "chapter_title": "Chapter 11. Stream Processing",
+    "pdf_page_start": 447,
+    "pdf_page_end": 491,
+    "page_count": 45,
+    "word_count": 18602,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "kimball_dwtoolkit_3e",
+    "chapter_title": "1 Data Warehousing, Business Intelligence, and Dimensional Modeling Primer\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "pdf_page_start": 37,
+    "pdf_page_end": 72,
+    "page_count": 36,
+    "word_count": 13438,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "kimball_dwtoolkit_3e",
+    "chapter_title": "2 Kimball Dimensional Modeling Techniques Overview\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "pdf_page_start": 73,
+    "pdf_page_end": 104,
+    "page_count": 32,
+    "word_count": 11140,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "kimball_dwtoolkit_3e",
+    "chapter_title": "3 Retail Sales\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "pdf_page_start": 105,
+    "pdf_page_end": 146,
+    "page_count": 42,
+    "word_count": 15964,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "kimball_dwtoolkit_3e",
+    "chapter_title": "4 Inventory\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "pdf_page_start": 147,
+    "pdf_page_end": 176,
+    "page_count": 30,
+    "word_count": 10684,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "kimball_dwtoolkit_3e",
+    "chapter_title": "5 Procurement\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "pdf_page_start": 177,
+    "pdf_page_end": 202,
+    "page_count": 26,
+    "word_count": 9492,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "kimball_dwtoolkit_3e",
+    "chapter_title": "6 Order Management\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "pdf_page_start": 203,
+    "pdf_page_end": 236,
+    "page_count": 34,
+    "word_count": 12422,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "kimball_dwtoolkit_3e",
+    "chapter_title": "7 Accounting\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "pdf_page_start": 237,
+    "pdf_page_end": 264,
+    "page_count": 28,
+    "word_count": 9709,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "kimball_dwtoolkit_3e",
+    "chapter_title": "8 Customer Relationship Management\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "pdf_page_start": 265,
+    "pdf_page_end": 298,
+    "page_count": 34,
+    "word_count": 12597,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "kimball_dwtoolkit_3e",
+    "chapter_title": "9 Human Resources Management\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "pdf_page_start": 299,
+    "pdf_page_end": 316,
+    "page_count": 18,
+    "word_count": 6080,
+    "band": "medium",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "kimball_dwtoolkit_3e",
+    "chapter_title": "10 Financial Services\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "pdf_page_start": 317,
+    "pdf_page_end": 332,
+    "page_count": 16,
+    "word_count": 6152,
+    "band": "medium",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "kimball_dwtoolkit_3e",
+    "chapter_title": "11 Telecommunications\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "pdf_page_start": 333,
+    "pdf_page_end": 346,
+    "page_count": 14,
+    "word_count": 5659,
+    "band": "medium",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "kimball_dwtoolkit_3e",
+    "chapter_title": "12 Transportation\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "pdf_page_start": 347,
+    "pdf_page_end": 360,
+    "page_count": 14,
+    "word_count": 5226,
+    "band": "medium",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "kimball_dwtoolkit_3e",
+    "chapter_title": "13 Education\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "pdf_page_start": 361,
+    "pdf_page_end": 374,
+    "page_count": 14,
+    "word_count": 4375,
+    "band": "medium",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "kimball_dwtoolkit_3e",
+    "chapter_title": "14 Healthcare\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "pdf_page_start": 375,
+    "pdf_page_end": 388,
+    "page_count": 14,
+    "word_count": 5154,
+    "band": "medium",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "kimball_dwtoolkit_3e",
+    "chapter_title": "15 Electronic Commerce\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "pdf_page_start": 389,
+    "pdf_page_end": 410,
+    "page_count": 22,
+    "word_count": 8130,
+    "band": "medium",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "kimball_dwtoolkit_3e",
+    "chapter_title": "16 Insurance\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "pdf_page_start": 411,
+    "pdf_page_end": 438,
+    "page_count": 28,
+    "word_count": 10104,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "kimball_dwtoolkit_3e",
+    "chapter_title": "17 Kimball DW/BI Lifecycle Overview\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "pdf_page_start": 439,
+    "pdf_page_end": 464,
+    "page_count": 26,
+    "word_count": 9534,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "kimball_dwtoolkit_3e",
+    "chapter_title": "18 Dimensional Modeling Process and Tasks\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "pdf_page_start": 465,
+    "pdf_page_end": 478,
+    "page_count": 14,
+    "word_count": 4705,
+    "band": "medium",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "kimball_dwtoolkit_3e",
+    "chapter_title": "19 ETL Subsystems and Techniques\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "pdf_page_start": 479,
+    "pdf_page_end": 532,
+    "page_count": 54,
+    "word_count": 21777,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "kimball_dwtoolkit_3e",
+    "chapter_title": "20 ETL System Design and Development Process and Tasks\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "pdf_page_start": 533,
+    "pdf_page_end": 562,
+    "page_count": 30,
+    "word_count": 11555,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "kimball_dwtoolkit_3e",
+    "chapter_title": "21 Big Data Analytics\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "pdf_page_start": 563,
+    "pdf_page_end": 578,
+    "page_count": 16,
+    "word_count": 6252,
+    "band": "medium",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "streaming_systems",
+    "chapter_title": "1. Streaming 101",
+    "pdf_page_start": 22,
+    "pdf_page_end": 47,
+    "page_count": 26,
+    "word_count": 7335,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "streaming_systems",
+    "chapter_title": "2. The What, Where, When, and How of Data Processing",
+    "pdf_page_start": 48,
+    "pdf_page_end": 84,
+    "page_count": 37,
+    "word_count": 9762,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "streaming_systems",
+    "chapter_title": "3. Watermarks",
+    "pdf_page_start": 85,
+    "pdf_page_end": 123,
+    "page_count": 39,
+    "word_count": 9131,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "streaming_systems",
+    "chapter_title": "4. Advanced Windowing",
+    "pdf_page_start": 124,
+    "pdf_page_end": 148,
+    "page_count": 25,
+    "word_count": 6045,
+    "band": "medium",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "streaming_systems",
+    "chapter_title": "5. Exactly-Once and Side Effects",
+    "pdf_page_start": 149,
+    "pdf_page_end": 172,
+    "page_count": 24,
+    "word_count": 6680,
+    "band": "medium",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "streaming_systems",
+    "chapter_title": "6. Streams and Tables",
+    "pdf_page_start": 174,
+    "pdf_page_end": 214,
+    "page_count": 41,
+    "word_count": 9875,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "streaming_systems",
+    "chapter_title": "7. The Practicalities of Persistent State",
+    "pdf_page_start": 215,
+    "pdf_page_end": 248,
+    "page_count": 34,
+    "word_count": 8986,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "streaming_systems",
+    "chapter_title": "8. Streaming SQL",
+    "pdf_page_start": 249,
+    "pdf_page_end": 312,
+    "page_count": 64,
+    "word_count": 15821,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "streaming_systems",
+    "chapter_title": "9. Streaming Joins",
+    "pdf_page_start": 313,
+    "pdf_page_end": 359,
+    "page_count": 47,
+    "word_count": 11540,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "streaming_systems",
+    "chapter_title": "10. The Evolution of Large-Scale Data Processing",
+    "pdf_page_start": 360,
+    "pdf_page_end": 411,
+    "page_count": 52,
+    "word_count": 10289,
+    "band": "long",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "databricks_big_book_4e",
+    "chapter_title": "Introduction to Data Engineering on Databricks",
+    "pdf_page_start": 10,
+    "pdf_page_end": 16,
+    "page_count": 7,
+    "word_count": 1234,
+    "band": "short",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "databricks_big_book_4e",
+    "chapter_title": "Migrating Apache Spark ETL Workloads to Databricks",
+    "pdf_page_start": 17,
+    "pdf_page_end": 21,
+    "page_count": 5,
+    "word_count": 1612,
+    "band": "short",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "databricks_big_book_4e",
+    "chapter_title": "How Observability in Lakeflow Helps You Build Reliable Data Pipelines",
+    "pdf_page_start": 22,
+    "pdf_page_end": 26,
+    "page_count": 5,
+    "word_count": 1465,
+    "band": "short",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "databricks_big_book_4e",
+    "chapter_title": "A Cost Maturity Journey With Databricks",
+    "pdf_page_start": 27,
+    "pdf_page_end": 45,
+    "page_count": 19,
+    "word_count": 4513,
+    "band": "medium",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "databricks_big_book_4e",
+    "chapter_title": "Lakeflow Connect: Efficient and Easy Data Ingestion Using the Microsoft SQL Server Connector",
+    "pdf_page_start": 46,
+    "pdf_page_end": 61,
+    "page_count": 16,
+    "word_count": 3446,
+    "band": "medium",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "databricks_big_book_4e",
+    "chapter_title": "Implement CDC Data Load and SCD Type 2 With Lakeflow",
+    "pdf_page_start": 62,
+    "pdf_page_end": 73,
+    "page_count": 12,
+    "word_count": 1745,
+    "band": "medium",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "databricks_big_book_4e",
+    "chapter_title": "Optimizing Materialized Views Recomputes",
+    "pdf_page_start": 74,
+    "pdf_page_end": 81,
+    "page_count": 8,
+    "word_count": 2107,
+    "band": "short",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "databricks_big_book_4e",
+    "chapter_title": "Reverse ETL With Lakebase: Activate Your Lakehouse Data for Operational Analytics",
+    "pdf_page_start": 82,
+    "pdf_page_end": 85,
+    "page_count": 4,
+    "word_count": 1209,
+    "band": "short",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "databricks_big_book_4e",
+    "chapter_title": "Production-Grade Data Quality Using Spark Declarative Pipelines",
+    "pdf_page_start": 86,
+    "pdf_page_end": 93,
+    "page_count": 8,
+    "word_count": 2070,
+    "band": "short",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "databricks_big_book_4e",
+    "chapter_title": "Collaborative Data Engineering Made Simple With Databricks Asset Bundles",
+    "pdf_page_start": 94,
+    "pdf_page_end": 98,
+    "page_count": 5,
+    "word_count": 1408,
+    "band": "short",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "databricks_big_book_4e",
+    "chapter_title": "A Practical Guide to Serverless Migrations",
+    "pdf_page_start": 99,
+    "pdf_page_end": 105,
+    "page_count": 7,
+    "word_count": 1832,
+    "band": "short",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "databricks_big_book_4e",
+    "chapter_title": "iFood: Transforming Data to Elevate Food Deliveries and Experiences",
+    "pdf_page_start": 106,
+    "pdf_page_end": 109,
+    "page_count": 4,
+    "word_count": 1361,
+    "band": "short",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "databricks_big_book_4e",
+    "chapter_title": "NFCU: Using Real-Time Data to Trailblaze Member Personalization",
+    "pdf_page_start": 110,
+    "pdf_page_end": 113,
+    "page_count": 4,
+    "word_count": 1593,
+    "band": "short",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "databricks_big_book_4e",
+    "chapter_title": "Cincinnati Reds: Winning On and Off the Field With Cutting-Edge Baseball Analytics",
+    "pdf_page_start": 114,
+    "pdf_page_end": 116,
+    "page_count": 3,
+    "word_count": 1160,
+    "band": "short",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "databricks_big_book_4e",
+    "chapter_title": "Porsche Holding: Unifying Customer Data to Drive a New Automotive Experience",
+    "pdf_page_start": 117,
+    "pdf_page_end": 119,
+    "page_count": 3,
+    "word_count": 1301,
+    "band": "short",
+    "status": "synthesized"
+  },
+  {
+    "source_id": "databricks_big_book_4e",
+    "chapter_title": "Hinge Health: Developing Personalized Care Plans to Improve Patient Outcomes",
+    "pdf_page_start": 120,
+    "pdf_page_end": 123,
+    "page_count": 4,
+    "word_count": 1302,
+    "band": "short",
+    "status": "synthesized"
+  }
+]

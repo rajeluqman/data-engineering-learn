@@ -1,0 +1,4663 @@
+{
+  "min_sources": 3,
+  "files_scanned": 138,
+  "concepts": [
+    {
+      "id": "data-quality",
+      "title": "Data Quality & Expectations",
+      "book_sources": [
+        "airflow_2e",
+        "databricks_big_book_4e",
+        "ddia_kleppmann",
+        "fundamentals_de",
+        "kimball_dwtoolkit_3e",
+        "streaming_systems"
+      ],
+      "track_sources": [
+        "track_python",
+        "track_sql"
+      ],
+      "n_book_sources": 6,
+      "n_chapters": 58,
+      "total_hits": 311,
+      "by_source": {
+        "airflow_2e": [
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch10_testing.md",
+            "hits": 6
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch01_meet_apache_airflow.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch02_anatomy_of_an_airflow_dag.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch03_time_based_scheduling.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch05_templating_tasks_using_the_airflow_context.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch16_securing_airflow.md",
+            "hits": 1
+          }
+        ],
+        "databricks_big_book_4e": [
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch09_production_grade_data_quality_using_sdp.md",
+            "hits": 40
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch12_ifood_case_study.md",
+            "hits": 9
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch01_introduction_to_data_engineering_on_databricks.md",
+            "hits": 6
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch02_migrating_apache_spark_etl_workloads_to_databricks.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch13_nfcu_case_study.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch05_lakeflow_connect_sql_server_connector.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch10_collaborative_data_engineering_with_dabs.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch03_observability_in_lakeflow.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch06_implement_cdc_and_scd_type_2_with_lakeflow.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch11_practical_guide_to_serverless_migrations.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch07_optimizing_materialized_views_recomputes.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch14_cincinnati_reds_case_study.md",
+            "hits": 1
+          }
+        ],
+        "ddia_kleppmann": [
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch09_consistency_and_consensus.md",
+            "hits": 8
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch11_stream_processing.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch01_reliable_scalable_maintainable_applications.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch02_data_models_and_query_languages.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch07_transactions.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch10_batch_processing.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch04_encoding_and_evolution.md",
+            "hits": 1
+          }
+        ],
+        "fundamentals_de": [
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch08_queries_modeling_transformation.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch01_data_engineering_described.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch02_data_engineering_lifecycle.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch04_choosing_technologies.md",
+            "hits": 1
+          }
+        ],
+        "kimball_dwtoolkit_3e": [
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch20_etl_system_design_and_development_process_and_tasks.md",
+            "hits": 13
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch19_etl_subsystems_and_techniques.md",
+            "hits": 11
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch07_accounting.md",
+            "hits": 6
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch08_customer_relationship_management.md",
+            "hits": 6
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch21_big_data_analytics.md",
+            "hits": 5
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch15_electronic_commerce.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch01_dw_bi_dimensional_modeling_primer.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch10_financial_services.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch02_dimensional_modeling_techniques_overview.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch06_order_management.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch16_insurance.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch09_human_resources_management.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch11_telecommunications.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch17_kimball_dwbi_lifecycle_overview.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch18_dimensional_modeling_process_and_tasks.md",
+            "hits": 1
+          }
+        ],
+        "streaming_systems": [
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch01_streaming_101.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch03_watermarks.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch07_practicalities_of_persistent_state.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch08_streaming_sql.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch09_streaming_joins.md",
+            "hits": 1
+          }
+        ],
+        "track_sql": [
+          {
+            "file": "vault/sql/sources/master_sql_data_with_baraa.md",
+            "hits": 89
+          },
+          {
+            "file": "vault/sql/quiz/M11-cp1-3-drill-2-quiz.md",
+            "hits": 15
+          },
+          {
+            "file": "vault/sql/quiz/M11-cp1-3-ddl-dql-joins-dml-quiz.md",
+            "hits": 5
+          },
+          {
+            "file": "vault/sql/sources/ansh-lamba-chatgpt-quiz-handoff.md",
+            "hits": 4
+          },
+          {
+            "file": "vault/sql/sources/ansh-lamba-raw-notes.md",
+            "hits": 4
+          },
+          {
+            "file": "vault/sql/notes/M10-de-project.md",
+            "hits": 1
+          },
+          {
+            "file": "vault/sql/notes/M2-ddl-dml-keys.md",
+            "hits": 1
+          },
+          {
+            "file": "vault/sql/notes/M7-de-scenarios.md",
+            "hits": 1
+          }
+        ],
+        "track_python": [
+          {
+            "file": "vault/python/pyspark-evidence-map.md",
+            "hits": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "partitioning-and-clustering",
+      "title": "Partitioning & Clustering",
+      "book_sources": [
+        "airflow_2e",
+        "databricks_big_book_4e",
+        "ddia_kleppmann",
+        "fundamentals_de",
+        "kimball_dwtoolkit_3e",
+        "streaming_systems"
+      ],
+      "track_sources": [
+        "track_python",
+        "track_shared",
+        "track_sql"
+      ],
+      "n_book_sources": 6,
+      "n_chapters": 54,
+      "total_hits": 815,
+      "by_source": {
+        "airflow_2e": [
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch03_time_based_scheduling.md",
+            "hits": 22
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch08_communicating_with_external_systems.md",
+            "hits": 9
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch12_best_practices.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch01_meet_apache_airflow.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch04_asset_aware_scheduling.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch14_project_keeping_family_traditions_alive_with_airflow_and_generative_ai.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch15_operating_airflow_in_production.md",
+            "hits": 1
+          }
+        ],
+        "databricks_big_book_4e": [
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch12_ifood_case_study.md",
+            "hits": 11
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch02_migrating_apache_spark_etl_workloads_to_databricks.md",
+            "hits": 5
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch09_production_grade_data_quality_using_sdp.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch16_hinge_health_case_study.md",
+            "hits": 1
+          }
+        ],
+        "ddia_kleppmann": [
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch06_partitioning.md",
+            "hits": 135
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch10_batch_processing.md",
+            "hits": 30
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch11_stream_processing.md",
+            "hits": 23
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch07_transactions.md",
+            "hits": 18
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch09_consistency_and_consensus.md",
+            "hits": 16
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch08_trouble_with_distributed_systems.md",
+            "hits": 10
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch05_replication.md",
+            "hits": 6
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch01_reliable_scalable_maintainable_applications.md",
+            "hits": 2
+          }
+        ],
+        "fundamentals_de": [
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch06_storage.md",
+            "hits": 23
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch05_data_generation_source_systems.md",
+            "hits": 12
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch08_queries_modeling_transformation.md",
+            "hits": 9
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch03_designing_good_data_architecture.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch10_security_and_privacy.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch07_ingestion.md",
+            "hits": 1
+          }
+        ],
+        "kimball_dwtoolkit_3e": [
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch20_etl_system_design_and_development_process_and_tasks.md",
+            "hits": 17
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch14_healthcare.md",
+            "hits": 8
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch17_kimball_dwbi_lifecycle_overview.md",
+            "hits": 6
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch03_retail_sales.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch11_telecommunications.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch16_insurance.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch05_procurement.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch19_etl_subsystems_and_techniques.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch21_big_data_analytics.md",
+            "hits": 1
+          }
+        ],
+        "streaming_systems": [
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch05_exactly_once_and_side_effects.md",
+            "hits": 9
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch03_watermarks.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch06_streams_and_tables.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch09_streaming_joins.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch10_evolution_of_large_scale_data_processing.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch02_what_where_when_how.md",
+            "hits": 1
+          }
+        ],
+        "track_sql": [
+          {
+            "file": "vault/sql/sources/master_sql_data_with_baraa.md",
+            "hits": 343
+          },
+          {
+            "file": "vault/sql/sources/ansh-lamba-raw-notes.md",
+            "hits": 13
+          },
+          {
+            "file": "vault/sql/sources/ansh-lamba-chatgpt-quiz-handoff.md",
+            "hits": 12
+          },
+          {
+            "file": "vault/sql/notes/M11-de-platform.md",
+            "hits": 2
+          },
+          {
+            "file": "vault/sql/notes/M9-performance.md",
+            "hits": 2
+          },
+          {
+            "file": "vault/sql/notes/M1-dql-core.md",
+            "hits": 1
+          },
+          {
+            "file": "vault/sql/notes/M5-window-functions.md",
+            "hits": 1
+          },
+          {
+            "file": "vault/sql/quiz/M11-cp1-3-drill-2-quiz.md",
+            "hits": 1
+          },
+          {
+            "file": "vault/sql/sources/INDEX.md",
+            "hits": 1
+          }
+        ],
+        "track_python": [
+          {
+            "file": "vault/python/pyspark-evidence-map.md",
+            "hits": 18
+          },
+          {
+            "file": "vault/python/master-doc.md",
+            "hits": 1
+          }
+        ],
+        "track_shared": [
+          {
+            "file": "vault/shared/lakehouse-map.md",
+            "hits": 4
+          },
+          {
+            "file": "vault/shared/errors-gotchas.md",
+            "hits": 2
+          },
+          {
+            "file": "vault/shared/gym-and-troubleshooting-doctrine.md",
+            "hits": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "checkpointing-and-recovery",
+      "title": "Checkpointing & Fault Recovery",
+      "book_sources": [
+        "airflow_2e",
+        "databricks_big_book_4e",
+        "ddia_kleppmann",
+        "fundamentals_de",
+        "kimball_dwtoolkit_3e",
+        "streaming_systems"
+      ],
+      "track_sources": [
+        "track_python",
+        "track_shared",
+        "track_sql"
+      ],
+      "n_book_sources": 6,
+      "n_chapters": 54,
+      "total_hits": 470,
+      "by_source": {
+        "airflow_2e": [
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch02_anatomy_of_an_airflow_dag.md",
+            "hits": 8
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch01_meet_apache_airflow.md",
+            "hits": 2
+          }
+        ],
+        "databricks_big_book_4e": [
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch06_implement_cdc_and_scd_type_2_with_lakeflow.md",
+            "hits": 9
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch13_nfcu_case_study.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch05_lakeflow_connect_sql_server_connector.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch07_optimizing_materialized_views_recomputes.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch12_ifood_case_study.md",
+            "hits": 1
+          }
+        ],
+        "ddia_kleppmann": [
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch11_stream_processing.md",
+            "hits": 31
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch07_transactions.md",
+            "hits": 26
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch10_batch_processing.md",
+            "hits": 16
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch08_trouble_with_distributed_systems.md",
+            "hits": 13
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch09_consistency_and_consensus.md",
+            "hits": 12
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch01_reliable_scalable_maintainable_applications.md",
+            "hits": 8
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch05_replication.md",
+            "hits": 8
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch03_storage_and_retrieval.md",
+            "hits": 7
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch02_data_models_and_query_languages.md",
+            "hits": 2
+          }
+        ],
+        "fundamentals_de": [
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch06_storage.md",
+            "hits": 6
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch07_ingestion.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch03_designing_good_data_architecture.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch05_data_generation_source_systems.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch10_security_and_privacy.md",
+            "hits": 1
+          }
+        ],
+        "kimball_dwtoolkit_3e": [
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch16_insurance.md",
+            "hits": 33
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch04_inventory.md",
+            "hits": 30
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch14_healthcare.md",
+            "hits": 22
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch13_education.md",
+            "hits": 16
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch07_accounting.md",
+            "hits": 12
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch06_order_management.md",
+            "hits": 11
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch20_etl_system_design_and_development_process_and_tasks.md",
+            "hits": 11
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch19_etl_subsystems_and_techniques.md",
+            "hits": 8
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch01_dw_bi_dimensional_modeling_primer.md",
+            "hits": 6
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch05_procurement.md",
+            "hits": 5
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch02_dimensional_modeling_techniques_overview.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch08_customer_relationship_management.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch09_human_resources_management.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch10_financial_services.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch03_retail_sales.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch11_telecommunications.md",
+            "hits": 1
+          }
+        ],
+        "streaming_systems": [
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch05_exactly_once_and_side_effects.md",
+            "hits": 30
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch10_evolution_of_large_scale_data_processing.md",
+            "hits": 14
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch09_streaming_joins.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch01_streaming_101.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch07_practicalities_of_persistent_state.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch08_streaming_sql.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch04_advanced_windowing.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch06_streams_and_tables.md",
+            "hits": 1
+          }
+        ],
+        "track_sql": [
+          {
+            "file": "vault/sql/sources/ansh-lamba-raw-notes.md",
+            "hits": 35
+          },
+          {
+            "file": "vault/sql/sources/ansh-lamba-chatgpt-quiz-handoff.md",
+            "hits": 17
+          },
+          {
+            "file": "vault/sql/quiz/M11-cp1-3-ddl-dql-joins-dml-quiz.md",
+            "hits": 8
+          },
+          {
+            "file": "vault/sql/quiz/M11-cp1-3-drill-2-quiz.md",
+            "hits": 5
+          },
+          {
+            "file": "vault/sql/sources/master_sql_data_with_baraa.md",
+            "hits": 5
+          },
+          {
+            "file": "vault/sql/quiz/checkpoints/README.md",
+            "hits": 4
+          },
+          {
+            "file": "vault/sql/notes/M1-dql-core.md",
+            "hits": 1
+          }
+        ],
+        "track_python": [
+          {
+            "file": "vault/python/pyspark-evidence-map.md",
+            "hits": 8
+          }
+        ],
+        "track_shared": [
+          {
+            "file": "vault/shared/gym-and-troubleshooting-doctrine.md",
+            "hits": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "transactions-and-consistency",
+      "title": "Transactions & Consistency",
+      "book_sources": [
+        "airflow_2e",
+        "databricks_big_book_4e",
+        "ddia_kleppmann",
+        "fundamentals_de",
+        "kimball_dwtoolkit_3e",
+        "streaming_systems"
+      ],
+      "track_sources": [
+        "track_python",
+        "track_shared",
+        "track_sql"
+      ],
+      "n_book_sources": 6,
+      "n_chapters": 52,
+      "total_hits": 512,
+      "by_source": {
+        "airflow_2e": [
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch03_time_based_scheduling.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch16_securing_airflow.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch06_defining_dependencies_between_tasks.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch13_project_finding_the_fastest_way_to_get_around_nyc.md",
+            "hits": 1
+          }
+        ],
+        "databricks_big_book_4e": [
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch02_migrating_apache_spark_etl_workloads_to_databricks.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch06_implement_cdc_and_scd_type_2_with_lakeflow.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch_reverse_etl_lakebase.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch10_collaborative_data_engineering_with_dabs.md",
+            "hits": 1
+          }
+        ],
+        "ddia_kleppmann": [
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch07_transactions.md",
+            "hits": 119
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch09_consistency_and_consensus.md",
+            "hits": 112
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch05_replication.md",
+            "hits": 12
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch03_storage_and_retrieval.md",
+            "hits": 11
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch08_trouble_with_distributed_systems.md",
+            "hits": 9
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch06_partitioning.md",
+            "hits": 6
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch04_encoding_and_evolution.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch11_stream_processing.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch02_data_models_and_query_languages.md",
+            "hits": 2
+          }
+        ],
+        "fundamentals_de": [
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch06_storage.md",
+            "hits": 11
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch05_data_generation_source_systems.md",
+            "hits": 7
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch08_queries_modeling_transformation.md",
+            "hits": 6
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/appA_serialization_and_compression.md",
+            "hits": 5
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch07_ingestion.md",
+            "hits": 2
+          }
+        ],
+        "kimball_dwtoolkit_3e": [
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch16_insurance.md",
+            "hits": 29
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch04_inventory.md",
+            "hits": 17
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch08_customer_relationship_management.md",
+            "hits": 13
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch03_retail_sales.md",
+            "hits": 9
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch09_human_resources_management.md",
+            "hits": 9
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch14_healthcare.md",
+            "hits": 8
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch20_etl_system_design_and_development_process_and_tasks.md",
+            "hits": 8
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch05_procurement.md",
+            "hits": 7
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch01_dw_bi_dimensional_modeling_primer.md",
+            "hits": 6
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch19_etl_subsystems_and_techniques.md",
+            "hits": 6
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch06_order_management.md",
+            "hits": 5
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch13_education.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch21_big_data_analytics.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch12_transportation.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch15_electronic_commerce.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch02_dimensional_modeling_techniques_overview.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch07_accounting.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch11_telecommunications.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch17_kimball_dwbi_lifecycle_overview.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch18_dimensional_modeling_process_and_tasks.md",
+            "hits": 1
+          }
+        ],
+        "streaming_systems": [
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch01_streaming_101.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch06_streams_and_tables.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch09_streaming_joins.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch10_evolution_of_large_scale_data_processing.md",
+            "hits": 2
+          }
+        ],
+        "track_sql": [
+          {
+            "file": "vault/sql/sources/master_sql_data_with_baraa.md",
+            "hits": 26
+          },
+          {
+            "file": "vault/sql/quiz/M11-cp1-3-drill-2-quiz.md",
+            "hits": 6
+          },
+          {
+            "file": "vault/sql/notes/M1-dql-core.md",
+            "hits": 2
+          },
+          {
+            "file": "vault/sql/notes/M8-programmable.md",
+            "hits": 2
+          }
+        ],
+        "track_python": [
+          {
+            "file": "vault/python/pyspark-evidence-map.md",
+            "hits": 6
+          }
+        ],
+        "track_shared": [
+          {
+            "file": "vault/shared/errors-gotchas.md",
+            "hits": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "deduplication",
+      "title": "Deduplication",
+      "book_sources": [
+        "airflow_2e",
+        "databricks_big_book_4e",
+        "ddia_kleppmann",
+        "fundamentals_de",
+        "kimball_dwtoolkit_3e",
+        "streaming_systems"
+      ],
+      "track_sources": [
+        "track_python",
+        "track_shared",
+        "track_sql"
+      ],
+      "n_book_sources": 6,
+      "n_chapters": 50,
+      "total_hits": 399,
+      "by_source": {
+        "airflow_2e": [
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch05_templating_tasks_using_the_airflow_context.md",
+            "hits": 7
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch03_time_based_scheduling.md",
+            "hits": 6
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch13_project_finding_the_fastest_way_to_get_around_nyc.md",
+            "hits": 6
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch09_extending_airflow_with_custom_operators_and_sensors.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch10_testing.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch15_operating_airflow_in_production.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/appA_running_code_samples.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch04_asset_aware_scheduling.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch06_defining_dependencies_between_tasks.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch07_triggering_workflows_with_external_input.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch08_communicating_with_external_systems.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch11_running_tasks_in_containers.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch12_best_practices.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch14_project_keeping_family_traditions_alive_with_airflow_and_generative_ai.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch17_airflow_deployment_options.md",
+            "hits": 1
+          }
+        ],
+        "databricks_big_book_4e": [
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch13_nfcu_case_study.md",
+            "hits": 13
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch01_introduction_to_data_engineering_on_databricks.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch02_migrating_apache_spark_etl_workloads_to_databricks.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch03_observability_in_lakeflow.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch11_practical_guide_to_serverless_migrations.md",
+            "hits": 1
+          }
+        ],
+        "ddia_kleppmann": [
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch11_stream_processing.md",
+            "hits": 5
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch04_encoding_and_evolution.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch07_transactions.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch02_data_models_and_query_languages.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch03_storage_and_retrieval.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch08_trouble_with_distributed_systems.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch09_consistency_and_consensus.md",
+            "hits": 1
+          }
+        ],
+        "fundamentals_de": [
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch08_queries_modeling_transformation.md",
+            "hits": 1
+          }
+        ],
+        "kimball_dwtoolkit_3e": [
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch07_accounting.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch19_etl_subsystems_and_techniques.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch20_etl_system_design_and_development_process_and_tasks.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch08_customer_relationship_management.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch12_transportation.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch02_dimensional_modeling_techniques_overview.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch10_financial_services.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch13_education.md",
+            "hits": 1
+          }
+        ],
+        "streaming_systems": [
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch05_exactly_once_and_side_effects.md",
+            "hits": 29
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch07_practicalities_of_persistent_state.md",
+            "hits": 5
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch09_streaming_joins.md",
+            "hits": 4
+          }
+        ],
+        "track_sql": [
+          {
+            "file": "vault/sql/sources/master_sql_data_with_baraa.md",
+            "hits": 177
+          },
+          {
+            "file": "vault/sql/sources/ansh-lamba-raw-notes.md",
+            "hits": 22
+          },
+          {
+            "file": "vault/sql/sources/ansh-lamba-chatgpt-quiz-handoff.md",
+            "hits": 19
+          },
+          {
+            "file": "vault/sql/quiz/M11-cp1-3-drill-2-quiz.md",
+            "hits": 15
+          },
+          {
+            "file": "vault/sql/quiz/M11-cp1-3-ddl-dql-joins-dml-quiz.md",
+            "hits": 7
+          },
+          {
+            "file": "vault/sql/notes/M1-dql-core.md",
+            "hits": 2
+          },
+          {
+            "file": "vault/sql/notes/M10-de-project.md",
+            "hits": 1
+          },
+          {
+            "file": "vault/sql/notes/M7-de-scenarios.md",
+            "hits": 1
+          }
+        ],
+        "track_python": [
+          {
+            "file": "vault/python/pyspark-evidence-map.md",
+            "hits": 24
+          }
+        ],
+        "track_shared": [
+          {
+            "file": "vault/shared/errors-gotchas.md",
+            "hits": 3
+          },
+          {
+            "file": "vault/shared/lakehouse-map.md",
+            "hits": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "orchestration-and-dependencies",
+      "title": "Orchestration & Task Dependencies",
+      "book_sources": [
+        "airflow_2e",
+        "databricks_big_book_4e",
+        "ddia_kleppmann",
+        "fundamentals_de",
+        "kimball_dwtoolkit_3e",
+        "streaming_systems"
+      ],
+      "track_sources": [
+        "track_shared",
+        "track_sql"
+      ],
+      "n_book_sources": 6,
+      "n_chapters": 50,
+      "total_hits": 590,
+      "by_source": {
+        "airflow_2e": [
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch02_anatomy_of_an_airflow_dag.md",
+            "hits": 75
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch06_defining_dependencies_between_tasks.md",
+            "hits": 59
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch01_meet_apache_airflow.md",
+            "hits": 47
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch10_testing.md",
+            "hits": 47
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch03_time_based_scheduling.md",
+            "hits": 41
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch12_best_practices.md",
+            "hits": 38
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch04_asset_aware_scheduling.md",
+            "hits": 33
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch17_airflow_deployment_options.md",
+            "hits": 29
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch07_triggering_workflows_with_external_input.md",
+            "hits": 22
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch11_running_tasks_in_containers.md",
+            "hits": 20
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch05_templating_tasks_using_the_airflow_context.md",
+            "hits": 16
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch15_operating_airflow_in_production.md",
+            "hits": 16
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/appB_prometheus_metric_mapping.md",
+            "hits": 9
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch09_extending_airflow_with_custom_operators_and_sensors.md",
+            "hits": 8
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch08_communicating_with_external_systems.md",
+            "hits": 6
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch14_project_keeping_family_traditions_alive_with_airflow_and_generative_ai.md",
+            "hits": 6
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch16_securing_airflow.md",
+            "hits": 5
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch13_project_finding_the_fastest_way_to_get_around_nyc.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/appA_running_code_samples.md",
+            "hits": 3
+          }
+        ],
+        "databricks_big_book_4e": [
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch11_practical_guide_to_serverless_migrations.md",
+            "hits": 13
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch02_migrating_apache_spark_etl_workloads_to_databricks.md",
+            "hits": 10
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch14_cincinnati_reds_case_study.md",
+            "hits": 8
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch01_introduction_to_data_engineering_on_databricks.md",
+            "hits": 7
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch03_observability_in_lakeflow.md",
+            "hits": 5
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch05_lakeflow_connect_sql_server_connector.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch10_collaborative_data_engineering_with_dabs.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch13_nfcu_case_study.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch15_porsche_holding_case_study.md",
+            "hits": 1
+          }
+        ],
+        "ddia_kleppmann": [
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch11_stream_processing.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch05_replication.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch09_consistency_and_consensus.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch06_partitioning.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch10_batch_processing.md",
+            "hits": 1
+          }
+        ],
+        "fundamentals_de": [
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch02_data_engineering_lifecycle.md",
+            "hits": 11
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch11_future_of_data_engineering.md",
+            "hits": 7
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch04_choosing_technologies.md",
+            "hits": 6
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch07_ingestion.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch08_queries_modeling_transformation.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch05_data_generation_source_systems.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch09_serving_data.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch01_data_engineering_described.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch06_storage.md",
+            "hits": 1
+          }
+        ],
+        "kimball_dwtoolkit_3e": [
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch19_etl_subsystems_and_techniques.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch02_dimensional_modeling_techniques_overview.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch07_accounting.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch08_customer_relationship_management.md",
+            "hits": 1
+          }
+        ],
+        "streaming_systems": [
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch07_practicalities_of_persistent_state.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch01_streaming_101.md",
+            "hits": 1
+          }
+        ],
+        "track_sql": [
+          {
+            "file": "vault/sql/sources/master_sql_data_with_baraa.md",
+            "hits": 3
+          }
+        ],
+        "track_shared": [
+          {
+            "file": "vault/shared/lakehouse-map.md",
+            "hits": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "keys-surrogate-natural",
+      "title": "Surrogate, Natural & Business Keys",
+      "book_sources": [
+        "airflow_2e",
+        "databricks_big_book_4e",
+        "ddia_kleppmann",
+        "fundamentals_de",
+        "kimball_dwtoolkit_3e",
+        "streaming_systems"
+      ],
+      "track_sources": [
+        "track_python",
+        "track_shared",
+        "track_sql"
+      ],
+      "n_book_sources": 6,
+      "n_chapters": 38,
+      "total_hits": 446,
+      "by_source": {
+        "airflow_2e": [
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch05_templating_tasks_using_the_airflow_context.md",
+            "hits": 1
+          }
+        ],
+        "databricks_big_book_4e": [
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch05_lakeflow_connect_sql_server_connector.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch_reverse_etl_lakebase.md",
+            "hits": 2
+          }
+        ],
+        "ddia_kleppmann": [
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch03_storage_and_retrieval.md",
+            "hits": 5
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch06_partitioning.md",
+            "hits": 5
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch02_data_models_and_query_languages.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch05_replication.md",
+            "hits": 1
+          }
+        ],
+        "fundamentals_de": [
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch08_queries_modeling_transformation.md",
+            "hits": 8
+          }
+        ],
+        "kimball_dwtoolkit_3e": [
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch19_etl_subsystems_and_techniques.md",
+            "hits": 32
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch02_dimensional_modeling_techniques_overview.md",
+            "hits": 25
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch03_retail_sales.md",
+            "hits": 19
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch05_procurement.md",
+            "hits": 16
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch20_etl_system_design_and_development_process_and_tasks.md",
+            "hits": 14
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch21_big_data_analytics.md",
+            "hits": 12
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch11_telecommunications.md",
+            "hits": 10
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch13_education.md",
+            "hits": 9
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch14_healthcare.md",
+            "hits": 9
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch01_dw_bi_dimensional_modeling_primer.md",
+            "hits": 8
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch07_accounting.md",
+            "hits": 8
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch06_order_management.md",
+            "hits": 7
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch08_customer_relationship_management.md",
+            "hits": 7
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch10_financial_services.md",
+            "hits": 7
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch09_human_resources_management.md",
+            "hits": 5
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch17_kimball_dwbi_lifecycle_overview.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch04_inventory.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch18_dimensional_modeling_process_and_tasks.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch12_transportation.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch16_insurance.md",
+            "hits": 1
+          }
+        ],
+        "streaming_systems": [
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch06_streams_and_tables.md",
+            "hits": 3
+          }
+        ],
+        "track_sql": [
+          {
+            "file": "vault/sql/sources/master_sql_data_with_baraa.md",
+            "hits": 159
+          },
+          {
+            "file": "vault/sql/quiz/M11-cp1-3-drill-2-quiz.md",
+            "hits": 24
+          },
+          {
+            "file": "vault/sql/quiz/M11-cp1-3-ddl-dql-joins-dml-quiz.md",
+            "hits": 8
+          },
+          {
+            "file": "vault/sql/sources/ansh-lamba-chatgpt-quiz-handoff.md",
+            "hits": 7
+          },
+          {
+            "file": "vault/sql/sources/ansh-lamba-raw-notes.md",
+            "hits": 7
+          },
+          {
+            "file": "vault/sql/notes/M2-ddl-dml-keys.md",
+            "hits": 3
+          },
+          {
+            "file": "vault/sql/notes/M1-dql-core.md",
+            "hits": 1
+          }
+        ],
+        "track_python": [
+          {
+            "file": "vault/python/pyspark-evidence-map.md",
+            "hits": 3
+          }
+        ],
+        "track_shared": [
+          {
+            "file": "vault/shared/lakehouse-map.md",
+            "hits": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "lineage-and-governance",
+      "title": "Lineage & Governance",
+      "book_sources": [
+        "airflow_2e",
+        "databricks_big_book_4e",
+        "ddia_kleppmann",
+        "fundamentals_de",
+        "kimball_dwtoolkit_3e",
+        "streaming_systems"
+      ],
+      "track_sources": [
+        "track_python",
+        "track_sql"
+      ],
+      "n_book_sources": 6,
+      "n_chapters": 36,
+      "total_hits": 164,
+      "by_source": {
+        "airflow_2e": [
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch01_meet_apache_airflow.md",
+            "hits": 4
+          }
+        ],
+        "databricks_big_book_4e": [
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch02_migrating_apache_spark_etl_workloads_to_databricks.md",
+            "hits": 15
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch01_introduction_to_data_engineering_on_databricks.md",
+            "hits": 12
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch11_practical_guide_to_serverless_migrations.md",
+            "hits": 12
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch03_observability_in_lakeflow.md",
+            "hits": 11
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch05_lakeflow_connect_sql_server_connector.md",
+            "hits": 6
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch12_ifood_case_study.md",
+            "hits": 6
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch15_porsche_holding_case_study.md",
+            "hits": 6
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch06_implement_cdc_and_scd_type_2_with_lakeflow.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch07_optimizing_materialized_views_recomputes.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch04_cost_maturity_journey_with_databricks.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch14_cincinnati_reds_case_study.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch_reverse_etl_lakebase.md",
+            "hits": 1
+          }
+        ],
+        "ddia_kleppmann": [
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch10_batch_processing.md",
+            "hits": 5
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch03_storage_and_retrieval.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch05_replication.md",
+            "hits": 1
+          }
+        ],
+        "fundamentals_de": [
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch02_data_engineering_lifecycle.md",
+            "hits": 6
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch09_serving_data.md",
+            "hits": 5
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch03_designing_good_data_architecture.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch11_future_of_data_engineering.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch08_queries_modeling_transformation.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch01_data_engineering_described.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch05_data_generation_source_systems.md",
+            "hits": 1
+          }
+        ],
+        "kimball_dwtoolkit_3e": [
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch21_big_data_analytics.md",
+            "hits": 11
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch04_inventory.md",
+            "hits": 6
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch19_etl_subsystems_and_techniques.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch01_dw_bi_dimensional_modeling_primer.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch05_procurement.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch17_kimball_dwbi_lifecycle_overview.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch03_retail_sales.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch07_accounting.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch18_dimensional_modeling_process_and_tasks.md",
+            "hits": 1
+          }
+        ],
+        "streaming_systems": [
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch05_exactly_once_and_side_effects.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch10_evolution_of_large_scale_data_processing.md",
+            "hits": 1
+          }
+        ],
+        "track_sql": [
+          {
+            "file": "vault/sql/sources/master_sql_data_with_baraa.md",
+            "hits": 15
+          }
+        ],
+        "track_python": [
+          {
+            "file": "vault/python/pyspark-evidence-map.md",
+            "hits": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "backfill-and-reprocessing",
+      "title": "Backfill & Reprocessing",
+      "book_sources": [
+        "airflow_2e",
+        "databricks_big_book_4e",
+        "ddia_kleppmann",
+        "fundamentals_de",
+        "kimball_dwtoolkit_3e",
+        "streaming_systems"
+      ],
+      "track_sources": [
+        "track_python",
+        "track_shared",
+        "track_sql"
+      ],
+      "n_book_sources": 6,
+      "n_chapters": 32,
+      "total_hits": 134,
+      "by_source": {
+        "airflow_2e": [
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch03_time_based_scheduling.md",
+            "hits": 37
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch01_meet_apache_airflow.md",
+            "hits": 15
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch13_project_finding_the_fastest_way_to_get_around_nyc.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch02_anatomy_of_an_airflow_dag.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch06_defining_dependencies_between_tasks.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch14_project_keeping_family_traditions_alive_with_airflow_and_generative_ai.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch12_best_practices.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch04_asset_aware_scheduling.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch08_communicating_with_external_systems.md",
+            "hits": 1
+          }
+        ],
+        "databricks_big_book_4e": [
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch07_optimizing_materialized_views_recomputes.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch09_production_grade_data_quality_using_sdp.md",
+            "hits": 2
+          }
+        ],
+        "ddia_kleppmann": [
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch11_stream_processing.md",
+            "hits": 17
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch10_batch_processing.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch03_storage_and_retrieval.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch05_replication.md",
+            "hits": 1
+          }
+        ],
+        "fundamentals_de": [
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch06_storage.md",
+            "hits": 5
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch05_data_generation_source_systems.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch07_ingestion.md",
+            "hits": 1
+          }
+        ],
+        "kimball_dwtoolkit_3e": [
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch04_inventory.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch11_telecommunications.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch05_procurement.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch01_dw_bi_dimensional_modeling_primer.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch19_etl_subsystems_and_techniques.md",
+            "hits": 1
+          }
+        ],
+        "streaming_systems": [
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch10_evolution_of_large_scale_data_processing.md",
+            "hits": 7
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch05_exactly_once_and_side_effects.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch07_practicalities_of_persistent_state.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch01_streaming_101.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch04_advanced_windowing.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch09_streaming_joins.md",
+            "hits": 1
+          }
+        ],
+        "track_sql": [
+          {
+            "file": "vault/sql/quiz/M11-cp1-3-drill-2-quiz.md",
+            "hits": 2
+          }
+        ],
+        "track_python": [
+          {
+            "file": "vault/python/pyspark-evidence-map.md",
+            "hits": 2
+          }
+        ],
+        "track_shared": [
+          {
+            "file": "vault/shared/gym-and-troubleshooting-doctrine.md",
+            "hits": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "testing-and-validation",
+      "title": "Testing & Pipeline Validation",
+      "book_sources": [
+        "airflow_2e",
+        "databricks_big_book_4e",
+        "ddia_kleppmann",
+        "fundamentals_de",
+        "kimball_dwtoolkit_3e",
+        "streaming_systems"
+      ],
+      "track_sources": [
+        "track_python",
+        "track_shared"
+      ],
+      "n_book_sources": 6,
+      "n_chapters": 16,
+      "total_hits": 57,
+      "by_source": {
+        "airflow_2e": [
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch10_testing.md",
+            "hits": 31
+          }
+        ],
+        "databricks_big_book_4e": [
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch02_migrating_apache_spark_etl_workloads_to_databricks.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch10_collaborative_data_engineering_with_dabs.md",
+            "hits": 3
+          }
+        ],
+        "ddia_kleppmann": [
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch04_encoding_and_evolution.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch05_replication.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch10_batch_processing.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch11_stream_processing.md",
+            "hits": 1
+          }
+        ],
+        "fundamentals_de": [
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch03_designing_good_data_architecture.md",
+            "hits": 1
+          }
+        ],
+        "kimball_dwtoolkit_3e": [
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch20_etl_system_design_and_development_process_and_tasks.md",
+            "hits": 5
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch15_electronic_commerce.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch04_inventory.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch13_education.md",
+            "hits": 1
+          }
+        ],
+        "streaming_systems": [
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch02_what_where_when_how.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch07_practicalities_of_persistent_state.md",
+            "hits": 1
+          }
+        ],
+        "track_python": [
+          {
+            "file": "vault/python/pyspark-evidence-map.md",
+            "hits": 2
+          }
+        ],
+        "track_shared": [
+          {
+            "file": "vault/shared/gym-and-troubleshooting-doctrine.md",
+            "hits": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "file-layout-and-compaction",
+      "title": "File Layout & Compaction",
+      "book_sources": [
+        "databricks_big_book_4e",
+        "ddia_kleppmann",
+        "fundamentals_de",
+        "kimball_dwtoolkit_3e",
+        "streaming_systems"
+      ],
+      "track_sources": [
+        "track_python",
+        "track_sql"
+      ],
+      "n_book_sources": 5,
+      "n_chapters": 28,
+      "total_hits": 251,
+      "by_source": {
+        "databricks_big_book_4e": [
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch02_migrating_apache_spark_etl_workloads_to_databricks.md",
+            "hits": 28
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch13_nfcu_case_study.md",
+            "hits": 17
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch04_cost_maturity_journey_with_databricks.md",
+            "hits": 10
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch12_ifood_case_study.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch15_porsche_holding_case_study.md",
+            "hits": 1
+          }
+        ],
+        "ddia_kleppmann": [
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch11_stream_processing.md",
+            "hits": 31
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch03_storage_and_retrieval.md",
+            "hits": 23
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch02_data_models_and_query_languages.md",
+            "hits": 8
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch04_encoding_and_evolution.md",
+            "hits": 7
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch05_replication.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch10_batch_processing.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch06_partitioning.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch08_trouble_with_distributed_systems.md",
+            "hits": 1
+          }
+        ],
+        "fundamentals_de": [
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch08_queries_modeling_transformation.md",
+            "hits": 11
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch01_data_engineering_described.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch04_choosing_technologies.md",
+            "hits": 1
+          }
+        ],
+        "kimball_dwtoolkit_3e": [
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch01_dw_bi_dimensional_modeling_primer.md",
+            "hits": 6
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch21_big_data_analytics.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch02_dimensional_modeling_techniques_overview.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch03_retail_sales.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch14_healthcare.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch17_kimball_dwbi_lifecycle_overview.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch19_etl_subsystems_and_techniques.md",
+            "hits": 1
+          }
+        ],
+        "streaming_systems": [
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch05_exactly_once_and_side_effects.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch10_evolution_of_large_scale_data_processing.md",
+            "hits": 1
+          }
+        ],
+        "track_sql": [
+          {
+            "file": "vault/sql/sources/master_sql_data_with_baraa.md",
+            "hits": 69
+          },
+          {
+            "file": "vault/sql/quiz/M11-cp1-3-drill-2-quiz.md",
+            "hits": 1
+          }
+        ],
+        "track_python": [
+          {
+            "file": "vault/python/pyspark-evidence-map.md",
+            "hits": 18
+          }
+        ]
+      }
+    },
+    {
+      "id": "idempotency-and-exactly-once",
+      "title": "Idempotency & Exactly-Once",
+      "book_sources": [
+        "airflow_2e",
+        "databricks_big_book_4e",
+        "ddia_kleppmann",
+        "fundamentals_de",
+        "streaming_systems"
+      ],
+      "track_sources": [
+        "track_python",
+        "track_shared",
+        "track_sql"
+      ],
+      "n_book_sources": 5,
+      "n_chapters": 27,
+      "total_hits": 159,
+      "by_source": {
+        "airflow_2e": [
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch03_time_based_scheduling.md",
+            "hits": 14
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch13_project_finding_the_fastest_way_to_get_around_nyc.md",
+            "hits": 9
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch12_best_practices.md",
+            "hits": 6
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch08_communicating_with_external_systems.md",
+            "hits": 5
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch14_project_keeping_family_traditions_alive_with_airflow_and_generative_ai.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch05_templating_tasks_using_the_airflow_context.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch06_defining_dependencies_between_tasks.md",
+            "hits": 1
+          }
+        ],
+        "databricks_big_book_4e": [
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch01_introduction_to_data_engineering_on_databricks.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch02_migrating_apache_spark_etl_workloads_to_databricks.md",
+            "hits": 1
+          }
+        ],
+        "ddia_kleppmann": [
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch11_stream_processing.md",
+            "hits": 29
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch04_encoding_and_evolution.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch09_consistency_and_consensus.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch10_batch_processing.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch03_storage_and_retrieval.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch05_replication.md",
+            "hits": 1
+          }
+        ],
+        "fundamentals_de": [
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch05_data_generation_source_systems.md",
+            "hits": 9
+          }
+        ],
+        "streaming_systems": [
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch05_exactly_once_and_side_effects.md",
+            "hits": 28
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch10_evolution_of_large_scale_data_processing.md",
+            "hits": 17
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch01_streaming_101.md",
+            "hits": 5
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch08_streaming_sql.md",
+            "hits": 5
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch03_watermarks.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch04_advanced_windowing.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch07_practicalities_of_persistent_state.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch09_streaming_joins.md",
+            "hits": 1
+          }
+        ],
+        "track_sql": [
+          {
+            "file": "vault/sql/quiz/M11-cp1-3-drill-2-quiz.md",
+            "hits": 3
+          }
+        ],
+        "track_python": [
+          {
+            "file": "vault/python/pyspark-evidence-map.md",
+            "hits": 7
+          }
+        ],
+        "track_shared": [
+          {
+            "file": "vault/shared/gym-and-troubleshooting-doctrine.md",
+            "hits": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "security-and-access-control",
+      "title": "Security & Access Control",
+      "book_sources": [
+        "airflow_2e",
+        "databricks_big_book_4e",
+        "ddia_kleppmann",
+        "fundamentals_de",
+        "kimball_dwtoolkit_3e"
+      ],
+      "track_sources": [
+        "track_python",
+        "track_shared",
+        "track_sql"
+      ],
+      "n_book_sources": 5,
+      "n_chapters": 26,
+      "total_hits": 193,
+      "by_source": {
+        "airflow_2e": [
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch16_securing_airflow.md",
+            "hits": 84
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch17_airflow_deployment_options.md",
+            "hits": 16
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch12_best_practices.md",
+            "hits": 14
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch08_communicating_with_external_systems.md",
+            "hits": 9
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch11_running_tasks_in_containers.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch13_project_finding_the_fastest_way_to_get_around_nyc.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch01_meet_apache_airflow.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch03_time_based_scheduling.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch05_templating_tasks_using_the_airflow_context.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch09_extending_airflow_with_custom_operators_and_sensors.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch14_project_keeping_family_traditions_alive_with_airflow_and_generative_ai.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch15_operating_airflow_in_production.md",
+            "hits": 1
+          }
+        ],
+        "databricks_big_book_4e": [
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch05_lakeflow_connect_sql_server_connector.md",
+            "hits": 6
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch02_migrating_apache_spark_etl_workloads_to_databricks.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch09_production_grade_data_quality_using_sdp.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch12_ifood_case_study.md",
+            "hits": 1
+          }
+        ],
+        "ddia_kleppmann": [
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch04_encoding_and_evolution.md",
+            "hits": 2
+          }
+        ],
+        "fundamentals_de": [
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch10_security_and_privacy.md",
+            "hits": 13
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch09_serving_data.md",
+            "hits": 6
+          }
+        ],
+        "kimball_dwtoolkit_3e": [
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch21_big_data_analytics.md",
+            "hits": 7
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch19_etl_subsystems_and_techniques.md",
+            "hits": 5
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch13_education.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch16_insurance.md",
+            "hits": 1
+          }
+        ],
+        "track_sql": [
+          {
+            "file": "vault/sql/sources/master_sql_data_with_baraa.md",
+            "hits": 5
+          }
+        ],
+        "track_python": [
+          {
+            "file": "vault/python/pyspark-evidence-map.md",
+            "hits": 8
+          }
+        ],
+        "track_shared": [
+          {
+            "file": "vault/shared/gym-and-troubleshooting-doctrine.md",
+            "hits": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "replication-and-distribution",
+      "title": "Replication & Distributed Coordination",
+      "book_sources": [
+        "airflow_2e",
+        "databricks_big_book_4e",
+        "ddia_kleppmann",
+        "fundamentals_de",
+        "kimball_dwtoolkit_3e"
+      ],
+      "track_sources": [
+        "track_sql"
+      ],
+      "n_book_sources": 5,
+      "n_chapters": 24,
+      "total_hits": 441,
+      "by_source": {
+        "airflow_2e": [
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch15_operating_airflow_in_production.md",
+            "hits": 1
+          }
+        ],
+        "databricks_big_book_4e": [
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch03_observability_in_lakeflow.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch_reverse_etl_lakebase.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch05_lakeflow_connect_sql_server_connector.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch16_hinge_health_case_study.md",
+            "hits": 1
+          }
+        ],
+        "ddia_kleppmann": [
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch05_replication.md",
+            "hits": 174
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch09_consistency_and_consensus.md",
+            "hits": 137
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch11_stream_processing.md",
+            "hits": 33
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch08_trouble_with_distributed_systems.md",
+            "hits": 26
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch06_partitioning.md",
+            "hits": 12
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch07_transactions.md",
+            "hits": 12
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch10_batch_processing.md",
+            "hits": 10
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch01_reliable_scalable_maintainable_applications.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch03_storage_and_retrieval.md",
+            "hits": 2
+          }
+        ],
+        "fundamentals_de": [
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch06_storage.md",
+            "hits": 11
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch03_designing_good_data_architecture.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch05_data_generation_source_systems.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch07_ingestion.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch08_queries_modeling_transformation.md",
+            "hits": 1
+          }
+        ],
+        "kimball_dwtoolkit_3e": [
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch18_dimensional_modeling_process_and_tasks.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch17_kimball_dwbi_lifecycle_overview.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch05_procurement.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch06_order_management.md",
+            "hits": 1
+          }
+        ],
+        "track_sql": [
+          {
+            "file": "vault/sql/notes/M1-dql-core.md",
+            "hits": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "ingestion-patterns",
+      "title": "Ingestion Patterns & Connectors",
+      "book_sources": [
+        "airflow_2e",
+        "databricks_big_book_4e",
+        "ddia_kleppmann",
+        "fundamentals_de",
+        "streaming_systems"
+      ],
+      "track_sources": [
+        "track_python",
+        "track_sql"
+      ],
+      "n_book_sources": 5,
+      "n_chapters": 24,
+      "total_hits": 123,
+      "by_source": {
+        "airflow_2e": [
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch07_triggering_workflows_with_external_input.md",
+            "hits": 9
+          }
+        ],
+        "databricks_big_book_4e": [
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch05_lakeflow_connect_sql_server_connector.md",
+            "hits": 16
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch15_porsche_holding_case_study.md",
+            "hits": 16
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch16_hinge_health_case_study.md",
+            "hits": 11
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch01_introduction_to_data_engineering_on_databricks.md",
+            "hits": 6
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch13_nfcu_case_study.md",
+            "hits": 6
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch12_ifood_case_study.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch06_implement_cdc_and_scd_type_2_with_lakeflow.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch02_migrating_apache_spark_etl_workloads_to_databricks.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch10_collaborative_data_engineering_with_dabs.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch_reverse_etl_lakebase.md",
+            "hits": 1
+          }
+        ],
+        "ddia_kleppmann": [
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch11_stream_processing.md",
+            "hits": 11
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch01_reliable_scalable_maintainable_applications.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch04_encoding_and_evolution.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch06_partitioning.md",
+            "hits": 1
+          }
+        ],
+        "fundamentals_de": [
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch07_ingestion.md",
+            "hits": 16
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch06_storage.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch08_queries_modeling_transformation.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch11_future_of_data_engineering.md",
+            "hits": 1
+          }
+        ],
+        "streaming_systems": [
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch10_evolution_of_large_scale_data_processing.md",
+            "hits": 10
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch05_exactly_once_and_side_effects.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch06_streams_and_tables.md",
+            "hits": 1
+          }
+        ],
+        "track_sql": [
+          {
+            "file": "vault/sql/sources/master_sql_data_with_baraa.md",
+            "hits": 1
+          }
+        ],
+        "track_python": [
+          {
+            "file": "vault/python/pyspark-evidence-map.md",
+            "hits": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "change-data-capture",
+      "title": "Change Data Capture & Change Tracking",
+      "book_sources": [
+        "databricks_big_book_4e",
+        "ddia_kleppmann",
+        "fundamentals_de",
+        "kimball_dwtoolkit_3e",
+        "streaming_systems"
+      ],
+      "track_sources": [
+        "track_python",
+        "track_sql"
+      ],
+      "n_book_sources": 5,
+      "n_chapters": 22,
+      "total_hits": 155,
+      "by_source": {
+        "databricks_big_book_4e": [
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch06_implement_cdc_and_scd_type_2_with_lakeflow.md",
+            "hits": 33
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch05_lakeflow_connect_sql_server_connector.md",
+            "hits": 26
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch16_hinge_health_case_study.md",
+            "hits": 14
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch13_nfcu_case_study.md",
+            "hits": 6
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch01_introduction_to_data_engineering_on_databricks.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch02_migrating_apache_spark_etl_workloads_to_databricks.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch07_optimizing_materialized_views_recomputes.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch_reverse_etl_lakebase.md",
+            "hits": 1
+          }
+        ],
+        "ddia_kleppmann": [
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch11_stream_processing.md",
+            "hits": 24
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch05_replication.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch03_storage_and_retrieval.md",
+            "hits": 1
+          }
+        ],
+        "fundamentals_de": [
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch07_ingestion.md",
+            "hits": 18
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch05_data_generation_source_systems.md",
+            "hits": 8
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch08_queries_modeling_transformation.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/appA_serialization_and_compression.md",
+            "hits": 1
+          }
+        ],
+        "kimball_dwtoolkit_3e": [
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch19_etl_subsystems_and_techniques.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch09_human_resources_management.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch10_financial_services.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch16_insurance.md",
+            "hits": 1
+          }
+        ],
+        "streaming_systems": [
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch06_streams_and_tables.md",
+            "hits": 1
+          }
+        ],
+        "track_sql": [
+          {
+            "file": "vault/sql/sources/master_sql_data_with_baraa.md",
+            "hits": 2
+          }
+        ],
+        "track_python": [
+          {
+            "file": "vault/python/pyspark-evidence-map.md",
+            "hits": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "batch-vs-streaming",
+      "title": "Batch vs Streaming",
+      "book_sources": [
+        "databricks_big_book_4e",
+        "ddia_kleppmann",
+        "fundamentals_de",
+        "kimball_dwtoolkit_3e",
+        "streaming_systems"
+      ],
+      "track_sources": [],
+      "n_book_sources": 5,
+      "n_chapters": 17,
+      "total_hits": 58,
+      "by_source": {
+        "databricks_big_book_4e": [
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch02_migrating_apache_spark_etl_workloads_to_databricks.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch15_porsche_holding_case_study.md",
+            "hits": 2
+          }
+        ],
+        "ddia_kleppmann": [
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch11_stream_processing.md",
+            "hits": 7
+          }
+        ],
+        "fundamentals_de": [
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch07_ingestion.md",
+            "hits": 9
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch08_queries_modeling_transformation.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch09_serving_data.md",
+            "hits": 1
+          }
+        ],
+        "kimball_dwtoolkit_3e": [
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch19_etl_subsystems_and_techniques.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch20_etl_system_design_and_development_process_and_tasks.md",
+            "hits": 1
+          }
+        ],
+        "streaming_systems": [
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch01_streaming_101.md",
+            "hits": 12
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch07_practicalities_of_persistent_state.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch09_streaming_joins.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch02_what_where_when_how.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch05_exactly_once_and_side_effects.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch03_watermarks.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch06_streams_and_tables.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch10_evolution_of_large_scale_data_processing.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch04_advanced_windowing.md",
+            "hits": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "event-time-vs-processing-time",
+      "title": "Event Time vs Processing Time",
+      "book_sources": [
+        "airflow_2e",
+        "databricks_big_book_4e",
+        "ddia_kleppmann",
+        "fundamentals_de",
+        "streaming_systems"
+      ],
+      "track_sources": [
+        "track_sql"
+      ],
+      "n_book_sources": 5,
+      "n_chapters": 16,
+      "total_hits": 204,
+      "by_source": {
+        "airflow_2e": [
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch01_meet_apache_airflow.md",
+            "hits": 1
+          }
+        ],
+        "databricks_big_book_4e": [
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch14_cincinnati_reds_case_study.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch11_practical_guide_to_serverless_migrations.md",
+            "hits": 1
+          }
+        ],
+        "ddia_kleppmann": [
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch11_stream_processing.md",
+            "hits": 18
+          }
+        ],
+        "fundamentals_de": [
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch05_data_generation_source_systems.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch07_ingestion.md",
+            "hits": 1
+          }
+        ],
+        "streaming_systems": [
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch04_advanced_windowing.md",
+            "hits": 46
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch03_watermarks.md",
+            "hits": 45
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch01_streaming_101.md",
+            "hits": 42
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch02_what_where_when_how.md",
+            "hits": 15
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch10_evolution_of_large_scale_data_processing.md",
+            "hits": 13
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch07_practicalities_of_persistent_state.md",
+            "hits": 9
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch05_exactly_once_and_side_effects.md",
+            "hits": 5
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch06_streams_and_tables.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch09_streaming_joins.md",
+            "hits": 2
+          }
+        ],
+        "track_sql": [
+          {
+            "file": "vault/sql/sources/master_sql_data_with_baraa.md",
+            "hits": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "schema-evolution",
+      "title": "Schema Evolution & Compatibility",
+      "book_sources": [
+        "airflow_2e",
+        "databricks_big_book_4e",
+        "ddia_kleppmann",
+        "fundamentals_de",
+        "kimball_dwtoolkit_3e"
+      ],
+      "track_sources": [
+        "track_sql"
+      ],
+      "n_book_sources": 5,
+      "n_chapters": 16,
+      "total_hits": 52,
+      "by_source": {
+        "airflow_2e": [
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch13_project_finding_the_fastest_way_to_get_around_nyc.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch14_project_keeping_family_traditions_alive_with_airflow_and_generative_ai.md",
+            "hits": 1
+          }
+        ],
+        "databricks_big_book_4e": [
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch16_hinge_health_case_study.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch02_migrating_apache_spark_etl_workloads_to_databricks.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch05_lakeflow_connect_sql_server_connector.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch09_production_grade_data_quality_using_sdp.md",
+            "hits": 1
+          }
+        ],
+        "ddia_kleppmann": [
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch04_encoding_and_evolution.md",
+            "hits": 27
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch02_data_models_and_query_languages.md",
+            "hits": 7
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch05_replication.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch11_stream_processing.md",
+            "hits": 1
+          }
+        ],
+        "fundamentals_de": [
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch08_queries_modeling_transformation.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch07_ingestion.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch05_data_generation_source_systems.md",
+            "hits": 1
+          }
+        ],
+        "kimball_dwtoolkit_3e": [
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch02_dimensional_modeling_techniques_overview.md",
+            "hits": 1
+          }
+        ],
+        "track_sql": [
+          {
+            "file": "vault/sql/notes/M1-dql-core.md",
+            "hits": 1
+          },
+          {
+            "file": "vault/sql/sources/master_sql_data_with_baraa.md",
+            "hits": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "aggregation-and-combiners",
+      "title": "Aggregation & Combiners",
+      "book_sources": [
+        "ddia_kleppmann",
+        "fundamentals_de",
+        "kimball_dwtoolkit_3e",
+        "streaming_systems"
+      ],
+      "track_sources": [
+        "track_shared",
+        "track_sql"
+      ],
+      "n_book_sources": 4,
+      "n_chapters": 32,
+      "total_hits": 260,
+      "by_source": {
+        "ddia_kleppmann": [
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch02_data_models_and_query_languages.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch10_batch_processing.md",
+            "hits": 1
+          }
+        ],
+        "fundamentals_de": [
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch08_queries_modeling_transformation.md",
+            "hits": 1
+          }
+        ],
+        "kimball_dwtoolkit_3e": [
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch07_accounting.md",
+            "hits": 5
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch13_education.md",
+            "hits": 5
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch15_electronic_commerce.md",
+            "hits": 5
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch09_human_resources_management.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch16_insurance.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch04_inventory.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch11_telecommunications.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch05_procurement.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch01_dw_bi_dimensional_modeling_primer.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch03_retail_sales.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch06_order_management.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch10_financial_services.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch17_kimball_dwbi_lifecycle_overview.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch20_etl_system_design_and_development_process_and_tasks.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch21_big_data_analytics.md",
+            "hits": 1
+          }
+        ],
+        "streaming_systems": [
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch07_practicalities_of_persistent_state.md",
+            "hits": 14
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch05_exactly_once_and_side_effects.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch10_evolution_of_large_scale_data_processing.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch08_streaming_sql.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch06_streams_and_tables.md",
+            "hits": 1
+          }
+        ],
+        "track_sql": [
+          {
+            "file": "vault/sql/sources/master_sql_data_with_baraa.md",
+            "hits": 127
+          },
+          {
+            "file": "vault/sql/notes/M1-dql-core.md",
+            "hits": 29
+          },
+          {
+            "file": "vault/sql/quiz/M11-cp1-3-drill-2-quiz.md",
+            "hits": 7
+          },
+          {
+            "file": "vault/sql/quiz/checkpoints/drill-M1-business-decode.md",
+            "hits": 7
+          },
+          {
+            "file": "vault/sql/sources/ansh-lamba-raw-notes.md",
+            "hits": 6
+          },
+          {
+            "file": "vault/sql/sources/ansh-lamba-chatgpt-quiz-handoff.md",
+            "hits": 5
+          },
+          {
+            "file": "vault/sql/quiz/M11-cp1-3-ddl-dql-joins-dml-quiz.md",
+            "hits": 3
+          },
+          {
+            "file": "vault/sql/sources/INDEX.md",
+            "hits": 1
+          }
+        ],
+        "track_shared": [
+          {
+            "file": "vault/shared/errors-gotchas.md",
+            "hits": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": "incremental-vs-full-recompute",
+      "title": "Incremental vs Full Recompute",
+      "book_sources": [
+        "airflow_2e",
+        "databricks_big_book_4e",
+        "kimball_dwtoolkit_3e",
+        "streaming_systems"
+      ],
+      "track_sources": [
+        "track_python",
+        "track_shared",
+        "track_sql"
+      ],
+      "n_book_sources": 4,
+      "n_chapters": 18,
+      "total_hits": 82,
+      "by_source": {
+        "airflow_2e": [
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch03_time_based_scheduling.md",
+            "hits": 5
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch12_best_practices.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch01_meet_apache_airflow.md",
+            "hits": 1
+          }
+        ],
+        "databricks_big_book_4e": [
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch07_optimizing_materialized_views_recomputes.md",
+            "hits": 39
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch09_production_grade_data_quality_using_sdp.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch05_lakeflow_connect_sql_server_connector.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch01_introduction_to_data_engineering_on_databricks.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch16_hinge_health_case_study.md",
+            "hits": 1
+          }
+        ],
+        "kimball_dwtoolkit_3e": [
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch20_etl_system_design_and_development_process_and_tasks.md",
+            "hits": 6
+          }
+        ],
+        "streaming_systems": [
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch07_practicalities_of_persistent_state.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch04_advanced_windowing.md",
+            "hits": 2
+          }
+        ],
+        "track_sql": [
+          {
+            "file": "vault/sql/sources/master_sql_data_with_baraa.md",
+            "hits": 7
+          },
+          {
+            "file": "vault/sql/notes/M1-dql-core.md",
+            "hits": 1
+          },
+          {
+            "file": "vault/sql/notes/M10-de-project.md",
+            "hits": 1
+          },
+          {
+            "file": "vault/sql/notes/M7-de-scenarios.md",
+            "hits": 1
+          },
+          {
+            "file": "vault/sql/quiz/M11-cp1-3-drill-2-quiz.md",
+            "hits": 1
+          }
+        ],
+        "track_python": [
+          {
+            "file": "vault/python/master-doc.md",
+            "hits": 1
+          }
+        ],
+        "track_shared": [
+          {
+            "file": "vault/shared/lakehouse-map.md",
+            "hits": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "sql-window-functions",
+      "title": "SQL Window Functions",
+      "book_sources": [
+        "airflow_2e",
+        "databricks_big_book_4e",
+        "ddia_kleppmann",
+        "fundamentals_de"
+      ],
+      "track_sources": [
+        "track_python",
+        "track_shared",
+        "track_sql"
+      ],
+      "n_book_sources": 4,
+      "n_chapters": 15,
+      "total_hits": 242,
+      "by_source": {
+        "airflow_2e": [
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch12_best_practices.md",
+            "hits": 1
+          }
+        ],
+        "databricks_big_book_4e": [
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch02_migrating_apache_spark_etl_workloads_to_databricks.md",
+            "hits": 1
+          }
+        ],
+        "ddia_kleppmann": [
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch05_replication.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch11_stream_processing.md",
+            "hits": 1
+          }
+        ],
+        "fundamentals_de": [
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch06_storage.md",
+            "hits": 1
+          }
+        ],
+        "track_sql": [
+          {
+            "file": "vault/sql/sources/ansh-lamba-chatgpt-quiz-handoff.md",
+            "hits": 76
+          },
+          {
+            "file": "vault/sql/sources/master_sql_data_with_baraa.md",
+            "hits": 65
+          },
+          {
+            "file": "vault/sql/sources/ansh-lamba-raw-notes.md",
+            "hits": 64
+          },
+          {
+            "file": "vault/sql/quiz/M11-cp1-3-drill-2-quiz.md",
+            "hits": 4
+          },
+          {
+            "file": "vault/sql/notes/M5-window-functions.md",
+            "hits": 3
+          },
+          {
+            "file": "vault/sql/notes/M1-dql-core.md",
+            "hits": 2
+          }
+        ],
+        "track_python": [
+          {
+            "file": "vault/python/pyspark-evidence-map.md",
+            "hits": 10
+          },
+          {
+            "file": "vault/python/master-doc.md",
+            "hits": 1
+          }
+        ],
+        "track_shared": [
+          {
+            "file": "vault/shared/errors-gotchas.md",
+            "hits": 7
+          },
+          {
+            "file": "vault/shared/lakehouse-map.md",
+            "hits": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "materialized-views",
+      "title": "Materialized Views",
+      "book_sources": [
+        "databricks_big_book_4e",
+        "ddia_kleppmann",
+        "fundamentals_de",
+        "streaming_systems"
+      ],
+      "track_sources": [],
+      "n_book_sources": 4,
+      "n_chapters": 14,
+      "total_hits": 45,
+      "by_source": {
+        "databricks_big_book_4e": [
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch09_production_grade_data_quality_using_sdp.md",
+            "hits": 9
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch07_optimizing_materialized_views_recomputes.md",
+            "hits": 6
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch16_hinge_health_case_study.md",
+            "hits": 6
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch01_introduction_to_data_engineering_on_databricks.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch02_migrating_apache_spark_etl_workloads_to_databricks.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch06_implement_cdc_and_scd_type_2_with_lakeflow.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch12_ifood_case_study.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch13_nfcu_case_study.md",
+            "hits": 1
+          }
+        ],
+        "ddia_kleppmann": [
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch03_storage_and_retrieval.md",
+            "hits": 5
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch11_stream_processing.md",
+            "hits": 3
+          }
+        ],
+        "fundamentals_de": [
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch08_queries_modeling_transformation.md",
+            "hits": 4
+          }
+        ],
+        "streaming_systems": [
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch06_streams_and_tables.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch08_streaming_sql.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch10_evolution_of_large_scale_data_processing.md",
+            "hits": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "slowly-changing-dimensions",
+      "title": "Slowly Changing Dimensions",
+      "book_sources": [
+        "databricks_big_book_4e",
+        "fundamentals_de",
+        "kimball_dwtoolkit_3e"
+      ],
+      "track_sources": [
+        "track_python",
+        "track_shared",
+        "track_sql"
+      ],
+      "n_book_sources": 3,
+      "n_chapters": 30,
+      "total_hits": 142,
+      "by_source": {
+        "databricks_big_book_4e": [
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch06_implement_cdc_and_scd_type_2_with_lakeflow.md",
+            "hits": 22
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch05_lakeflow_connect_sql_server_connector.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch01_introduction_to_data_engineering_on_databricks.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch13_nfcu_case_study.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch02_migrating_apache_spark_etl_workloads_to_databricks.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch07_optimizing_materialized_views_recomputes.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch16_hinge_health_case_study.md",
+            "hits": 1
+          }
+        ],
+        "fundamentals_de": [
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch08_queries_modeling_transformation.md",
+            "hits": 3
+          }
+        ],
+        "kimball_dwtoolkit_3e": [
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch05_procurement.md",
+            "hits": 19
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch02_dimensional_modeling_techniques_overview.md",
+            "hits": 12
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch19_etl_subsystems_and_techniques.md",
+            "hits": 12
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch07_accounting.md",
+            "hits": 7
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch09_human_resources_management.md",
+            "hits": 7
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch20_etl_system_design_and_development_process_and_tasks.md",
+            "hits": 7
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch01_dw_bi_dimensional_modeling_primer.md",
+            "hits": 6
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch16_insurance.md",
+            "hits": 5
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch08_customer_relationship_management.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch18_dimensional_modeling_process_and_tasks.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch03_retail_sales.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch06_order_management.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch10_financial_services.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch13_education.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch21_big_data_analytics.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch04_inventory.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch12_transportation.md",
+            "hits": 1
+          }
+        ],
+        "track_sql": [
+          {
+            "file": "vault/sql/notes/M10-de-project.md",
+            "hits": 1
+          },
+          {
+            "file": "vault/sql/notes/M7-de-scenarios.md",
+            "hits": 1
+          },
+          {
+            "file": "vault/sql/sources/master_sql_data_with_baraa.md",
+            "hits": 1
+          }
+        ],
+        "track_python": [
+          {
+            "file": "vault/python/pyspark-evidence-map.md",
+            "hits": 7
+          }
+        ],
+        "track_shared": [
+          {
+            "file": "vault/shared/lakehouse-map.md",
+            "hits": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "dimensional-modeling",
+      "title": "Dimensional Modeling & Grain",
+      "book_sources": [
+        "ddia_kleppmann",
+        "fundamentals_de",
+        "kimball_dwtoolkit_3e"
+      ],
+      "track_sources": [
+        "track_python",
+        "track_sql"
+      ],
+      "n_book_sources": 3,
+      "n_chapters": 29,
+      "total_hits": 873,
+      "by_source": {
+        "ddia_kleppmann": [
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch03_storage_and_retrieval.md",
+            "hits": 20
+          }
+        ],
+        "fundamentals_de": [
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch08_queries_modeling_transformation.md",
+            "hits": 10
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch11_future_of_data_engineering.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/appB_cloud_networking.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch01_data_engineering_described.md",
+            "hits": 1
+          }
+        ],
+        "kimball_dwtoolkit_3e": [
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch03_retail_sales.md",
+            "hits": 72
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch01_dw_bi_dimensional_modeling_primer.md",
+            "hits": 61
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch15_electronic_commerce.md",
+            "hits": 58
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch06_order_management.md",
+            "hits": 48
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch02_dimensional_modeling_techniques_overview.md",
+            "hits": 45
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch13_education.md",
+            "hits": 45
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch16_insurance.md",
+            "hits": 45
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch18_dimensional_modeling_process_and_tasks.md",
+            "hits": 43
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch04_inventory.md",
+            "hits": 40
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch07_accounting.md",
+            "hits": 39
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch11_telecommunications.md",
+            "hits": 39
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch12_transportation.md",
+            "hits": 38
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch20_etl_system_design_and_development_process_and_tasks.md",
+            "hits": 38
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch10_financial_services.md",
+            "hits": 35
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch19_etl_subsystems_and_techniques.md",
+            "hits": 29
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch08_customer_relationship_management.md",
+            "hits": 28
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch14_healthcare.md",
+            "hits": 28
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch05_procurement.md",
+            "hits": 26
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch09_human_resources_management.md",
+            "hits": 15
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch17_kimball_dwbi_lifecycle_overview.md",
+            "hits": 6
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch21_big_data_analytics.md",
+            "hits": 2
+          }
+        ],
+        "track_sql": [
+          {
+            "file": "vault/sql/sources/master_sql_data_with_baraa.md",
+            "hits": 56
+          },
+          {
+            "file": "vault/sql/quiz/M11-cp1-3-drill-2-quiz.md",
+            "hits": 1
+          }
+        ],
+        "track_python": [
+          {
+            "file": "vault/python/pyspark-evidence-map.md",
+            "hits": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "watermarks",
+      "title": "Watermarks",
+      "book_sources": [
+        "ddia_kleppmann",
+        "fundamentals_de",
+        "streaming_systems"
+      ],
+      "track_sources": [
+        "track_python",
+        "track_shared",
+        "track_sql"
+      ],
+      "n_book_sources": 3,
+      "n_chapters": 17,
+      "total_hits": 208,
+      "by_source": {
+        "ddia_kleppmann": [
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch11_stream_processing.md",
+            "hits": 2
+          }
+        ],
+        "fundamentals_de": [
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch08_queries_modeling_transformation.md",
+            "hits": 1
+          }
+        ],
+        "streaming_systems": [
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch03_watermarks.md",
+            "hits": 96
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch02_what_where_when_how.md",
+            "hits": 32
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch10_evolution_of_large_scale_data_processing.md",
+            "hits": 20
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch08_streaming_sql.md",
+            "hits": 10
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch09_streaming_joins.md",
+            "hits": 10
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch06_streams_and_tables.md",
+            "hits": 9
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch04_advanced_windowing.md",
+            "hits": 6
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch05_exactly_once_and_side_effects.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch07_practicalities_of_persistent_state.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch01_streaming_101.md",
+            "hits": 2
+          }
+        ],
+        "track_sql": [
+          {
+            "file": "vault/sql/notes/M1-dql-core.md",
+            "hits": 1
+          },
+          {
+            "file": "vault/sql/notes/M10-de-project.md",
+            "hits": 1
+          },
+          {
+            "file": "vault/sql/notes/M7-de-scenarios.md",
+            "hits": 1
+          }
+        ],
+        "track_python": [
+          {
+            "file": "vault/python/pyspark-evidence-map.md",
+            "hits": 8
+          }
+        ],
+        "track_shared": [
+          {
+            "file": "vault/shared/lakehouse-map.md",
+            "hits": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "joins",
+      "title": "Joins",
+      "book_sources": [
+        "databricks_big_book_4e",
+        "kimball_dwtoolkit_3e",
+        "streaming_systems"
+      ],
+      "track_sources": [
+        "track_shared",
+        "track_sql"
+      ],
+      "n_book_sources": 3,
+      "n_chapters": 17,
+      "total_hits": 154,
+      "by_source": {
+        "databricks_big_book_4e": [
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch07_optimizing_materialized_views_recomputes.md",
+            "hits": 2
+          }
+        ],
+        "kimball_dwtoolkit_3e": [
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch08_customer_relationship_management.md",
+            "hits": 9
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch02_dimensional_modeling_techniques_overview.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch03_retail_sales.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch10_financial_services.md",
+            "hits": 1
+          }
+        ],
+        "streaming_systems": [
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch09_streaming_joins.md",
+            "hits": 28
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch01_streaming_101.md",
+            "hits": 5
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch02_what_where_when_how.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch08_streaming_sql.md",
+            "hits": 1
+          }
+        ],
+        "track_sql": [
+          {
+            "file": "vault/sql/sources/master_sql_data_with_baraa.md",
+            "hits": 82
+          },
+          {
+            "file": "vault/sql/quiz/M11-cp1-3-ddl-dql-joins-dml-quiz.md",
+            "hits": 5
+          },
+          {
+            "file": "vault/sql/sources/ansh-lamba-chatgpt-quiz-handoff.md",
+            "hits": 4
+          },
+          {
+            "file": "vault/sql/sources/ansh-lamba-raw-notes.md",
+            "hits": 4
+          },
+          {
+            "file": "vault/sql/notes/M3-joins-set-ops.md",
+            "hits": 3
+          },
+          {
+            "file": "vault/sql/quiz/M11-cp1-3-drill-2-quiz.md",
+            "hits": 2
+          }
+        ],
+        "track_shared": [
+          {
+            "file": "vault/shared/dialect-map.md",
+            "hits": 1
+          },
+          {
+            "file": "vault/shared/errors-gotchas.md",
+            "hits": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "windowing-event-time",
+      "title": "Windowing (event-time buckets)",
+      "book_sources": [
+        "ddia_kleppmann",
+        "fundamentals_de",
+        "streaming_systems"
+      ],
+      "track_sources": [
+        "track_python",
+        "track_sql"
+      ],
+      "n_book_sources": 3,
+      "n_chapters": 14,
+      "total_hits": 155,
+      "by_source": {
+        "ddia_kleppmann": [
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch11_stream_processing.md",
+            "hits": 12
+          }
+        ],
+        "fundamentals_de": [
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch08_queries_modeling_transformation.md",
+            "hits": 3
+          }
+        ],
+        "streaming_systems": [
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch04_advanced_windowing.md",
+            "hits": 57
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch09_streaming_joins.md",
+            "hits": 27
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch01_streaming_101.md",
+            "hits": 22
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch02_what_where_when_how.md",
+            "hits": 7
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch08_streaming_sql.md",
+            "hits": 5
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch06_streams_and_tables.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch07_practicalities_of_persistent_state.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch10_evolution_of_large_scale_data_processing.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch03_watermarks.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch05_exactly_once_and_side_effects.md",
+            "hits": 2
+          }
+        ],
+        "track_sql": [
+          {
+            "file": "vault/sql/sources/master_sql_data_with_baraa.md",
+            "hits": 7
+          }
+        ],
+        "track_python": [
+          {
+            "file": "vault/python/pyspark-evidence-map.md",
+            "hits": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "serverless-and-compute",
+      "title": "Serverless & Compute Sizing",
+      "book_sources": [
+        "databricks_big_book_4e",
+        "fundamentals_de",
+        "streaming_systems"
+      ],
+      "track_sources": [],
+      "n_book_sources": 3,
+      "n_chapters": 14,
+      "total_hits": 146,
+      "by_source": {
+        "databricks_big_book_4e": [
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch11_practical_guide_to_serverless_migrations.md",
+            "hits": 67
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch04_cost_maturity_journey_with_databricks.md",
+            "hits": 21
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch14_cincinnati_reds_case_study.md",
+            "hits": 21
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch05_lakeflow_connect_sql_server_connector.md",
+            "hits": 9
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch02_migrating_apache_spark_etl_workloads_to_databricks.md",
+            "hits": 6
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch13_nfcu_case_study.md",
+            "hits": 6
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch12_ifood_case_study.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch01_introduction_to_data_engineering_on_databricks.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch07_optimizing_materialized_views_recomputes.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch10_collaborative_data_engineering_with_dabs.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch15_porsche_holding_case_study.md",
+            "hits": 1
+          }
+        ],
+        "fundamentals_de": [
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch04_choosing_technologies.md",
+            "hits": 6
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch05_data_generation_source_systems.md",
+            "hits": 1
+          }
+        ],
+        "streaming_systems": [
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch10_evolution_of_large_scale_data_processing.md",
+            "hits": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "late-data",
+      "title": "Late Data & Allowed Lateness",
+      "book_sources": [
+        "fundamentals_de",
+        "kimball_dwtoolkit_3e",
+        "streaming_systems"
+      ],
+      "track_sources": [],
+      "n_book_sources": 3,
+      "n_chapters": 12,
+      "total_hits": 45,
+      "by_source": {
+        "fundamentals_de": [
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch02_data_engineering_lifecycle.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch07_ingestion.md",
+            "hits": 2
+          }
+        ],
+        "kimball_dwtoolkit_3e": [
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch14_healthcare.md",
+            "hits": 7
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch19_etl_subsystems_and_techniques.md",
+            "hits": 7
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch02_dimensional_modeling_techniques_overview.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/kimball_dwtoolkit_3e/ch20_etl_system_design_and_development_process_and_tasks.md",
+            "hits": 1
+          }
+        ],
+        "streaming_systems": [
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch02_what_where_when_how.md",
+            "hits": 9
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch03_watermarks.md",
+            "hits": 5
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch08_streaming_sql.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch01_streaming_101.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch10_evolution_of_large_scale_data_processing.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch09_streaming_joins.md",
+            "hits": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "cost-management",
+      "title": "Cost Management & FinOps",
+      "book_sources": [
+        "airflow_2e",
+        "databricks_big_book_4e",
+        "fundamentals_de"
+      ],
+      "track_sources": [
+        "track_sql"
+      ],
+      "n_book_sources": 3,
+      "n_chapters": 12,
+      "total_hits": 76,
+      "by_source": {
+        "airflow_2e": [
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch17_airflow_deployment_options.md",
+            "hits": 1
+          }
+        ],
+        "databricks_big_book_4e": [
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch04_cost_maturity_journey_with_databricks.md",
+            "hits": 33
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch11_practical_guide_to_serverless_migrations.md",
+            "hits": 15
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch05_lakeflow_connect_sql_server_connector.md",
+            "hits": 5
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch16_hinge_health_case_study.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch14_cincinnati_reds_case_study.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch02_migrating_apache_spark_etl_workloads_to_databricks.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch12_ifood_case_study.md",
+            "hits": 1
+          }
+        ],
+        "fundamentals_de": [
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch04_choosing_technologies.md",
+            "hits": 6
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/ch03_designing_good_data_architecture.md",
+            "hits": 5
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/fundamentals_de/appB_cloud_networking.md",
+            "hits": 1
+          }
+        ],
+        "track_sql": [
+          {
+            "file": "vault/sql/sources/master_sql_data_with_baraa.md",
+            "hits": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "state-management",
+      "title": "Persistent State Management",
+      "book_sources": [
+        "airflow_2e",
+        "ddia_kleppmann",
+        "streaming_systems"
+      ],
+      "track_sources": [
+        "track_python"
+      ],
+      "n_book_sources": 3,
+      "n_chapters": 7,
+      "total_hits": 27,
+      "by_source": {
+        "airflow_2e": [
+          {
+            "file": "Data engineering Book knowledge/notes/airflow_2e/ch17_airflow_deployment_options.md",
+            "hits": 1
+          }
+        ],
+        "ddia_kleppmann": [
+          {
+            "file": "Data engineering Book knowledge/notes/ddia_kleppmann/ch01_reliable_scalable_maintainable_applications.md",
+            "hits": 2
+          }
+        ],
+        "streaming_systems": [
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch07_practicalities_of_persistent_state.md",
+            "hits": 11
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch10_evolution_of_large_scale_data_processing.md",
+            "hits": 7
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch01_streaming_101.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch02_what_where_when_how.md",
+            "hits": 1
+          }
+        ],
+        "track_python": [
+          {
+            "file": "vault/python/pyspark-evidence-map.md",
+            "hits": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "medallion-layering",
+      "title": "Medallion / Layered Architecture",
+      "book_sources": [
+        "databricks_big_book_4e"
+      ],
+      "track_sources": [
+        "track_python",
+        "track_shared",
+        "track_sql"
+      ],
+      "n_book_sources": 1,
+      "n_chapters": 13,
+      "total_hits": 579,
+      "by_source": {
+        "databricks_big_book_4e": [
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch06_implement_cdc_and_scd_type_2_with_lakeflow.md",
+            "hits": 26
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch12_ifood_case_study.md",
+            "hits": 26
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch16_hinge_health_case_study.md",
+            "hits": 3
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch_reverse_etl_lakebase.md",
+            "hits": 2
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/databricks_big_book_4e/ch09_production_grade_data_quality_using_sdp.md",
+            "hits": 1
+          }
+        ],
+        "track_sql": [
+          {
+            "file": "vault/sql/sources/master_sql_data_with_baraa.md",
+            "hits": 328
+          },
+          {
+            "file": "vault/sql/notes/M10-de-project.md",
+            "hits": 10
+          },
+          {
+            "file": "vault/sql/notes/M1-dql-core.md",
+            "hits": 5
+          },
+          {
+            "file": "vault/sql/quiz/M11-cp1-3-drill-2-quiz.md",
+            "hits": 3
+          },
+          {
+            "file": "vault/sql/notes/M7-de-scenarios.md",
+            "hits": 2
+          },
+          {
+            "file": "vault/sql/quiz/M11-cp1-3-ddl-dql-joins-dml-quiz.md",
+            "hits": 1
+          }
+        ],
+        "track_python": [
+          {
+            "file": "vault/python/pyspark-evidence-map.md",
+            "hits": 158
+          }
+        ],
+        "track_shared": [
+          {
+            "file": "vault/shared/lakehouse-map.md",
+            "hits": 14
+          }
+        ]
+      }
+    },
+    {
+      "id": "streams-and-tables",
+      "title": "Streams & Tables Duality",
+      "book_sources": [
+        "streaming_systems"
+      ],
+      "track_sources": [],
+      "n_book_sources": 1,
+      "n_chapters": 9,
+      "total_hits": 36,
+      "by_source": {
+        "streaming_systems": [
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch08_streaming_sql.md",
+            "hits": 17
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch06_streams_and_tables.md",
+            "hits": 9
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch09_streaming_joins.md",
+            "hits": 4
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch01_streaming_101.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch02_what_where_when_how.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch03_watermarks.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch04_advanced_windowing.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch05_exactly_once_and_side_effects.md",
+            "hits": 1
+          },
+          {
+            "file": "Data engineering Book knowledge/notes/streaming_systems/ch07_practicalities_of_persistent_state.md",
+            "hits": 1
+          }
+        ]
+      }
+    }
+  ]
+}

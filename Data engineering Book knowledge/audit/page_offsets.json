@@ -1,0 +1,42 @@
+{
+  "airflow_2e": {
+    "offset": 30,
+    "status": "measured",
+    "confidence": 1.0,
+    "sampled_pages_with_folio": 150
+  },
+  "database_internals_petrov": {
+    "offset": null,
+    "status": "unresolved",
+    "reason": "best candidate offset 102 held for only 7% of 42 sampled pages (threshold 60%)"
+  },
+  "fundamentals_de": {
+    "offset": 25,
+    "status": "measured",
+    "confidence": 1.0,
+    "sampled_pages_with_folio": 131
+  },
+  "ddia_kleppmann": {
+    "offset": 22,
+    "status": "measured",
+    "confidence": 0.99,
+    "sampled_pages_with_folio": 141
+  },
+  "kimball_dwtoolkit_3e": {
+    "offset": 36,
+    "status": "measured",
+    "confidence": 0.79,
+    "sampled_pages_with_folio": 68
+  },
+  "streaming_systems": {
+    "offset": null,
+    "status": "unresolved",
+    "reason": "best candidate offset 360 held for only 6% of 67 sampled pages (threshold 60%)"
+  },
+  "databricks_big_book_4e": {
+    "offset": 0,
+    "status": "measured",
+    "confidence": 1.0,
+    "note": "hand-verified: all 16 printed TOC page numbers opened and matched pdf page index"
+  }
+}

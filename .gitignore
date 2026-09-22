@@ -1,1 +1,9 @@
 .obsidian/
+
+# Source books — large copyrighted binaries, kept locally only
+*.pdf
+
+# Regenerable audit artifacts (rebuilt by tools/, not source)
+Data engineering Book knowledge/audit/render_cache/
+__pycache__/
+*.pyc
