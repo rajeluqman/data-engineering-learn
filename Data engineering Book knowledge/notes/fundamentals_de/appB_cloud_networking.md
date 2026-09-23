@@ -143,7 +143,7 @@ hierarchy**, stated across p425–426:
 
 ## 9. Cross-references
 
-- Builds directly on Ch.4 (Choosing Technologies, cloud economics) — not yet
+- Builds directly on [[ch04_choosing_technologies|Ch.4]] (Choosing Technologies, cloud economics) — not yet
   synthesized in this vault.
 - Same "verify current pricing before citing" caution applies to any cost figure
   pulled from this book across all appendices/chapters — book was published 2022,

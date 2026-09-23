@@ -98,8 +98,8 @@ Explicitly contrasted with a case where the same idea fails: "creating rows for 
 
 ## 9. Cross-references
 
-- Directly restates and is fully consistent with accumulating snapshot mechanics from Ch.4 (Inventory) and Ch.6 (Order Management), factless fact tables from Ch.3 (Retail Sales) and Ch.6, mini-dimensions and type 7 SCD from Ch.5 (Procurement), bridge tables and weighting factors from Ch.8 (Customer Relationship Management) and Ch.10 (Financial Services), and concatenated attribute lists from Ch.9 (Human Resources Management) — no contradiction found; this chapter functions as a second consolidation exercise (after Ch.11's design-review checklist) applying prior techniques to a new domain.
-- The bridge-table overstatement risk explicitly cross-references and is consistent with the impact-report overcounting risk already synthesized from Ch.10 (Financial Services).
+- Directly restates and is fully consistent with accumulating snapshot mechanics from [[ch04_inventory|Ch.4]] (Inventory) and [[ch06_order_management|Ch.6]] (Order Management), factless fact tables from [[ch03_retail_sales|Ch.3]] (Retail Sales) and [[ch06_order_management|Ch.6]], mini-dimensions and type 7 SCD from [[ch05_procurement|Ch.5]] (Procurement), bridge tables and weighting factors from [[ch08_customer_relationship_management|Ch.8]] (Customer Relationship Management) and [[ch10_financial_services|Ch.10]] (Financial Services), and concatenated attribute lists from [[ch09_human_resources_management|Ch.9]] (Human Resources Management) — no contradiction found; this chapter functions as a second consolidation exercise (after [[ch11_telecommunications|Ch.11]]'s design-review checklist) applying prior techniques to a new domain.
+- The bridge-table overstatement risk explicitly cross-references and is consistent with the impact-report overcounting risk already synthesized from [[ch10_financial_services|Ch.10]] (Financial Services).
 - No forward-references to not-yet-synthesized chapters were found in this chapter's body.
 
 ---

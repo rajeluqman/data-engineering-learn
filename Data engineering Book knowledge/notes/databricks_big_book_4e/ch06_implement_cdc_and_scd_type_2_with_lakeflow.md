@@ -92,10 +92,10 @@
 
 ## 9. Cross-references
 
-- Ch.1 (Introduction to Data Engineering on Databricks): introduces Lakeflow Connect and Spark Declarative Pipelines at a conceptual level, both directly applied here.
-- Ch.5 (Lakeflow Connect: SQL Server Connector): provides the detailed connector setup and CDC/CT configuration this chapter builds directly upon (gateway/ingest pipeline architecture, CDC/CT enablement steps overlap substantially).
-- Ch.7 in `audit/CHAPTER_MAP.csv` ("Optimizing Materialized Views Recomputes"): likely a natural next step for optimizing the Silver/Gold transformation layer once CDC/SCD ingestion is in place.
-- Kimball dimensional modeling SCD Type 1/2/3 concepts (already synthesized in `kimball_dwtoolkit_3e` ch.1-2 of this vault): this chapter is a concrete Databricks-native implementation of the SCD Type 2 pattern described conceptually there.
+- [[ch01_introduction_to_data_engineering_on_databricks|Ch.1]] (Introduction to Data Engineering on Databricks): introduces Lakeflow Connect and Spark Declarative Pipelines at a conceptual level, both directly applied here.
+- [[ch05_lakeflow_connect_sql_server_connector|Ch.5]] (Lakeflow Connect: SQL Server Connector): provides the detailed connector setup and CDC/CT configuration this chapter builds directly upon (gateway/ingest pipeline architecture, CDC/CT enablement steps overlap substantially).
+- [[ch07_optimizing_materialized_views_recomputes|Ch.7]] in `audit/CHAPTER_MAP.csv` ("Optimizing Materialized Views Recomputes"): likely a natural next step for optimizing the Silver/Gold transformation layer once CDC/SCD ingestion is in place.
+- Kimball dimensional modeling SCD Type 1/2/3 concepts (already synthesized in `kimball_dwtoolkit_3e` [[ch01_introduction_to_data_engineering_on_databricks|ch.1]]-2 of this vault): this chapter is a concrete Databricks-native implementation of the SCD Type 2 pattern described conceptually there.
 - External SQL Server CDC/CT documentation referenced but not reproduced, for privilege requirements and CDC-vs-CT decision guidance (p62).
 
 ## Exclusions (declared, not silently dropped)

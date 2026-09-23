@@ -117,8 +117,8 @@ Helm-based DAG distribution options each carry their own trade-off (shared volum
 
 ## 9. Cross-references
 
-- Chapter 1 (Airflow architecture overview): the component diagram (Figure 15.1) revisits and extends this chapter's baseline (p413).
-- Chapter 17 (Airflow deployment options, referenced as a future chapter): Helm-based Kubernetes deployment details are deferred there — "Chapter 17 describes the process of installing, configuring, and managing Airflow with Helm."
+- [[ch01_meet_apache_airflow|Chapter 1]] (Airflow architecture overview): the component diagram (Figure 15.1) revisits and extends this chapter's baseline (p413).
+- [[ch17_airflow_deployment_options|Chapter 17]] (Airflow deployment options, referenced as a future chapter): Helm-based Kubernetes deployment details are deferred there — "Chapter 17 describes the process of installing, configuring, and managing Airflow with Helm."
 (p423)
 
 ## Exclusions (declared, not silently dropped)

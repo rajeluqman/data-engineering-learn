@@ -85,9 +85,9 @@
 
 ## 9. Cross-references
 
-- Ch.1 (Introduction to Data Engineering on Databricks): introduces Lakeflow Jobs and serverless compute concepts referenced throughout this chapter.
-- Ch.2 (Migrating Apache Spark ETL Workloads to Databricks): covers cluster-type selection and System-Tables-based monitoring at a general level; this chapter provides the FinOps-specific deep dive.
-- Ch.3 (How Observability in Lakeflow Helps You Build Reliable Data Pipelines): the Jobs System Tables AI/BI Dashboard and System Tables mechanism referenced here overlap directly with that chapter's observability content.
+- [[ch01_introduction_to_data_engineering_on_databricks|Ch.1]] (Introduction to Data Engineering on Databricks): introduces Lakeflow Jobs and serverless compute concepts referenced throughout this chapter.
+- [[ch02_migrating_apache_spark_etl_workloads_to_databricks|Ch.2]] (Migrating Apache Spark ETL Workloads to Databricks): covers cluster-type selection and System-Tables-based monitoring at a general level; this chapter provides the FinOps-specific deep dive.
+- [[ch03_observability_in_lakeflow|Ch.3]] (How Observability in Lakeflow Helps You Build Reliable Data Pipelines): the Jobs System Tables AI/BI Dashboard and System Tables mechanism referenced here overlap directly with that chapter's observability content.
 - The FinOps Foundation™, credited as the origin of the formal cost-control/oversight practice this chapter builds on (p27).
 - "Comprehensive Guide to Optimize Databricks, Spark and Delta Lake Workloads," referenced for deeper data/storage/Spark optimization strategies beyond this chapter's scope (p44).
 - External per-cloud documentation (AWS/Azure/GCP variants) referenced throughout for tagging, Budget Policies, Budgets, and Compute Policies, not reproduced here (p28-40).

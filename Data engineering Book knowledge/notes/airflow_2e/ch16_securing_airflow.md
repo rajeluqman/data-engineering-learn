@@ -114,7 +114,7 @@
 
 ## 9. Cross-references
 
-- No explicit forward/backward chapter cross-references were found in this chapter's extracted text; it functions as a self-contained security reference layered on top of earlier chapters' operational content (chapter 15).
+- No explicit forward/backward chapter cross-references were found in this chapter's extracted text; it functions as a self-contained security reference layered on top of earlier chapters' operational content ([[ch15_operating_airflow_in_production|chapter 15]]).
 
 ## Exclusions (declared, not silently dropped)
 

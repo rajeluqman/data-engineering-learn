@@ -105,9 +105,9 @@
 
 ## 9. Cross-references
 
-- Chapter 1: event time/processing time distinction and basic windowing definitions, directly extended throughout this chapter (p48-49).
-- Chapter 3 (watermarks deep dive, authored by "Slava"): referenced repeatedly as the detailed treatment of watermark internals only introduced at a conceptual level here (p50, p61, p66).
-- Chapter 8 (streaming SQL / time-varying relations): referenced for a detailed example of retraction handling under dynamic window merging (p77).
+- [[ch01_streaming_101|Chapter 1]]: event time/processing time distinction and basic windowing definitions, directly extended throughout this chapter (p48-49).
+- [[ch03_watermarks|Chapter 3]] (watermarks deep dive, authored by "Slava"): referenced repeatedly as the detailed treatment of watermark internals only introduced at a conceptual level here (p50, p61, p66).
+- [[ch08_streaming_sql|Chapter 8]] (streaming SQL / time-varying relations): referenced for a detailed example of retraction handling under dynamic window merging (p77).
 - streamingbook.net: cited as the source of fully animated versions of this chapter's time-lapse diagrams (p56).
 
 ## Exclusions (declared, not silently dropped)

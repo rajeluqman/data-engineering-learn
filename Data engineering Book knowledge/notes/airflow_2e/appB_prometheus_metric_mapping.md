@@ -56,7 +56,7 @@
 
 ## 9. Cross-references
 
-- Chapter 15 (operating Airflow in production, §15.7, visualizing and monitoring Airflow metrics): this appendix is the direct reference material for that chapter's StatsD/Prometheus/Grafana monitoring setup (p504).
+- [[ch15_operating_airflow_in_production|Chapter 15]] (operating Airflow in production, §15.7, visualizing and monitoring Airflow metrics): this appendix is the direct reference material for that chapter's StatsD/Prometheus/Grafana monitoring setup (p504).
 
 ## Exclusions (declared, not silently dropped)
 

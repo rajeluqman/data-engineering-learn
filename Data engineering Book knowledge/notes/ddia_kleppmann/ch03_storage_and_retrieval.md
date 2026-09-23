@@ -162,8 +162,8 @@ Named disadvantage (p122): "it doesn't have the same flexibility as querying the
 
 ## 9. Cross-references
 
-- Directly extends Ch.2's relational schema example for the secondary-index discussion (p104), and explicitly cites `kimball_dwtoolkit_3e` (The Data Warehouse Toolkit, 3rd edition) by name for the star schema / dimensional modeling technique (p112) — a direct, source-confirmed link between this vault's two major synthesized sources on the exact same technique (star schema / conformed fact-and-dimension modeling), with full consistency: this chapter's fact/dimension table definitions match the terminology already synthesized from `kimball_dwtoolkit_3e` Ch.1–Ch.3.
-- Forward-references (not yet synthesized in this vault): Ch.7 (transaction isolation, range locks, snapshot isolation/copy-on-write), and Ch.10 (batch processing, Hadoop, MapReduce as a SQL-on-Hadoop foundation).
+- Directly extends [[ch02_data_models_and_query_languages|Ch.2]]'s relational schema example for the secondary-index discussion (p104), and explicitly cites `kimball_dwtoolkit_3e` (The Data Warehouse Toolkit, 3rd edition) by name for the star schema / dimensional modeling technique (p112) — a direct, source-confirmed link between this vault's two major synthesized sources on the exact same technique (star schema / conformed fact-and-dimension modeling), with full consistency: this chapter's fact/dimension table definitions match the terminology already synthesized from `kimball_dwtoolkit_3e` [[ch01_reliable_scalable_maintainable_applications|Ch.1]]–[[ch03_storage_and_retrieval|Ch.3]].
+- Forward-references (not yet synthesized in this vault): [[ch07_transactions|Ch.7]] (transaction isolation, range locks, snapshot isolation/copy-on-write), and [[ch10_batch_processing|Ch.10]] (batch processing, Hadoop, MapReduce as a SQL-on-Hadoop foundation).
 - No contradiction found with any already-synthesized source.
 
 ---

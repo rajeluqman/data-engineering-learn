@@ -126,11 +126,11 @@ Explicitly framed as message-passing (p416): mappers send messages to the reduce
 
 ## 9. Cross-references
 
-- Directly extends Ch.3's storage-engine sorted-segment-merge mechanics (SSTables/LSM-trees), reused for external sorting throughout this chapter. No contradiction found. `[S]`
-- Directly extends Ch.5's replication (erasure coding vs. full replication for HDFS) and actor-model material (Pregel's vertex-messaging comparison). No contradiction found. `[S]`
-- Directly extends Ch.6's hash-partitioning material, reused directly for MapReduce's shuffle and for map-side partitioned/broadcast joins. No contradiction found. `[S]`
-- Directly extends Ch.2's declarative-vs-imperative query-language framing for the high-level dataflow API discussion. No contradiction found. `[S]`
-- Forward-references (not yet synthesized in this vault): Ch.11 for stream processing, framed explicitly as another way of speeding up batch processing (p429), and for incremental/continuous index-update mechanics briefly previewed here.
+- Directly extends [[ch03_storage_and_retrieval|Ch.3]]'s storage-engine sorted-segment-merge mechanics (SSTables/LSM-trees), reused for external sorting throughout this chapter. No contradiction found. `[S]`
+- Directly extends [[ch05_replication|Ch.5]]'s replication (erasure coding vs. full replication for HDFS) and actor-model material (Pregel's vertex-messaging comparison). No contradiction found. `[S]`
+- Directly extends [[ch06_partitioning|Ch.6]]'s hash-partitioning material, reused directly for MapReduce's shuffle and for map-side partitioned/broadcast joins. No contradiction found. `[S]`
+- Directly extends [[ch02_data_models_and_query_languages|Ch.2]]'s declarative-vs-imperative query-language framing for the high-level dataflow API discussion. No contradiction found. `[S]`
+- Forward-references (not yet synthesized in this vault): [[ch11_stream_processing|Ch.11]] for stream processing, framed explicitly as another way of speeding up batch processing (p429), and for incremental/continuous index-update mechanics briefly previewed here.
 - No contradiction found with any already-synthesized source in this vault.
 
 ---

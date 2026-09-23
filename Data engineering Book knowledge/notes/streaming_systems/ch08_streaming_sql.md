@@ -114,10 +114,10 @@ The source states plainly that this approach "is just not practical"
 
 ## 9. Cross-references
 
-- Chapter 2: the what/where/when/how questions and the original team-score summation dataset, reused as the running example for temporal-operator proposals (p284-306).
-- Chapter 3: watermark mechanics, reused as the basis for the proposed `EMIT WHEN WATERMARK PAST <column>` trigger clause (p296-298).
-- Chapter 6: streams-and-tables theory, the direct analytical foundation for diagnosing the Beam Model's and SQL's respective biases (p256, p265-281).
-- Chapter 9 (Streaming Joins): named as covering "strong temporal join support"
+- [[ch02_what_where_when_how|Chapter 2]]: the what/where/when/how questions and the original team-score summation dataset, reused as the running example for temporal-operator proposals (p284-306).
+- [[ch03_watermarks|Chapter 3]]: watermark mechanics, reused as the basis for the proposed `EMIT WHEN WATERMARK PAST <column>` trigger clause (p296-298).
+- [[ch06_streams_and_tables|Chapter 6]]: streams-and-tables theory, the direct analytical foundation for diagnosing the Beam Model's and SQL's respective biases (p256, p265-281).
+- [[ch09_streaming_joins|Chapter 9]] (Streaming Joins): named as covering "strong temporal join support"
 
 (p251), a capability existing streaming SQL implementations were noted as lacking.
 - Apache Calcite, Apache Flink, and Apache Beam communities' 2017 joint discussion, credited as the origin of the hypothetical language-extension vision presented in this chapter (p249-250).

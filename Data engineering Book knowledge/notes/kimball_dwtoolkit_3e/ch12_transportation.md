@@ -107,7 +107,7 @@ The recommended fix: "include separate date and time-of-day dimensions correspon
 
 ## 9. Cross-references
 
-- Directly extends and is fully consistent with role-playing dimensions from Ch.6 (Order Management), mini-dimensions from Ch.5 (Procurement), junk dimensions from Ch.6, degenerate dimensions from Ch.3, multiple fiscal calendars from Ch.7 (Accounting), time-of-day dimensions from Ch.3, and multi-currency/multi-language localization from Ch.6/Ch.8 — no contradiction found; this chapter is explicitly framed by the book itself as pulling together prior localization discussions into one recap (p359).
+- Directly extends and is fully consistent with role-playing dimensions from [[ch06_order_management|Ch.6]] (Order Management), mini-dimensions from [[ch05_procurement|Ch.5]] (Procurement), junk dimensions from [[ch06_order_management|Ch.6]], degenerate dimensions from [[ch03_retail_sales|Ch.3]], multiple fiscal calendars from [[ch07_accounting|Ch.7]] (Accounting), time-of-day dimensions from [[ch03_retail_sales|Ch.3]], and multi-currency/multi-language localization from [[ch06_order_management|Ch.6]]/[[ch08_customer_relationship_management|Ch.8]] — no contradiction found; this chapter is explicitly framed by the book itself as pulling together prior localization discussions into one recap (p359).
 - The combine-vs-separate role-playing dimension decision in this chapter is a genuinely new technique not previously synthesized in this vault, presented via two contrasting worked examples (class of service vs. origin/destination) rather than as an abstract rule alone.
 - No forward-references to not-yet-synthesized chapters were found in this chapter's body.
 

@@ -116,13 +116,13 @@ This is reinforced by a footnote stating Google "was just one among a number of 
 
 ## 9. Cross-references
 
-- Chapter 1: the Lambda Architecture's original introduction, referenced here as directly caused by Storm's consistency trade-off (p378).
-- Chapter 3: watermark theory (perfect/heuristic, low/high watermarks), reused for both the MillWheel and Spark Structured Streaming discussions (p386-387).
-- Chapter 5: exactly-once guarantees and Flink's snapshot mechanism, both referenced back to their earlier detailed treatment (p384, p397).
-- Chapter 6: MapReduce's streams-and-tables analysis and the batch-vs-streaming unification insight, both directly reused rather than re-derived (p363, p394).
-- Chapter 7: persistent state and persistent timers, cited as two of MillWheel's four foundational contributions (p384-385).
-- Chapter 8: streaming SQL and materialized-view semantics terminology, reused when discussing Spark Structured Streaming/Kafka Streams and Flink's streaming SQL API (p386, p403).
-- Chapter 9: streams-and-tables theory as applied to joins, referenced alongside chapter 6 and 8 as evidence of the theory's centrality, credited in part to Kafka's popularization (p391).
+- [[ch01_streaming_101|Chapter 1]]: the Lambda Architecture's original introduction, referenced here as directly caused by Storm's consistency trade-off (p378).
+- [[ch03_watermarks|Chapter 3]]: watermark theory (perfect/heuristic, low/high watermarks), reused for both the MillWheel and Spark Structured Streaming discussions (p386-387).
+- [[ch05_exactly_once_and_side_effects|Chapter 5]]: exactly-once guarantees and Flink's snapshot mechanism, both referenced back to their earlier detailed treatment (p384, p397).
+- [[ch06_streams_and_tables|Chapter 6]]: MapReduce's streams-and-tables analysis and the batch-vs-streaming unification insight, both directly reused rather than re-derived (p363, p394).
+- [[ch07_practicalities_of_persistent_state|Chapter 7]]: persistent state and persistent timers, cited as two of MillWheel's four foundational contributions (p384-385).
+- [[ch08_streaming_sql|Chapter 8]]: streaming SQL and materialized-view semantics terminology, reused when discussing Spark Structured Streaming/Kafka Streams and Flink's streaming SQL API (p386, p403).
+- [[ch09_streaming_joins|Chapter 9]]: streams-and-tables theory as applied to joins, referenced alongside [[ch06_streams_and_tables|chapter 6]] and 8 as evidence of the theory's centrality, credited in part to Kafka's popularization (p391).
 - Martin Kleppmann's "A Critique of the CAP Theorem"
 
 (p410, footnote), recommended as further reading on CAP theorem shortcomings.

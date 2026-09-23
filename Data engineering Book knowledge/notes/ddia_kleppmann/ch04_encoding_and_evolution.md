@@ -168,9 +168,9 @@ In Erlang OTP (p157) "it is surprisingly hard to make changes to record schemas 
 
 ## 9. Cross-references
 
-- Directly extends Ch.1's evolvability concept and Ch.2's schema-on-read/schema-on-write discussion — no contradiction found; this chapter treats encoding-format compatibility as the concrete mechanism underlying the more abstract evolvability and schema-flexibility ideas introduced earlier. `[D]`
-- Directly extends Ch.3's column-oriented storage and data-warehousing material (Parquet, archival storage) — fully consistent. `[D]`
-- Forward-references (not yet synthesized in this vault): Ch.7 (transaction serializability, a terminology clash with "serialization" explicitly flagged), Ch.8 (network unreliability and timeout semantics), Ch.10 (Hadoop/batch processing context for large Avro files), Ch.11 (detailed message broker comparison), and a later chapter section on request routing/service discovery.
+- Directly extends [[ch01_reliable_scalable_maintainable_applications|Ch.1]]'s evolvability concept and [[ch02_data_models_and_query_languages|Ch.2]]'s schema-on-read/schema-on-write discussion — no contradiction found; this chapter treats encoding-format compatibility as the concrete mechanism underlying the more abstract evolvability and schema-flexibility ideas introduced earlier. `[D]`
+- Directly extends [[ch03_storage_and_retrieval|Ch.3]]'s column-oriented storage and data-warehousing material (Parquet, archival storage) — fully consistent. `[D]`
+- Forward-references (not yet synthesized in this vault): [[ch07_transactions|Ch.7]] (transaction serializability, a terminology clash with "serialization" explicitly flagged), [[ch08_trouble_with_distributed_systems|Ch.8]] (network unreliability and timeout semantics), [[ch10_batch_processing|Ch.10]] (Hadoop/batch processing context for large Avro files), [[ch11_stream_processing|Ch.11]] (detailed message broker comparison), and a later chapter section on request routing/service discovery.
 - No contradiction found with any already-synthesized source in this vault.
 
 ---

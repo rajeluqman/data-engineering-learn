@@ -112,8 +112,8 @@ The chapter states plainly that "it makes less sense to combine data from more t
 
 ## 9. Cross-references
 
-- Directly extends the mini-dimension technique from Ch.5 (Procurement) and Ch.4 (Inventory), the bridge-table time-stamping technique from Ch.7 (Accounting), and the customer-dimension volatility discussion from Ch.8 (Customer Relationship Management) — this chapter's bridge-embedded mini-dimension design is a genuinely new combination not previously synthesized, and is fully consistent with the individual techniques as described in those earlier chapters. No contradiction found.
-- The dimension-triage checklist restates (without contradiction) degenerate dimensions, role-playing dimensions, junk dimensions, and the audit dimension exactly as synthesized from Ch.3 and Ch.6.
+- Directly extends the mini-dimension technique from [[ch05_procurement|Ch.5]] (Procurement) and [[ch04_inventory|Ch.4]] (Inventory), the bridge-table time-stamping technique from [[ch07_accounting|Ch.7]] (Accounting), and the customer-dimension volatility discussion from [[ch08_customer_relationship_management|Ch.8]] (Customer Relationship Management) — this chapter's bridge-embedded mini-dimension design is a genuinely new combination not previously synthesized, and is fully consistent with the individual techniques as described in those earlier chapters. No contradiction found.
+- The dimension-triage checklist restates (without contradiction) degenerate dimensions, role-playing dimensions, junk dimensions, and the audit dimension exactly as synthesized from [[ch03_retail_sales|Ch.3]] and [[ch06_order_management|Ch.6]].
 - The supertype/subtype terminology explicitly supersedes the earlier "core and custom fact tables" terminology used in the same book's own past writings (p321) — noted here as the book's own internal terminology update, not a vault inconsistency.
 - No forward-references to not-yet-synthesized chapters were found in this chapter's body.
 

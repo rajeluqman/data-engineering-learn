@@ -114,7 +114,7 @@
 
 ## 9. Cross-references
 
-- Chapter 9 (custom operators and sensors): the MovieLens ratings-fetching logic and recommender DAG reused and re-implemented as containerized CLI scripts throughout this chapter (p288, p300).
+- [[ch09_extending_airflow_with_custom_operators_and_sensors|Chapter 9]] (custom operators and sensors): the MovieLens ratings-fetching logic and recommender DAG reused and re-implemented as containerized CLI scripts throughout this chapter (p288, p300).
 - *Kubernetes in Action* by Marko Lukša (Manning, 2017), cited as a recommended full reference for Kubernetes beyond this chapter's high-level treatment (p297).
 
 ## Exclusions (declared, not silently dropped)

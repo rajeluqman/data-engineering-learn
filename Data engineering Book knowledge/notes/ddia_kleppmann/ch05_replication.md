@@ -124,9 +124,9 @@ Making conflict detection synchronous would (p187) "lose the main advantage of m
 
 ## 9. Cross-references
 
-- Directly extends Ch.3's storage-engine log mechanics (LSM-tree, B-tree WAL) as the concrete substrate for WAL-shipping replication — no contradiction found. `[D]`
-- Directly extends Ch.4's discussion of backward/forward compatibility: WAL shipping's storage-engine coupling is the same compatibility problem Ch.4 discusses in the abstract, now applied specifically to replication protocols across software versions. `[D]`
-- Forward-references (not yet synthesized in this vault): Ch.6 (partitioning of datasets too large for one machine), Ch.7 (transactions, snapshot isolation, and the consistent-prefix-reads causal-transaction connection), Ch.8 (unreliable clocks and network timing faults underlying failover-timeout and LWW-clock-skew issues), Ch.9 (leader-election consensus and linearizability/quorum edge cases), and Ch.11 (full change-data-capture treatment building on this chapter's logical-log replication).
+- Directly extends [[ch03_storage_and_retrieval|Ch.3]]'s storage-engine log mechanics (LSM-tree, B-tree WAL) as the concrete substrate for WAL-shipping replication — no contradiction found. `[D]`
+- Directly extends [[ch04_encoding_and_evolution|Ch.4]]'s discussion of backward/forward compatibility: WAL shipping's storage-engine coupling is the same compatibility problem [[ch04_encoding_and_evolution|Ch.4]] discusses in the abstract, now applied specifically to replication protocols across software versions. `[D]`
+- Forward-references (not yet synthesized in this vault): [[ch06_partitioning|Ch.6]] (partitioning of datasets too large for one machine), [[ch07_transactions|Ch.7]] (transactions, snapshot isolation, and the consistent-prefix-reads causal-transaction connection), [[ch08_trouble_with_distributed_systems|Ch.8]] (unreliable clocks and network timing faults underlying failover-timeout and LWW-clock-skew issues), [[ch09_consistency_and_consensus|Ch.9]] (leader-election consensus and linearizability/quorum edge cases), and [[ch11_stream_processing|Ch.11]] (full change-data-capture treatment building on this chapter's logical-log replication).
 - No contradiction found with any already-synthesized source in this vault.
 
 ---

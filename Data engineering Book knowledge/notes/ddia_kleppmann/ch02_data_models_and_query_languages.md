@@ -165,8 +165,8 @@ Trade-off named directly (p83): "it's a very powerful approach, because rules ca
 
 ## 9. Cross-references
 
-- Directly extends Ch.1's evolvability concept (invoked explicitly for graph databases, p73) without contradiction.
-- Forward-references (not yet synthesized in this vault): Ch.3 (storage engine internals, referenced for locality discussion), Ch.4 (schema evolution and encoding formats, referenced for JSON/XML encoding trade-offs), Ch.5 and Ch.7 (fault-tolerance and concurrency comparisons between relational and document databases), Ch.10 (MapReduce's full distributed-execution treatment and SQL-as-MapReduce-pipeline implementations), and Part III generally (denormalization, caching, derived data).
+- Directly extends [[ch01_reliable_scalable_maintainable_applications|Ch.1]]'s evolvability concept (invoked explicitly for graph databases, p73) without contradiction.
+- Forward-references (not yet synthesized in this vault): [[ch03_storage_and_retrieval|Ch.3]] (storage engine internals, referenced for locality discussion), [[ch04_encoding_and_evolution|Ch.4]] (schema evolution and encoding formats, referenced for JSON/XML encoding trade-offs), [[ch05_replication|Ch.5]] and [[ch07_transactions|Ch.7]] (fault-tolerance and concurrency comparisons between relational and document databases), [[ch10_batch_processing|Ch.10]] (MapReduce's full distributed-execution treatment and SQL-as-MapReduce-pipeline implementations), and Part III generally (denormalization, caching, derived data).
 - No contradiction found with any other already-synthesized source in this vault; this chapter's data-model comparisons are complementary to (and do not overlap with) the dimensional-modeling-focused `kimball_dwtoolkit_3e` material, which operates one layer up (analytical schema design) from this chapter's concern (general-purpose storage/query data models).
 
 ---

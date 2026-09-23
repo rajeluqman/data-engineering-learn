@@ -102,13 +102,13 @@
 
 ## 9. Cross-references
 
-- Chapter 1: Lambda Architecture critique (Inaccuracy/Inconsistency/Complexity/Unpredictability), reframed here as the motivating case for exactly-once processing plus an added Latency dimension (p149-150).
-- Chapter 2/3: watermark mechanics, reused here in processing-time form for ID-catalog garbage collection (p157-158).
+- [[ch01_streaming_101|Chapter 1]]: Lambda Architecture critique (Inaccuracy/Inconsistency/Complexity/Unpredictability), reframed here as the motivating case for exactly-once processing plus an added Latency dimension (p149-150).
+- [[ch02_what_where_when_how|Chapter 2]]/3: watermark mechanics, reused here in processing-time form for ID-catalog garbage collection (p157-158).
 
 The source's own footnote distinguishes this explicitly: "this is not the custom user-supplied timestamp used for windowing"
 
 (p171, footnote).
-- Chapter 6 (streams and tables): named as the start of Part II, following this chapter's close of Part I (source's chapter sequencing per `CHAPTER_MAP.csv`).
+- [[ch06_streams_and_tables|Chapter 6]] (streams and tables): named as the start of Part II, following this chapter's close of Part I (source's chapter sequencing per `CHAPTER_MAP.csv`).
 - Apache Beam's `SplittableDoFn` API, noted in the source's footnote as "a new, more-flexible API"
 
 (p171, footnote) — flagged by the source itself as time-bound, being available only at the time of writing for use cases touched on in this chapter.

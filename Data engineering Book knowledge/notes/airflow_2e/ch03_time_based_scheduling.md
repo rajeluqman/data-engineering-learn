@@ -96,8 +96,8 @@ Named operational risk (p92): "Airflow tries to catch up as quickly as possible,
 
 ## 9. Cross-references
 
-- Directly extends Ch.2's DAG/operator/task vocabulary and introductory scheduling material into the full parameter and timetable model. No contradiction found. `[S]`
-- Forward-references Jinja templating and the full execution context to Ch.5, asset-based scheduling to Ch.4, partitioning best practices and pools to Ch.12 — none yet synthesized in this vault.
+- Directly extends [[ch02_anatomy_of_an_airflow_dag|Ch.2]]'s DAG/operator/task vocabulary and introductory scheduling material into the full parameter and timetable model. No contradiction found. `[S]`
+- Forward-references Jinja templating and the full execution context to [[ch05_templating_tasks_using_the_airflow_context|Ch.5]], asset-based scheduling to [[ch04_asset_aware_scheduling|Ch.4]], partitioning best practices and pools to [[ch12_best_practices|Ch.12]] — none yet synthesized in this vault.
 - No contradiction found with any already-synthesized source in this vault.
 
 ---

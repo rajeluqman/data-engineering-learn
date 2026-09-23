@@ -99,10 +99,10 @@
 
 ## 9. Cross-references
 
-- Ch.1 (Introduction to Data Engineering on Databricks): introduces Lakeflow Connect and Auto Loader at a conceptual level; this chapter is the detailed SQL Server-specific implementation.
-- Ch.3 (How Observability in Lakeflow Helps You Build Reliable Data Pipelines): the pipeline event log, data lineage, and System-Tables-based monitoring referenced here overlap directly with that chapter's observability content.
-- Ch.4 (A Cost Maturity Journey With Databricks): the system-tables-based cost query pattern here (`system.billing.usage` joined to `system.billing.list_prices`) directly parallels that chapter's cost-reporting mechanism.
-- Ch.6 in `audit/CHAPTER_MAP.csv` ("Implement CDC Data Load and SCD Type 2 With Lakeflow"): likely builds directly on this chapter's CDC ingestion foundation for downstream SCD Type 2 dimensional modeling.
+- [[ch01_introduction_to_data_engineering_on_databricks|Ch.1]] (Introduction to Data Engineering on Databricks): introduces Lakeflow Connect and Auto Loader at a conceptual level; this chapter is the detailed SQL Server-specific implementation.
+- [[ch03_observability_in_lakeflow|Ch.3]] (How Observability in Lakeflow Helps You Build Reliable Data Pipelines): the pipeline event log, data lineage, and System-Tables-based monitoring referenced here overlap directly with that chapter's observability content.
+- [[ch04_cost_maturity_journey_with_databricks|Ch.4]] (A Cost Maturity Journey With Databricks): the system-tables-based cost query pattern here (`system.billing.usage` joined to `system.billing.list_prices`) directly parallels that chapter's cost-reporting mechanism.
+- [[ch06_implement_cdc_and_scd_type_2_with_lakeflow|Ch.6]] in `audit/CHAPTER_MAP.csv` ("Implement CDC Data Load and SCD Type 2 With Lakeflow"): likely builds directly on this chapter's CDC ingestion foundation for downstream SCD Type 2 dimensional modeling.
 - External Databricks documentation referenced but not reproduced: SQL version requirements, connector limits, per-cloud privilege requirements (AWS/Azure/GCP), event log schema documentation, and official Lakeflow Connect pricing documentation (p47-60).
 
 ## Exclusions (declared, not silently dropped)

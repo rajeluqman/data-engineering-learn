@@ -119,9 +119,9 @@
 
 ## 9. Cross-references
 
-- Directly extends `fundamentals_de` Ch.3 (ETL/ELT, Kappa/Lambda architecture, data mesh), Ch.5 (CRUD, ACID, transactions), Ch.6 (consistency, columnar storage, Hadoop/GFS/MapReduce lineage, single-/multi-tenant), Ch.7 (CDC as a query-pattern building block, schema evolution) — all previously synthesized, no contradiction found.
-- Forward-references Ch.9 (semantic/metrics layers, p340; serving stage generally) and Ch.11 (streaming data modeling's unsettled future, p321; the "live data stack," p347) — neither yet synthesized. Flagged for `check_deferred_refs.py`.
-- The Kimball star-schema/fact/dimension material here (§1) is the first place in this vault's fundamentals_de notes to directly parallel the already-synthesized `kimball_dwtoolkit_3e` Ch.9 (Human Resources Management) note — both describe fact/dimension/SCD mechanics; no contradiction observed, and this chapter's treatment is explicitly framed as "cursory" compared to the dedicated Kimball text (p320). Flagged for `check_deferred_refs.py` as a consistency check once more `kimball_dwtoolkit_3e` chapters are synthesized.
+- Directly extends `fundamentals_de` [[ch03_designing_good_data_architecture|Ch.3]] (ETL/ELT, Kappa/Lambda architecture, data mesh), [[ch05_data_generation_source_systems|Ch.5]] (CRUD, ACID, transactions), [[ch06_storage|Ch.6]] (consistency, columnar storage, Hadoop/GFS/MapReduce lineage, single-/multi-tenant), [[ch07_ingestion|Ch.7]] (CDC as a query-pattern building block, schema evolution) — all previously synthesized, no contradiction found.
+- Forward-references [[ch09_serving_data|Ch.9]] (semantic/metrics layers, p340; serving stage generally) and [[ch11_future_of_data_engineering|Ch.11]] (streaming data modeling's unsettled future, p321; the "live data stack," p347) — neither yet synthesized. Flagged for `check_deferred_refs.py`.
+- The Kimball star-schema/fact/dimension material here (§1) is the first place in this vault's fundamentals_de notes to directly parallel the already-synthesized `kimball_dwtoolkit_3e` [[ch09_serving_data|Ch.9]] (Human Resources Management) note — both describe fact/dimension/SCD mechanics; no contradiction observed, and this chapter's treatment is explicitly framed as "cursory" compared to the dedicated Kimball text (p320). Flagged for `check_deferred_refs.py` as a consistency check once more `kimball_dwtoolkit_3e` chapters are synthesized.
 - The Data Vault material here (§1) is the vault's first exposure to hub/link/satellite modeling — no existing note to cross-check against yet.
 
 ---

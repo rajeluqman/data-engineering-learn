@@ -87,9 +87,9 @@
 
 ## 9. Cross-references
 
-- Ch.1 (Introduction to Data Engineering on Databricks): introduces Lakeflow's three core components (Connect/Declarative Pipelines/Jobs) and Unity Catalog, both referenced here without re-derivation.
-- Ch.2 (Migrating Apache Spark ETL Workloads to Databricks): references System Tables, Cluster Event Logs, and monitoring tools for post-migration optimization, overlapping with this chapter's System-Tables-based observability content.
-- Ch.9 in `audit/CHAPTER_MAP.csv` ("Production-Grade Data Quality Using Spark Declarative Pipelines"): likely expands on data-quality-specific observability (expectations, error management) only briefly touched here.
+- [[ch01_introduction_to_data_engineering_on_databricks|Ch.1]] (Introduction to Data Engineering on Databricks): introduces Lakeflow's three core components (Connect/Declarative Pipelines/Jobs) and Unity Catalog, both referenced here without re-derivation.
+- [[ch02_migrating_apache_spark_etl_workloads_to_databricks|Ch.2]] (Migrating Apache Spark ETL Workloads to Databricks): references System Tables, Cluster Event Logs, and monitoring tools for post-migration optimization, overlapping with this chapter's System-Tables-based observability content.
+- [[ch09_production_grade_data_quality_using_sdp|Ch.9]] in `audit/CHAPTER_MAP.csv` ("Production-Grade Data Quality Using Spark Declarative Pipelines"): likely expands on data-quality-specific observability (expectations, error management) only briefly touched here.
 - External Databricks resources referenced but not reproduced: "Learn more about Lakeflow Observability" and the "Lakeflow Observability session from our Data + AI summit on demand" (p26).
 
 ## Exclusions (declared, not silently dropped)

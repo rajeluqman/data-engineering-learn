@@ -108,10 +108,10 @@ This single source of truth about the watermark is useful for debugging/monitori
 
 ## 9. Cross-references
 
-- Chapter 2: watermarks introduced conceptually (perfect/heuristic, too-slow/too-fast trade-offs), re-derived rigorously here (p85, p88-89, p121-122).
-- Chapter 5 (exactly-once and side effects, authored by "Reuven"): referenced for further discussion of using the processing-time watermark for garbage collection of temporary state (p111-112).
-- Chapter 4 (advanced windowing): referenced as the next application of the watermark mechanics developed here (p122).
-- Chapter 6 (streams and tables): referenced regarding the effects of grouping on pipeline shapes (p94).
+- [[ch02_what_where_when_how|Chapter 2]]: watermarks introduced conceptually (perfect/heuristic, too-slow/too-fast trade-offs), re-derived rigorously here (p85, p88-89, p121-122).
+- [[ch05_exactly_once_and_side_effects|Chapter 5]] (exactly-once and side effects, authored by "Reuven"): referenced for further discussion of using the processing-time watermark for garbage collection of temporary state (p111-112).
+- [[ch04_advanced_windowing|Chapter 4]] (advanced windowing): referenced as the next application of the watermark mechanics developed here (p122).
+- [[ch06_streams_and_tables|Chapter 6]] (streams and tables): referenced regarding the effects of grouping on pipeline shapes (p94).
 - Flink documentation, cited for further detail on Flink's in-band watermark implementation (p123).
 
 ## Exclusions (declared, not silently dropped)

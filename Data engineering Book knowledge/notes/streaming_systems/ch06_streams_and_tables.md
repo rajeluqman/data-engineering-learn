@@ -113,10 +113,10 @@ But this requires care: "you need to take care to ensure that only the data proc
 
 ## 9. Cross-references
 
-- Chapter 1: cardinality vs. constitution dimensions, with this chapter finally addressing the previously-deferred constitution (stream vs. table) dimension (p174).
-- Chapter 2: the four what/where/when/how questions and the original team-score summation example, directly reused and reframed throughout this chapter (p185-200).
-- Chapter 3: watermark mechanics, reused here as the completeness signal driving `AfterWatermark` triggers in the streams/tables framing (p195, p209).
-- Chapter 8 (Streaming SQL): named as the chapter where this streams/tables theory is applied to integrating streaming concepts into SQL (p175).
+- [[ch01_streaming_101|Chapter 1]]: cardinality vs. constitution dimensions, with this chapter finally addressing the previously-deferred constitution (stream vs. table) dimension (p174).
+- [[ch02_what_where_when_how|Chapter 2]]: the four what/where/when/how questions and the original team-score summation example, directly reused and reframed throughout this chapter (p185-200).
+- [[ch03_watermarks|Chapter 3]]: watermark mechanics, reused here as the completeness signal driving `AfterWatermark` triggers in the streams/tables framing (p195, p209).
+- [[ch08_streaming_sql|Chapter 8]] (Streaming SQL): named as the chapter where this streams/tables theory is applied to integrating streaming concepts into SQL (p175).
 - "The Dataflow Model" paper, section 2.2.2, referenced for a closer treatment of window-merging semantics (p192).
 - Prior work by Julian Hyde (streams as derivatives of tables, tables as integrals of streams, p177) and the Kafka/Flink communities' "folks championing stream processors as a database"
 

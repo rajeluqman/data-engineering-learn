@@ -129,9 +129,9 @@ Select each asset's event explicitly with a user-defined macro: `def _get_event(
 
 ## 9. Cross-references
 
-- Chapter 3 (time-based scheduling): baseline DAG (`06_interval_delta.py`) that this chapter converts into producer/consumer form (p103-104).
-- Chapter 5 (templating): referenced for more detail on the `user_defined_macros` / templating mechanism used for `get_event` (p111).
-- Chapter 6 (task execution and dependencies): referenced for the mechanics of task skipping via `AirflowSkipException` (p108).
+- [[ch03_time_based_scheduling|Chapter 3]] (time-based scheduling): baseline DAG (`06_interval_delta.py`) that this chapter converts into producer/consumer form (p103-104).
+- [[ch05_templating_tasks_using_the_airflow_context|Chapter 5]] (templating): referenced for more detail on the `user_defined_macros` / templating mechanism used for `get_event` (p111).
+- [[ch06_defining_dependencies_between_tasks|Chapter 6]] (task execution and dependencies): referenced for the mechanics of task skipping via `AirflowSkipException` (p108).
 
 ## Exclusions (declared, not silently dropped)
 

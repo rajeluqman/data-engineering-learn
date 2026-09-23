@@ -112,11 +112,11 @@
 
 ## 9. Cross-references
 
-- Chapter 9 (custom operators and sensors, referenced as a future chapter): "For in-depth information about creating custom operators, see chapter 9."
+- [[ch09_extending_airflow_with_custom_operators_and_sensors|Chapter 9]] (custom operators and sensors, referenced as a future chapter): "For in-depth information about creating custom operators, see chapter 9."
 (p211)
-- Chapter 11 (running tasks in containers, referenced as a future chapter): "For more information about running tasks in containers, see chapter 11."
+- [[ch11_running_tasks_in_containers|Chapter 11]] (running tasks in containers, referenced as a future chapter): "For more information about running tasks in containers, see chapter 11."
 (p215)
-- Chapter 16 (securing Airflow, referenced as a future chapter): "For a more in-depth look at managing secrets and security best practices in Airflow, see chapter 16."
+- [[ch16_securing_airflow|Chapter 16]] (securing Airflow, referenced as a future chapter): "For a more in-depth look at managing secrets and security best practices in Airflow, see chapter 16."
 (p203)
 
 ## Exclusions (declared, not silently dropped)

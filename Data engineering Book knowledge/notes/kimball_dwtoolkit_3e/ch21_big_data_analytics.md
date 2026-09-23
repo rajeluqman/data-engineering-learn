@@ -148,7 +148,7 @@ A concrete Hadoop-specific caveat follows (p578): "after data is written to Hado
 
 ## 9. Cross-references
 
-- Directly extends and is fully consistent with conformed dimensions and their incremental rollout from Ch.8 (Customer Relationship Management) and Ch.19 (ETL Subsystems and Techniques), SCD techniques from Ch.5 (Procurement), name-value pair bridge tables from Ch.8, and durable surrogate key vocabulary established throughout the book — no contradiction found; this chapter explicitly and repeatedly frames itself as inheriting rather than replacing these techniques.
+- Directly extends and is fully consistent with conformed dimensions and their incremental rollout from [[ch08_customer_relationship_management|Ch.8]] (Customer Relationship Management) and [[ch19_etl_subsystems_and_techniques|Ch.19]] (ETL Subsystems and Techniques), SCD techniques from [[ch05_procurement|Ch.5]] (Procurement), name-value pair bridge tables from [[ch08_customer_relationship_management|Ch.8]], and durable surrogate key vocabulary established throughout the book — no contradiction found; this chapter explicitly and repeatedly frames itself as inheriting rather than replacing these techniques.
 - This is the final chapter of `kimball_dwtoolkit_3e` — the chapter's own closing summary makes no forward chapter reference, consistent with its position as the book's last chapter.
 - No unresolved forward-references to not-yet-synthesized chapters were found in this chapter's body; all cross-references point backward to already-synthesized chapters.
 

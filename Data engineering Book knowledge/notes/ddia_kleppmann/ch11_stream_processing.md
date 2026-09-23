@@ -168,11 +168,11 @@ Streaming cannot use this trick outright (p482) since "waiting until a task is f
 
 ## 9. Cross-references
 
-- Directly extends Ch.3's log-structured storage and Ch.5's replication-log/log-sequence-number material (partitioned logs, consumer offsets, log compaction). No contradiction found. `[S]`
-- Directly extends Ch.6's partitioning material for log-partitioning throughput scaling. No contradiction found. `[S]`
-- Directly extends Ch.9's total-order-broadcast/state-machine-replication and distributed-transaction material (dual-writes framing, exactly-once atomic-commit discussion). No contradiction found. `[S]`
-- Directly extends Ch.10's batch-processing material throughout (immutability/human fault tolerance, map-side hash joins reused for stream-table joins, sessionization, the batch exactly-once baseline). No contradiction found. `[S]`
-- Directly extends Ch.8's fencing-token material for the idempotence-under-failover discussion. No contradiction found. `[S]`
+- Directly extends [[ch03_storage_and_retrieval|Ch.3]]'s log-structured storage and [[ch05_replication|Ch.5]]'s replication-log/log-sequence-number material (partitioned logs, consumer offsets, log compaction). No contradiction found. `[S]`
+- Directly extends [[ch06_partitioning|Ch.6]]'s partitioning material for log-partitioning throughput scaling. No contradiction found. `[S]`
+- Directly extends [[ch09_consistency_and_consensus|Ch.9]]'s total-order-broadcast/state-machine-replication and distributed-transaction material (dual-writes framing, exactly-once atomic-commit discussion). No contradiction found. `[S]`
+- Directly extends [[ch10_batch_processing|Ch.10]]'s batch-processing material throughout (immutability/human fault tolerance, map-side hash joins reused for stream-table joins, sessionization, the batch exactly-once baseline). No contradiction found. `[S]`
+- Directly extends [[ch08_trouble_with_distributed_systems|Ch.8]]'s fencing-token material for the idempotence-under-failover discussion. No contradiction found. `[S]`
 - This is DDIA's final chapter; no further forward-references remain within this source.
 
 ---

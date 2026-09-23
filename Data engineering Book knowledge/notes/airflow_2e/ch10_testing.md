@@ -116,7 +116,7 @@
 
 ## 9. Cross-references
 
-- Chapter 9 (custom operators and sensors): `MovielensHook`, `MovielensFetchRatingsOperator`, and related components are the direct subject under test throughout this chapter (p264).
+- [[ch09_extending_airflow_with_custom_operators_and_sensors|Chapter 9]] (custom operators and sensors): `MovielensHook`, `MovielensFetchRatingsOperator`, and related components are the direct subject under test throughout this chapter (p264).
 - GitHub issue tracking the `dag.test()` regression in Airflow 3.1, cited at https://github.com/apache/airflow/issues/56657 (p283).
 
 ## Exclusions (declared, not silently dropped)

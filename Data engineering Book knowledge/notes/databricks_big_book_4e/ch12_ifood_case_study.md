@@ -75,11 +75,11 @@
 
 ## 9. Cross-references
 
-- Ch.1 (Introduction to Data Engineering on Databricks): introduces Spark Declarative Pipelines and Lakeflow Connect at a conceptual level, directly applied in this case study.
-- Ch.7 (Optimizing Materialized Views Recomputes): covers Spark Declarative Pipelines' Enzyme engine and incremental-refresh mechanics that likely underlie iFood's described pipeline efficiency gains, though not explicitly named in this chapter.
-- Ch.9 (Production-Grade Data Quality Using Spark Declarative Pipelines): the SDP "expectations and quality rules" referenced at iFood's Silver layer are the same mechanism detailed in that chapter.
-- Ch.10 (Collaborative Data Engineering Made Simple With Databricks Asset Bundles): iFood's stated plan to "leverage DABs for streamlined development" directly anticipates that chapter's content.
-- Ch.11 (A Practical Guide to Serverless Migrations): iFood's stated plan to adopt "serverless computing for greater flexibility" directly anticipates that chapter's content.
+- [[ch01_introduction_to_data_engineering_on_databricks|Ch.1]] (Introduction to Data Engineering on Databricks): introduces Spark Declarative Pipelines and Lakeflow Connect at a conceptual level, directly applied in this case study.
+- [[ch07_optimizing_materialized_views_recomputes|Ch.7]] (Optimizing Materialized Views Recomputes): covers Spark Declarative Pipelines' Enzyme engine and incremental-refresh mechanics that likely underlie iFood's described pipeline efficiency gains, though not explicitly named in this chapter.
+- [[ch09_production_grade_data_quality_using_sdp|Ch.9]] (Production-Grade Data Quality Using Spark Declarative Pipelines): the SDP "expectations and quality rules" referenced at iFood's Silver layer are the same mechanism detailed in that chapter.
+- [[ch10_collaborative_data_engineering_with_dabs|Ch.10]] (Collaborative Data Engineering Made Simple With Databricks Asset Bundles): iFood's stated plan to "leverage DABs for streamlined development" directly anticipates that chapter's content.
+- [[ch11_practical_guide_to_serverless_migrations|Ch.11]] (A Practical Guide to Serverless Migrations): iFood's stated plan to adopt "serverless computing for greater flexibility" directly anticipates that chapter's content.
 
 ## Exclusions (declared, not silently dropped)
 

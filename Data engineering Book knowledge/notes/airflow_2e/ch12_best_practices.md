@@ -133,8 +133,8 @@
 
 ## 9. Cross-references
 
-- Chapter 3 (idempotency, atomicity, incremental processing): directly restated and extended in §12.2 and §12.3.2 (p344, p346).
-- Chapter 6 (the umbrella ML DAG): reused as the task-groups worked example (p335).
+- [[ch03_time_based_scheduling|Chapter 3]] (idempotency, atomicity, incremental processing): directly restated and extended in §12.2 and §12.3.2 (p344, p346).
+- [[ch06_defining_dependencies_between_tasks|Chapter 6]] (the umbrella ML DAG): reused as the task-groups worked example (p335).
 - Chapters 3-4 (scheduling mechanisms): referenced for the explicit-timetable-class recommendation (p336).
 - Blog post on functional data engineering by Maxime Beauchemin, cited for further reading on the functional-programming approach to task design (p345).
 

@@ -126,12 +126,12 @@ Allowing timeouts (or even just randomness) makes consensus solvable in practice
 
 ## 9. Cross-references
 
-- Directly extends Ch.5's replication material (single-leader/multi-leader/leaderless linearizability verdicts, quorums, LWW, version vectors). No contradiction found. `[S]`
-- Directly extends Ch.7's transaction material (ACID atomicity, serializability vs. linearizability, SSI's non-linearizability). No contradiction found. `[S]`
-- Directly extends Ch.8's system-model, safety/liveness, Byzantine-fault-exclusion, and fencing-token material as direct formal prerequisites for this chapter's consensus definitions. No contradiction found. `[S]`
-- Directly extends Ch.6's partitioning material for the per-partition-only total-order-broadcast caveat. No contradiction found. `[S]`
-- Forward-references (not yet synthesized in this vault): Ch.11 for state machine replication and exactly-once message processing in full detail.
-- No contradiction found with any already-synthesized source in this vault. This chapter also explicitly closes out Part II of the book (Ch.5–Ch.9), noting the transition to more applied material in Part III.
+- Directly extends [[ch05_replication|Ch.5]]'s replication material (single-leader/multi-leader/leaderless linearizability verdicts, quorums, LWW, version vectors). No contradiction found. `[S]`
+- Directly extends [[ch07_transactions|Ch.7]]'s transaction material (ACID atomicity, serializability vs. linearizability, SSI's non-linearizability). No contradiction found. `[S]`
+- Directly extends [[ch08_trouble_with_distributed_systems|Ch.8]]'s system-model, safety/liveness, Byzantine-fault-exclusion, and fencing-token material as direct formal prerequisites for this chapter's consensus definitions. No contradiction found. `[S]`
+- Directly extends [[ch06_partitioning|Ch.6]]'s partitioning material for the per-partition-only total-order-broadcast caveat. No contradiction found. `[S]`
+- Forward-references (not yet synthesized in this vault): [[ch11_stream_processing|Ch.11]] for state machine replication and exactly-once message processing in full detail.
+- No contradiction found with any already-synthesized source in this vault. This chapter also explicitly closes out Part II of the book ([[ch05_replication|Ch.5]]–[[ch09_consistency_and_consensus|Ch.9]]), noting the transition to more applied material in Part III.
 
 ---
 

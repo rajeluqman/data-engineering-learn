@@ -103,11 +103,11 @@ But a fully general state API is needed "when tackling anything outside their re
 
 ## 9. Cross-references
 
-- Chapter 2: windowing/triggering vocabulary (completeness triggers, repeated-update triggers), referenced as the more limited scheduling mechanism that timers generalize beyond (p229).
-- Chapter 6: tables-as-data-at-rest and grouping-as-stream-to-table-conversion, the direct conceptual basis for defining persistent state (p215-216).
+- [[ch02_what_where_when_how|Chapter 2]]: windowing/triggering vocabulary (completeness triggers, repeated-update triggers), referenced as the more limited scheduling mechanism that timers generalize beyond (p229).
+- [[ch06_streams_and_tables|Chapter 6]]: tables-as-data-at-rest and grouping-as-stream-to-table-conversion, the direct conceptual basis for defining persistent state (p215-216).
 - MapReduce's Combiner optimization, credited as "the genesis of Beam's CombineFn" and the historical origin of the parallelizable-aggregation technique (p225).
 - GitHub repository hosting the full conversion-attribution implementation, referenced for readers wanting the complete code beyond the abbreviated examples in the chapter (p233).
-- Chapter 8 (Streaming SQL) and beyond: not explicitly cross-referenced within this chapter's visible text, but the chapter's positioning (Part II) follows directly from chapter 6's persistent-state motivation.
+- [[ch08_streaming_sql|Chapter 8]] (Streaming SQL) and beyond: not explicitly cross-referenced within this chapter's visible text, but the chapter's positioning (Part II) follows directly from [[ch06_streams_and_tables|chapter 6]]'s persistent-state motivation.
 
 ## Exclusions (declared, not silently dropped)
 

@@ -115,9 +115,9 @@ A contrasting note follows (p386): "multidimensional OLAP cubes are more toleran
 
 ## 9. Cross-references
 
-- Directly extends and is fully consistent with the customer 360-degree view from Ch.8 (Customer Relationship Management), grain selection from Ch.4 (Inventory), bridge tables and weighting factors from Ch.10 (Financial Services), supertype/subtype schemas from Ch.10, time-varying bridge tables from Ch.7 (Accounting), timespan fact tables from Ch.8, and the "To Be Determined" default-key technique already synthesized from Ch.13 (Education) — no contradiction found.
-- The explicit declaration that weighting factors are optional, not required, in multivalued bridge tables (p382) refines and generalizes the weighting-factor treatment already synthesized from Ch.10, without contradicting it — Ch.10 demonstrated weighting where a defensible allocation existed; this chapter demonstrates the symmetric case where none exists.
-- No forward-references to not-yet-synthesized chapters beyond the explicitly noted deferrals to Ch.19 and Ch.21 were found in this chapter's body.
+- Directly extends and is fully consistent with the customer 360-degree view from [[ch08_customer_relationship_management|Ch.8]] (Customer Relationship Management), grain selection from [[ch04_inventory|Ch.4]] (Inventory), bridge tables and weighting factors from [[ch10_financial_services|Ch.10]] (Financial Services), supertype/subtype schemas from [[ch10_financial_services|Ch.10]], time-varying bridge tables from [[ch07_accounting|Ch.7]] (Accounting), timespan fact tables from [[ch08_customer_relationship_management|Ch.8]], and the "To Be Determined" default-key technique already synthesized from [[ch13_education|Ch.13]] (Education) — no contradiction found.
+- The explicit declaration that weighting factors are optional, not required, in multivalued bridge tables (p382) refines and generalizes the weighting-factor treatment already synthesized from [[ch10_financial_services|Ch.10]], without contradicting it — [[ch10_financial_services|Ch.10]] demonstrated weighting where a defensible allocation existed; this chapter demonstrates the symmetric case where none exists.
+- No forward-references to not-yet-synthesized chapters beyond the explicitly noted deferrals to [[ch19_etl_subsystems_and_techniques|Ch.19]] and [[ch21_big_data_analytics|Ch.21]] were found in this chapter's body.
 
 ---
 

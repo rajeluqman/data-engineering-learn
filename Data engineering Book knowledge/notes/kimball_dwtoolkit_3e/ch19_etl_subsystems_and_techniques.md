@@ -143,9 +143,9 @@ The named bottlenecks include poorly indexed source queries, wrong optimizer cho
 
 ## 9. Cross-references
 
-- Directly extends and is fully consistent with SCD techniques from Ch.5 (Procurement), surrogate keys from Ch.3 (Retail Sales), conformed dimensions/facts from Ch.4 (Inventory), the audit dimension from Ch.6 (Order Management), and multivalued bridge tables with weighting factors from Ch.8 (Customer Relationship Management) and Ch.10 (Financial Services) — no contradiction found; this chapter is the detailed ETL-mechanics counterpart to dimensional modeling techniques already synthesized.
-- The chapter's own text signals the very next chapter is a direct continuation: "In the next chapter we will describe the processes and tasks for building the ETL system" (p532), confirming Ch.20 covers the practical ETL system design and development process, consistent with the CHAPTER_MAP's remaining table of contents.
-- No unresolved forward-references beyond the explicitly noted Ch.20 pointer were found in this chapter's body.
+- Directly extends and is fully consistent with SCD techniques from [[ch05_procurement|Ch.5]] (Procurement), surrogate keys from [[ch03_retail_sales|Ch.3]] (Retail Sales), conformed dimensions/facts from [[ch04_inventory|Ch.4]] (Inventory), the audit dimension from [[ch06_order_management|Ch.6]] (Order Management), and multivalued bridge tables with weighting factors from [[ch08_customer_relationship_management|Ch.8]] (Customer Relationship Management) and [[ch10_financial_services|Ch.10]] (Financial Services) — no contradiction found; this chapter is the detailed ETL-mechanics counterpart to dimensional modeling techniques already synthesized.
+- The chapter's own text signals the very next chapter is a direct continuation: "In the next chapter we will describe the processes and tasks for building the ETL system" (p532), confirming [[ch20_etl_system_design_and_development_process_and_tasks|Ch.20]] covers the practical ETL system design and development process, consistent with the CHAPTER_MAP's remaining table of contents.
+- No unresolved forward-references beyond the explicitly noted [[ch20_etl_system_design_and_development_process_and_tasks|Ch.20]] pointer were found in this chapter's body.
 
 ---
 

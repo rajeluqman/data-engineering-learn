@@ -100,10 +100,10 @@
 
 ## 9. Cross-references
 
-- Directly extends `fundamentals_de` Ch.3 (bounded/unbounded, ETL/ELT), Ch.5 (CDC, message/stream distinction, APIs, webhooks), Ch.6 (object storage, data sharing) — all previously synthesized in this vault, no contradiction found.
-- Forward-references Ch.8 (data integration and ETL/ELT depth, p259/p271) and Ch.9 (reverse ETL, p259) — neither yet synthesized. Flagged for `check_deferred_refs.py`.
-- The webhook definition here ("reverse API") is consistent with, and directly cross-references, the webhook material already summarized in the Ch.5 note's WHEN-to-use-NoSQL and API sections — no contradiction. `[D]`
-- The CDC-and-replication material here (p280–281) extends the write-ahead-log CDC mechanism already synthesized in Ch.5 §4 — this chapter adds the batch-vs-continuous CDC distinction and the bank-account worked failure case that Ch.5 did not cover; complementary, not duplicative. `[D]`
+- Directly extends `fundamentals_de` [[ch03_designing_good_data_architecture|Ch.3]] (bounded/unbounded, ETL/ELT), [[ch05_data_generation_source_systems|Ch.5]] (CDC, message/stream distinction, APIs, webhooks), [[ch06_storage|Ch.6]] (object storage, data sharing) — all previously synthesized in this vault, no contradiction found.
+- Forward-references [[ch08_queries_modeling_transformation|Ch.8]] (data integration and ETL/ELT depth, p259/p271) and [[ch09_serving_data|Ch.9]] (reverse ETL, p259) — neither yet synthesized. Flagged for `check_deferred_refs.py`.
+- The webhook definition here ("reverse API") is consistent with, and directly cross-references, the webhook material already summarized in the [[ch05_data_generation_source_systems|Ch.5]] note's WHEN-to-use-NoSQL and API sections — no contradiction. `[D]`
+- The CDC-and-replication material here (p280–281) extends the write-ahead-log CDC mechanism already synthesized in [[ch05_data_generation_source_systems|Ch.5]] §4 — this chapter adds the batch-vs-continuous CDC distinction and the bank-account worked failure case that [[ch05_data_generation_source_systems|Ch.5]] did not cover; complementary, not duplicative. `[D]`
 
 ---
 

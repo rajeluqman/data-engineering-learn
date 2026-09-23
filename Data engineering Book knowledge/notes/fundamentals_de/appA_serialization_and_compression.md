@@ -156,7 +156,7 @@ worked mechanism described is **Hudi's update pattern (p420):**
 
 ## 9. Cross-references
 
-- Extends `fundamentals_de` Ch.6 (Storage) and Ch.7 (Ingestion) — not yet
+- Extends `fundamentals_de` [[ch06_storage|Ch.6]] (Storage) and [[ch07_ingestion|Ch.7]] (Ingestion) — not yet
   synthesized in this vault; revisit this note once those exist to confirm no
   contradiction.
 - Directly relevant to any lakehouse project in this vault using Delta/Iceberg/Hudi —

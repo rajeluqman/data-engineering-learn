@@ -76,9 +76,9 @@
 
 ## 9. Cross-references
 
-- Ch.1 (Introduction to Data Engineering on Databricks): introduces Lakeflow Jobs at a conceptual level, directly applied here.
-- Ch.11 (A Practical Guide to Serverless Migrations): provides the general serverless migration playbook (cost governance, job-switching mechanics, dependency management) that this case study's transition implicitly follows.
-- Ch.4 (A Cost Maturity Journey With Databricks): the VM cost-reduction outcome reported here would be measurable via that chapter's system-tables-based cost-reporting mechanisms, though this chapter does not describe its own measurement approach.
+- [[ch01_introduction_to_data_engineering_on_databricks|Ch.1]] (Introduction to Data Engineering on Databricks): introduces Lakeflow Jobs at a conceptual level, directly applied here.
+- [[ch11_practical_guide_to_serverless_migrations|Ch.11]] (A Practical Guide to Serverless Migrations): provides the general serverless migration playbook (cost governance, job-switching mechanics, dependency management) that this case study's transition implicitly follows.
+- [[ch04_cost_maturity_journey_with_databricks|Ch.4]] (A Cost Maturity Journey With Databricks): the VM cost-reduction outcome reported here would be measurable via that chapter's system-tables-based cost-reporting mechanisms, though this chapter does not describe its own measurement approach.
 
 ## Exclusions (declared, not silently dropped)
 

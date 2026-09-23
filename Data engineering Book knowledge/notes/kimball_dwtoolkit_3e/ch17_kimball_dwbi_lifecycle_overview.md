@@ -136,8 +136,8 @@
 
 ## 9. Cross-references
 
-- Directly extends and is fully consistent with the enterprise data warehouse bus architecture and opportunity/stakeholder matrix from Ch.4 (Inventory), the agile methodology discussion from Ch.1 (DW/BI Primer), and the data steward's political-role framing also from Ch.4 — no contradiction found.
-- The chapter's own text explicitly signals the next two chapters as direct continuations: "The next chapter provides much more detailed coverage of the Kimball Lifecycle's collaborative workshop approach for iteratively designing dimensional models with business representatives. Chapters 19 and 20 delve into ETL system design considerations and recommended development processes" (p463) — confirming Ch.18 covers the modeling workshop process and Ch.19/Ch.20 cover ETL subsystems and design process respectively, consistent with the CHAPTER_MAP's remaining table of contents.
+- Directly extends and is fully consistent with the enterprise data warehouse bus architecture and opportunity/stakeholder matrix from [[ch04_inventory|Ch.4]] (Inventory), the agile methodology discussion from [[ch01_dw_bi_dimensional_modeling_primer|Ch.1]] (DW/BI Primer), and the data steward's political-role framing also from [[ch04_inventory|Ch.4]] — no contradiction found.
+- The chapter's own text explicitly signals the next two chapters as direct continuations: "The next chapter provides much more detailed coverage of the Kimball Lifecycle's collaborative workshop approach for iteratively designing dimensional models with business representatives. Chapters 19 and 20 delve into ETL system design considerations and recommended development processes" (p463) — confirming [[ch18_dimensional_modeling_process_and_tasks|Ch.18]] covers the modeling workshop process and [[ch19_etl_subsystems_and_techniques|Ch.19]]/[[ch20_etl_system_design_and_development_process_and_tasks|Ch.20]] cover ETL subsystems and design process respectively, consistent with the CHAPTER_MAP's remaining table of contents.
 - No unresolved forward-references beyond these explicitly noted chapter pointers were found in this chapter's body.
 
 ---

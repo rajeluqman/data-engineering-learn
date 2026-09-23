@@ -95,11 +95,11 @@
 
 ## 9. Cross-references
 
-- Chapter 2: early/on-time/late triggers and accumulation-and-retracting mode, directly reused for the session-windowing example (p134).
-- Chapter 3: watermark mechanics underlying why ingress-time windowing achieves a perfect watermark (p129-130).
-- Chapter 5 (exactly-once and side effects, authored by Reuven): named as the next chapter, closing out Part I (p147).
-- Chapter 6 (streams and tables): named as the start of Part II (p147).
-- Chapter 7: referenced regarding incremental aggregation cost, relevant to the bounded-sessions discussion (p146).
+- [[ch02_what_where_when_how|Chapter 2]]: early/on-time/late triggers and accumulation-and-retracting mode, directly reused for the session-windowing example (p134).
+- [[ch03_watermarks|Chapter 3]]: watermark mechanics underlying why ingress-time windowing achieves a perfect watermark (p129-130).
+- [[ch05_exactly_once_and_side_effects|Chapter 5]] (exactly-once and side effects, authored by Reuven): named as the next chapter, closing out Part I (p147).
+- [[ch06_streams_and_tables|Chapter 6]] (streams and tables): named as the start of Part II (p147).
+- [[ch07_practicalities_of_persistent_state|Chapter 7]]: referenced regarding incremental aggregation cost, relevant to the bounded-sessions discussion (p146).
 - Blog post describing manual session-building on Spark Streaming 1.x, cited as a contrast case showing the manual effort avoided by native session/custom-windowing support (p136).
 
 ## Exclusions (declared, not silently dropped)

@@ -88,9 +88,9 @@
 
 ## 9. Cross-references
 
-- Ch.1 (Introduction to Data Engineering on Databricks): introduces serverless compute options within Lakeflow Jobs/Declarative Pipelines at a conceptual level.
-- Ch.4 (A Cost Maturity Journey With Databricks): the Budgets, Serverless Budget Policies, and `system.billing.usage`/`system.billing.list_prices`-based monitoring mechanisms here directly reuse that chapter's general FinOps framework, applied specifically to the serverless migration use case.
-- Ch.2 (Migrating Apache Spark ETL Workloads to Databricks): that chapter's "Use Serverless for quicker startup, termination, and better total cost of ownership" recommendation is the general claim this chapter operationalizes into a concrete migration playbook.
+- [[ch01_introduction_to_data_engineering_on_databricks|Ch.1]] (Introduction to Data Engineering on Databricks): introduces serverless compute options within Lakeflow Jobs/Declarative Pipelines at a conceptual level.
+- [[ch04_cost_maturity_journey_with_databricks|Ch.4]] (A Cost Maturity Journey With Databricks): the Budgets, Serverless Budget Policies, and `system.billing.usage`/`system.billing.list_prices`-based monitoring mechanisms here directly reuse that chapter's general FinOps framework, applied specifically to the serverless migration use case.
+- [[ch02_migrating_apache_spark_etl_workloads_to_databricks|Ch.2]] (Migrating Apache Spark ETL Workloads to Databricks): that chapter's "Use Serverless for quicker startup, termination, and better total cost of ownership" recommendation is the general claim this chapter operationalizes into a concrete migration playbook.
 - External resources referenced but not reproduced: the official Databricks pricing page, serverless release notes (for the full list of environment versions), documentation on workspace-level default dependencies, and a Git repository containing the classic-vs-serverless comparison dashboard code (p99, p103-104).
 
 ## Exclusions (declared, not silently dropped)

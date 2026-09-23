@@ -185,12 +185,12 @@ specific named failure mode (see §6).
 
 ## 9. Cross-references
 
-- Directly extends `fundamentals_de` Ch.1 (already synthesized) — the five stages
-  and six undercurrents named in Ch.1 §1 are given full definitions here; no
+- Directly extends `fundamentals_de` [[ch01_data_engineering_described|Ch.1]] (already synthesized) — the five stages
+  and six undercurrents named in [[ch01_data_engineering_described|Ch.1]] §1 are given full definitions here; no
   contradiction found between the two notes on a re-read.
-- Explicitly deferred to later chapters by the book itself: Ch.3 (architecture),
-  Ch.5 (source systems), Ch.6 (storage), Ch.7 (ingestion), Ch.8 (transformation/
-  modeling), Ch.10 (security) — none of these are synthesized yet in this vault.
+- Explicitly deferred to later chapters by the book itself: [[ch03_designing_good_data_architecture|Ch.3]] (architecture),
+  [[ch05_data_generation_source_systems|Ch.5]] (source systems), [[ch06_storage|Ch.6]] (storage), [[ch07_ingestion|Ch.7]] (ingestion), [[ch08_queries_modeling_transformation|Ch.8]] (transformation/
+  modeling), [[ch10_security_and_privacy|Ch.10]] (security) — none of these are synthesized yet in this vault.
   This note's §5–7 claims about those stages should be re-checked once those
   chapters exist, per the deferred cross-reference register (`audit/DEFERRED_REFS.csv`).
 - The reverse ETL framing (§5) is a candidate case for `check_deferred_refs.py` —

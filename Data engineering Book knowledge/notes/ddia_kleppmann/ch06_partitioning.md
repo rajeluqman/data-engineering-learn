@@ -110,9 +110,9 @@ In practice (p222), "updates to global secondary indexes are often asynchronous"
 
 ## 9. Cross-references
 
-- Directly extends Ch.5's replication material — explicitly stated as an independent, orthogonal concern that composes with partitioning without altering it. No contradiction found. `[S]`
-- Directly extends Ch.3's B-tree and SSTable sorted-storage mechanics, reused both for within-partition ordering and as an explicit structural analogy for dynamic partition splitting/merging. `[S]`
-- Forward-references (not yet synthesized in this vault): Ch.7 (distributed/multi-object transactions needed for consistent secondary-index maintenance and cross-partition writes), Ch.9 (consensus protocols underlying reliable partition-assignment agreement), and Ch.10 (parallel query execution for analytic/MPP workloads).
+- Directly extends [[ch05_replication|Ch.5]]'s replication material — explicitly stated as an independent, orthogonal concern that composes with partitioning without altering it. No contradiction found. `[S]`
+- Directly extends [[ch03_storage_and_retrieval|Ch.3]]'s B-tree and SSTable sorted-storage mechanics, reused both for within-partition ordering and as an explicit structural analogy for dynamic partition splitting/merging. `[S]`
+- Forward-references (not yet synthesized in this vault): [[ch07_transactions|Ch.7]] (distributed/multi-object transactions needed for consistent secondary-index maintenance and cross-partition writes), [[ch09_consistency_and_consensus|Ch.9]] (consensus protocols underlying reliable partition-assignment agreement), and [[ch10_batch_processing|Ch.10]] (parallel query execution for analytic/MPP workloads).
 - No contradiction found with any already-synthesized source in this vault.
 
 ---

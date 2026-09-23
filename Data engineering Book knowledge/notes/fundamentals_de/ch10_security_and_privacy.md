@@ -76,8 +76,8 @@
 
 ## 9. Cross-references
 
-- Directly extends `fundamentals_de` Ch.3 (hardened perimeter vs. zero-trust security, p402) and the security-undercurrent material threaded through every previously synthesized chapter (Ch.2–Ch.9) — this chapter is explicitly framed as a deeper, dedicated return to that recurring undercurrent rather than new territory. No contradiction found.
-- Directly echoes the least-privilege and broken-glass-process language already introduced in Ch.6 (storage undercurrents) and Ch.9 (serving undercurrents) — this chapter gives the fullest definition of both terms in the source; the earlier chapters' briefer mentions are consistent with, not contradicted by, this chapter's treatment. `[D]`
+- Directly extends `fundamentals_de` [[ch03_designing_good_data_architecture|Ch.3]] (hardened perimeter vs. zero-trust security, p402) and the security-undercurrent material threaded through every previously synthesized chapter ([[ch02_data_engineering_lifecycle|Ch.2]]–[[ch09_serving_data|Ch.9]]) — this chapter is explicitly framed as a deeper, dedicated return to that recurring undercurrent rather than new territory. No contradiction found.
+- Directly echoes the least-privilege and broken-glass-process language already introduced in [[ch06_storage|Ch.6]] (storage undercurrents) and [[ch09_serving_data|Ch.9]] (serving undercurrents) — this chapter gives the fullest definition of both terms in the source; the earlier chapters' briefer mentions are consistent with, not contradicted by, this chapter's treatment. `[D]`
 - No forward-references to not-yet-synthesized chapters were found in this chapter (it is largely self-contained and retrospective). Nothing flagged for `check_deferred_refs.py`.
 
 ---

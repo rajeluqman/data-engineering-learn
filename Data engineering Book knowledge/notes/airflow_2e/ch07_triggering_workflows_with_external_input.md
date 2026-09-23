@@ -126,10 +126,10 @@ The specific sensor motivation: fixed-time scheduling of dependent data forces u
 
 ## 9. Cross-references
 
-- Chapter 3 (time-based scheduling) and Chapter 4 (asset-aware scheduling): the two prior triggering mechanisms this chapter builds on (p177).
-- Chapter 9 (deferrable operators, referenced as a future chapter): "Chapter 9 discusses deferrable operators in depth and shows you how to create a custom deferrable operator."
+- [[ch03_time_based_scheduling|Chapter 3]] (time-based scheduling) and [[ch04_asset_aware_scheduling|Chapter 4]] (asset-aware scheduling): the two prior triggering mechanisms this chapter builds on (p177).
+- [[ch09_extending_airflow_with_custom_operators_and_sensors|Chapter 9]] (deferrable operators, referenced as a future chapter): "Chapter 9 discusses deferrable operators in depth and shows you how to create a custom deferrable operator."
 (p186)
-- Chapter 15 (Airflow production operation, referenced as a future chapter): "You can also control the number of concurrent tasks with several configuration options on the global Airflow level, as discussed in chapter 15."
+- [[ch15_operating_airflow_in_production|Chapter 15]] (Airflow production operation, referenced as a future chapter): "You can also control the number of concurrent tasks with several configuration options on the global Airflow level, as discussed in chapter 15."
 (p185)
 
 ## Exclusions (declared, not silently dropped)

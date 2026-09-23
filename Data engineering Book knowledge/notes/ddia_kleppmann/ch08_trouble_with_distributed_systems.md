@@ -141,10 +141,10 @@ The theoretical description of an algorithm can declare that certain things are 
 
 ## 9. Cross-references
 
-- Directly extends Ch.5's replication (failover) and leaderless-replication conflict-resolution (LWW, version vectors) material, reusing and extending the same clock-skew worked example. No contradiction found. `[S]`
-- Directly extends Ch.6's partitioning terminology, explicitly disambiguating overlapping vocabulary. No contradiction found. `[D]`
-- Directly extends Ch.7's snapshot isolation material via the Spanner/TrueTime global-transaction-ordering discussion. No contradiction found. `[S]`
-- Forward-references (not yet synthesized in this vault): Ch.9 for consensus algorithms, the Byzantine/Two Generals problem in full formal detail, majority-quorum leader election, and logical-clock ordering guarantees in depth.
+- Directly extends [[ch05_replication|Ch.5]]'s replication (failover) and leaderless-replication conflict-resolution (LWW, version vectors) material, reusing and extending the same clock-skew worked example. No contradiction found. `[S]`
+- Directly extends [[ch06_partitioning|Ch.6]]'s partitioning terminology, explicitly disambiguating overlapping vocabulary. No contradiction found. `[D]`
+- Directly extends [[ch07_transactions|Ch.7]]'s snapshot isolation material via the Spanner/TrueTime global-transaction-ordering discussion. No contradiction found. `[S]`
+- Forward-references (not yet synthesized in this vault): [[ch09_consistency_and_consensus|Ch.9]] for consensus algorithms, the Byzantine/Two Generals problem in full formal detail, majority-quorum leader election, and logical-clock ordering guarantees in depth.
 - No contradiction found with any already-synthesized source in this vault.
 
 ---

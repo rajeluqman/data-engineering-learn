@@ -165,8 +165,8 @@ AND/OR query pattern must be simple SQL and per-keyword counting is not required
 
 ## 9. Cross-references
 
-- Builds on SCD technique chapters (Ch.5 Procurement — not yet synthesized) and
-  recursive-hierarchy technique chapters (Ch.7 Accounting — not yet synthesized). This
+- Builds on SCD technique chapters ([[ch05_procurement|Ch.5]] Procurement — not yet synthesized) and
+  recursive-hierarchy technique chapters ([[ch07_accounting|Ch.7]] Accounting — not yet synthesized). This
   note should be revisited once those are done, to confirm nothing here contradicts
   the earlier chapters' framing.
 - The vendor-solution skepticism (§5) is a useful counterpoint to weigh against

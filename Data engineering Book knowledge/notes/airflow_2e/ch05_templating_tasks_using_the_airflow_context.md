@@ -123,8 +123,8 @@ It instead "takes a python_callable argument that's passed to the run-time conte
 ## 9. Cross-references
 
 - Chapters 3-4 (time-based and asset-aware scheduling): source of `logical_date`/`data_interval_start` context variables reused throughout this chapter (p119).
-- Chapter 6 (defining dependencies between tasks): referenced for the XCom mechanism as the alternative to persistent-storage-based inter-task communication (p134, "This approach, called XCom, is covered in chapter 6").
-- Chapter 12 (dynamic task mapping): referenced regarding `map_index_template` in Table 5.1 (p131).
+- [[ch06_defining_dependencies_between_tasks|Chapter 6]] (defining dependencies between tasks): referenced for the XCom mechanism as the alternative to persistent-storage-based inter-task communication (p134, "This approach, called XCom, is covered in chapter 6").
+- [[ch12_best_practices|Chapter 12]] (dynamic task mapping): referenced regarding `map_index_template` in Table 5.1 (p131).
 
 ## Exclusions (declared, not silently dropped)
 

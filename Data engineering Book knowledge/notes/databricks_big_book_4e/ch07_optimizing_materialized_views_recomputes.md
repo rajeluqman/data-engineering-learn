@@ -93,10 +93,10 @@
 
 ## 9. Cross-references
 
-- Ch.1 (Introduction to Data Engineering on Databricks): introduces Spark Declarative Pipelines at a conceptual level; this chapter details Enzyme's specific refresh-decision mechanics.
-- Ch.3 (How Observability in Lakeflow Helps You Build Reliable Data Pipelines): the pipeline event log and AI/BI dashboard monitoring pattern used here directly parallels that chapter's observability approach.
-- Ch.4 (A Cost Maturity Journey With Databricks): the `list_pipeline_events`-joined-to-billing-system-table cost-computation technique parallels that chapter's system-tables-based cost reporting.
-- Ch.6 (Implement CDC Data Load and SCD Type 2 With Lakeflow): both chapters use Spark Declarative Pipelines' underlying incremental-computation mechanisms (Enzyme here, `apply_changes_from_snapshot` there) for different purposes.
+- [[ch01_introduction_to_data_engineering_on_databricks|Ch.1]] (Introduction to Data Engineering on Databricks): introduces Spark Declarative Pipelines at a conceptual level; this chapter details Enzyme's specific refresh-decision mechanics.
+- [[ch03_observability_in_lakeflow|Ch.3]] (How Observability in Lakeflow Helps You Build Reliable Data Pipelines): the pipeline event log and AI/BI dashboard monitoring pattern used here directly parallels that chapter's observability approach.
+- [[ch04_cost_maturity_journey_with_databricks|Ch.4]] (A Cost Maturity Journey With Databricks): the `list_pipeline_events`-joined-to-billing-system-table cost-computation technique parallels that chapter's system-tables-based cost reporting.
+- [[ch06_implement_cdc_and_scd_type_2_with_lakeflow|Ch.6]] (Implement CDC Data Load and SCD Type 2 With Lakeflow): both chapters use Spark Declarative Pipelines' underlying incremental-computation mechanisms (Enzyme here, `apply_changes_from_snapshot` there) for different purposes.
 - External GitHub resource referenced but not reproduced: the `monitoring-declarative-pipeline-refresh-behavior` accelerator tool repository and the `MV_Incremental_Technical_Breakdown.ipynb` example notebook (p75, p80).
 - Databricks documentation referenced but not reproduced: "Load and process data incrementally with Spark Declarative Pipelines flows" and "Incremental refresh for materialized views" (p81).
 

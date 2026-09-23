@@ -104,8 +104,8 @@
 
 ## 9. Cross-references
 
-- Directly restates and is fully consistent with granularity/surrogate-key guidance from Ch.3 (Retail Sales), conformed dimension retrofitting mechanics from Ch.4 (Inventory), year-to-date fact anti-pattern from Ch.7 (Accounting), and outrigger discipline established across Ch.4/Ch.8/Ch.10 — no contradiction found; this chapter functions as a deliberate cross-chapter checklist consolidation.
-- The mini-dimension resolution for customer/sales-org/rate-plan (p343) is a direct, consistent reapplication of the type 4 mini-dimension technique from Ch.5 (Procurement) and Ch.10 (Financial Services), applied here to a rapidly growing service-line dimension rather than an account or customer dimension.
+- Directly restates and is fully consistent with granularity/surrogate-key guidance from [[ch03_retail_sales|Ch.3]] (Retail Sales), conformed dimension retrofitting mechanics from [[ch04_inventory|Ch.4]] (Inventory), year-to-date fact anti-pattern from [[ch07_accounting|Ch.7]] (Accounting), and outrigger discipline established across [[ch04_inventory|Ch.4]]/[[ch08_customer_relationship_management|Ch.8]]/[[ch10_financial_services|Ch.10]] — no contradiction found; this chapter functions as a deliberate cross-chapter checklist consolidation.
+- The mini-dimension resolution for customer/sales-org/rate-plan (p343) is a direct, consistent reapplication of the type 4 mini-dimension technique from [[ch05_procurement|Ch.5]] (Procurement) and [[ch10_financial_services|Ch.10]] (Financial Services), applied here to a rapidly growing service-line dimension rather than an account or customer dimension.
 - No forward-references to not-yet-synthesized chapters were found in this chapter's body.
 
 ---

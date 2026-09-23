@@ -218,12 +218,12 @@ self-serve data infrastructure as a platform; federated computational governance
 
 ## 9. Cross-references
 
-- Directly extends `fundamentals_de` Ch.1 and Ch.2 (both synthesized) — no
-  contradiction found on cross-check; Ch.2's "data architecture" undercurrent
+- Directly extends `fundamentals_de` [[ch01_data_engineering_described|Ch.1]] and [[ch02_data_engineering_lifecycle|Ch.2]] (both synthesized) — no
+  contradiction found on cross-check; [[ch02_data_engineering_lifecycle|Ch.2]]'s "data architecture" undercurrent
   pointer is exactly the material developed here.
-- Explicitly defers to Ch.4 (technology choice, monolith-vs-distributed detail),
-  Ch.5 (event-driven streaming/messaging), Ch.6 (storage, IoT storage detail), Ch.8
-  (transformations, data marts, data models), Ch.11 (modern data stack's future,
+- Explicitly defers to [[ch04_choosing_technologies|Ch.4]] (technology choice, monolith-vs-distributed detail),
+  [[ch05_data_generation_source_systems|Ch.5]] (event-driven streaming/messaging), [[ch06_storage|Ch.6]] (storage, IoT storage detail), [[ch08_queries_modeling_transformation|Ch.8]]
+  (transformations, data marts, data models), [[ch11_future_of_data_engineering|Ch.11]] (modern data stack's future,
   "live data stack") — none synthesized yet. Flagged for `check_deferred_refs.py`.
 - Explicitly defers to `ddia_kleppmann` (not yet synthesized in this vault) for
   distributed-systems depth (§3) — this is the first note in this project to defer

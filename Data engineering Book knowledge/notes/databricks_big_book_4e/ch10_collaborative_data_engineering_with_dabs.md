@@ -80,9 +80,9 @@
 
 ## 9. Cross-references
 
-- Ch.1 (Introduction to Data Engineering on Databricks): introduces Lakeflow Jobs and Spark Declarative Pipelines at a conceptual level, both used as the example resource types deployed via DABs here.
-- Ch.5 (Lakeflow Connect: SQL Server Connector): the chapter's appendix referenced DABs as a way to manage Lakeflow Connect pipelines as code — this chapter provides the general DABs collaboration model underlying that usage.
-- Ch.2 (Migrating Apache Spark ETL Workloads to Databricks): recommended "managing these artifacts with Terraform and VCS for strong consistency, versioning" for Compute Policies — this chapter's Terraform-plus-DABs split directly extends that recommendation to application code specifically.
+- [[ch01_introduction_to_data_engineering_on_databricks|Ch.1]] (Introduction to Data Engineering on Databricks): introduces Lakeflow Jobs and Spark Declarative Pipelines at a conceptual level, both used as the example resource types deployed via DABs here.
+- [[ch05_lakeflow_connect_sql_server_connector|Ch.5]] (Lakeflow Connect: SQL Server Connector): the chapter's appendix referenced DABs as a way to manage Lakeflow Connect pipelines as code — this chapter provides the general DABs collaboration model underlying that usage.
+- [[ch02_migrating_apache_spark_etl_workloads_to_databricks|Ch.2]] (Migrating Apache Spark ETL Workloads to Databricks): recommended "managing these artifacts with Terraform and VCS for strong consistency, versioning" for Compute Policies — this chapter's Terraform-plus-DABs split directly extends that recommendation to application code specifically.
 - External Databricks documentation referenced but not reproduced: DABs root mapping configuration, resource-specific mappings, and CLI commands, explicitly deferred by the chapter itself ("we recommend starting with the documentation. We won't be exploring these concepts too deeply in this chapter") (p95).
 - External source code repository referenced but not reproduced, for readers wanting to follow the chapter's worked example directly (p96).
 

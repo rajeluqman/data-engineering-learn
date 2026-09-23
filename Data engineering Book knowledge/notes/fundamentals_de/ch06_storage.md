@@ -99,11 +99,11 @@
 
 ## 9. Cross-references
 
-- Directly extends `fundamentals_de` Ch.3's data warehouse/lake/lakehouse framing ("We introduced many of these abstractions in Chapter 3, and we will revisit them here," p240) and Ch.5's ACID/consistency vocabulary — both synthesized, no contradiction found.
-- Forward-references Ch.7 (replay, p237) and Ch.8 (MapReduce, p236; normalization/denormalization and single-/multi-tenant querying, p239, p253) — both not yet synthesized. Flagged for `check_deferred_refs.py`.
+- Directly extends `fundamentals_de` [[ch03_designing_good_data_architecture|Ch.3]]'s data warehouse/lake/lakehouse framing ("We introduced many of these abstractions in Chapter 3, and we will revisit them here," p240) and [[ch05_data_generation_source_systems|Ch.5]]'s ACID/consistency vocabulary — both synthesized, no contradiction found.
+- Forward-references [[ch07_ingestion|Ch.7]] (replay, p237) and [[ch08_queries_modeling_transformation|Ch.8]] (MapReduce, p236; normalization/denormalization and single-/multi-tenant querying, p239, p253) — both not yet synthesized. Flagged for `check_deferred_refs.py`.
 - The data lakehouse material here (Delta Lake, Hudi, Iceberg, p242) directly overlaps with the `databricks_big_book_4e` Reverse ETL/Lakebase note already synthesized — same lakehouse concept approached from the vendor-platform angle there versus the conceptual-storage angle here; no contradiction, but worth a consistency check once more `databricks_big_book_4e` chapters are synthesized. Flagged for `check_deferred_refs.py`.
 - Appendix A (serialization/compression, already synthesized) is directly cross-referenced by this chapter for columnar serialization detail ("In 'Raw Ingredients of Data Storage' on page 191, we discuss columnar serialization," p238) — consistent with Appendix A's own scope.
-- The single-tenant/multitenant storage discussion here (p251–253) is the storage-layer counterpart to Ch.3's architecture-level single-/multi-tenant trade-off discussion ("we covered the trade-offs between single-tenant and multitenant", p251) — consistent, no contradiction.
+- The single-tenant/multitenant storage discussion here (p251–253) is the storage-layer counterpart to [[ch03_designing_good_data_architecture|Ch.3]]'s architecture-level single-/multi-tenant trade-off discussion ("we covered the trade-offs between single-tenant and multitenant", p251) — consistent, no contradiction.
 
 ---
 

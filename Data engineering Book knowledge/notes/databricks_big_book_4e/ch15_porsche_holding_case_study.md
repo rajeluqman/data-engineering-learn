@@ -77,9 +77,9 @@
 
 ## 9. Cross-references
 
-- Ch.1 (Introduction to Data Engineering on Databricks): introduces Lakeflow Connect, Lakeflow Jobs, and Unity Catalog at a conceptual level, all directly applied here.
-- Ch.5 (Lakeflow Connect: SQL Server Connector): provides the detailed technical walkthrough of a different Lakeflow Connect connector (SQL Server rather than Salesforce), following a broadly similar gateway/ingestion-pipeline pattern likely shared by the Salesforce connector referenced here.
-- Ch.13 (NFCU case study) and Ch.14 (Cincinnati Reds case study): both are similarly structured vendor case studies demonstrating different Databricks/Lakeflow components (SDP for NFCU, serverless Lakeflow Jobs for the Reds) applied to different real-time/data-unification problems.
+- [[ch01_introduction_to_data_engineering_on_databricks|Ch.1]] (Introduction to Data Engineering on Databricks): introduces Lakeflow Connect, Lakeflow Jobs, and Unity Catalog at a conceptual level, all directly applied here.
+- [[ch05_lakeflow_connect_sql_server_connector|Ch.5]] (Lakeflow Connect: SQL Server Connector): provides the detailed technical walkthrough of a different Lakeflow Connect connector (SQL Server rather than Salesforce), following a broadly similar gateway/ingestion-pipeline pattern likely shared by the Salesforce connector referenced here.
+- [[ch13_nfcu_case_study|Ch.13]] (NFCU case study) and [[ch14_cincinnati_reds_case_study|Ch.14]] (Cincinnati Reds case study): both are similarly structured vendor case studies demonstrating different Databricks/Lakeflow components (SDP for NFCU, serverless Lakeflow Jobs for the Reds) applied to different real-time/data-unification problems.
 
 ## Exclusions (declared, not silently dropped)
 

@@ -82,9 +82,9 @@
 
 ## 9. Cross-references
 
-- Directly extends `fundamentals_de` Ch.3 (architecture-first framing, FinOps principle) — both synthesized, no contradiction found on cross-check.
-- Explicitly revisits Ch.1's Type A/Type B engineer framing (p158, "the distinction between the type A and type B data engineer comes in handy") when discussing build-vs-buy — consistent with the Ch.1 note's own description of that framework.
-- Explicitly revisits Ch.3's Bezos API mandate and two-pizza-rule material (p165) in the modularity discussion — same source event, applied to a different argument (microservices adoption rather than loose coupling per se); no contradiction. `[D]`
+- Directly extends `fundamentals_de` [[ch03_designing_good_data_architecture|Ch.3]] (architecture-first framing, FinOps principle) — both synthesized, no contradiction found on cross-check.
+- Explicitly revisits [[ch01_data_engineering_described|Ch.1]]'s Type A/Type B engineer framing (p158, "the distinction between the type A and type B data engineer comes in handy") when discussing build-vs-buy — consistent with the [[ch01_data_engineering_described|Ch.1]] note's own description of that framework.
+- Explicitly revisits [[ch03_designing_good_data_architecture|Ch.3]]'s Bezos API mandate and two-pizza-rule material (p165) in the modularity discussion — same source event, applied to a different argument (microservices adoption rather than loose coupling per se); no contradiction. `[D]`
 - The Airflow critique here (distributed monolith, scheduler/backend-DB bottleneck, p176–177) is the first place in this vault's notes that a specific orchestration tool gets a documented weakness — worth cross-checking once `airflow_2e` chapters are synthesized, since that source is written by Airflow's own community/maintainers and may frame the same trade-offs differently. Flagged for `check_deferred_refs.py`.
 
 ---

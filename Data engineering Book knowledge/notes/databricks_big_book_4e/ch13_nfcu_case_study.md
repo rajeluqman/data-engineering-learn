@@ -93,10 +93,10 @@
 
 ## 9. Cross-references
 
-- Ch.1 (Introduction to Data Engineering on Databricks): introduces Spark Declarative Pipelines and its automatic orchestration/data-quality capabilities at a conceptual level, directly applied here.
-- Ch.6 (Implement CDC Data Load and SCD Type 2 With Lakeflow): the `APPLY CHANGES`/CDC deduplication mechanism used here parallels (though for a different purpose — deduplication rather than SCD Type 2 history) that chapter's CDC-handling content.
-- Ch.7 (Optimizing Materialized Views Recomputes): the automatic table optimize/compact/vacuum behavior credited here with eliminating the small-file problem is the same Enzyme-engine-adjacent mechanism discussed in that chapter's incremental-refresh context.
-- Ch.9 (Production-Grade Data Quality Using Spark Declarative Pipelines): the Expectations feature used here for data-quality monitoring is the same mechanism detailed in that chapter.
+- [[ch01_introduction_to_data_engineering_on_databricks|Ch.1]] (Introduction to Data Engineering on Databricks): introduces Spark Declarative Pipelines and its automatic orchestration/data-quality capabilities at a conceptual level, directly applied here.
+- [[ch06_implement_cdc_and_scd_type_2_with_lakeflow|Ch.6]] (Implement CDC Data Load and SCD Type 2 With Lakeflow): the `APPLY CHANGES`/CDC deduplication mechanism used here parallels (though for a different purpose — deduplication rather than SCD Type 2 history) that chapter's CDC-handling content.
+- [[ch07_optimizing_materialized_views_recomputes|Ch.7]] (Optimizing Materialized Views Recomputes): the automatic table optimize/compact/vacuum behavior credited here with eliminating the small-file problem is the same Enzyme-engine-adjacent mechanism discussed in that chapter's incremental-refresh context.
+- [[ch09_production_grade_data_quality_using_sdp|Ch.9]] (Production-Grade Data Quality Using Spark Declarative Pipelines): the Expectations feature used here for data-quality monitoring is the same mechanism detailed in that chapter.
 
 ## Exclusions (declared, not silently dropped)
 

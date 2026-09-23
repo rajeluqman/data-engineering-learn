@@ -81,9 +81,9 @@
 
 ## 9. Cross-references
 
-- Ch.1 (Introduction to Data Engineering on Databricks): introduces Spark Declarative Pipelines' data-quality-check capability at a conceptual level; this chapter provides the detailed implementation patterns.
-- Ch.3 (How Observability in Lakeflow Helps You Build Reliable Data Pipelines): the pipeline event log and AI/BI dashboard monitoring pattern used here directly parallels that chapter's general observability approach, applied specifically to data quality metrics.
-- Ch.7 (Optimizing Materialized Views Recomputes): the incremental-vs-full-refresh mechanics referenced here (change data feed, `REFRESH` behavior) directly parallel that chapter's Enzyme-engine discussion of what forces a full recompute.
+- [[ch01_introduction_to_data_engineering_on_databricks|Ch.1]] (Introduction to Data Engineering on Databricks): introduces Spark Declarative Pipelines' data-quality-check capability at a conceptual level; this chapter provides the detailed implementation patterns.
+- [[ch03_observability_in_lakeflow|Ch.3]] (How Observability in Lakeflow Helps You Build Reliable Data Pipelines): the pipeline event log and AI/BI dashboard monitoring pattern used here directly parallels that chapter's general observability approach, applied specifically to data quality metrics.
+- [[ch07_optimizing_materialized_views_recomputes|Ch.7]] (Optimizing Materialized Views Recomputes): the incremental-vs-full-refresh mechanics referenced here (change data feed, `REFRESH` behavior) directly parallel that chapter's Enzyme-engine discussion of what forces a full recompute.
 - Databricks documentation referenced but not reproduced: details on accessing the event log table and its full list of available attributes (p87).
 
 ## Exclusions (declared, not silently dropped)

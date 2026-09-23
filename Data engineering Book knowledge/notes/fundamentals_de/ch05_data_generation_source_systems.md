@@ -85,10 +85,10 @@
 
 ## 9. Cross-references
 
-- Directly extends `fundamentals_de` Ch.3 (ACID vocabulary) and Ch.4 (REST terminology) — both synthesized, no contradiction found.
-- Explicitly revisits Ch.3's data mesh material when discussing data sharing (p202, footnoted to the same Fowler/Dehghani article family) — consistent with the Ch.3 note's own description. `[D]` 
-- Reverse ETL is mentioned again here (p202, p212–213) in the CRM-data-sharing context, consistent with its treatment in Ch.2 (lifecycle stage) and the `databricks_big_book_4e` Lakebase note (vendor product) — three sources now touching the same concept from different angles; worth a consistency check once more chapters accumulate. Flagged for `check_deferred_refs.py`. `[D]`
-- The Airflow-orchestration integration question (p211, "if you're using an orchestration framework like Airflow, does it make sense to integrate it with the upstream application team?") connects to Ch.4's Airflow distributed-monolith critique — not a contradiction, but the same tool discussed in two different risk contexts.
+- Directly extends `fundamentals_de` [[ch03_designing_good_data_architecture|Ch.3]] (ACID vocabulary) and [[ch04_choosing_technologies|Ch.4]] (REST terminology) — both synthesized, no contradiction found.
+- Explicitly revisits [[ch03_designing_good_data_architecture|Ch.3]]'s data mesh material when discussing data sharing (p202, footnoted to the same Fowler/Dehghani article family) — consistent with the [[ch03_designing_good_data_architecture|Ch.3]] note's own description. `[D]` 
+- Reverse ETL is mentioned again here (p202, p212–213) in the CRM-data-sharing context, consistent with its treatment in [[ch02_data_engineering_lifecycle|Ch.2]] (lifecycle stage) and the `databricks_big_book_4e` Lakebase note (vendor product) — three sources now touching the same concept from different angles; worth a consistency check once more chapters accumulate. Flagged for `check_deferred_refs.py`. `[D]`
+- The Airflow-orchestration integration question (p211, "if you're using an orchestration framework like Airflow, does it make sense to integrate it with the upstream application team?") connects to [[ch04_choosing_technologies|Ch.4]]'s Airflow distributed-monolith critique — not a contradiction, but the same tool discussed in two different risk contexts.
 
 ---
 

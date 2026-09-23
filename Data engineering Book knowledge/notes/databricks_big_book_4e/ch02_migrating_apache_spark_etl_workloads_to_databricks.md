@@ -90,8 +90,8 @@
 
 ## 9. Cross-references
 
-- Ch.1 (Introduction to Data Engineering on Databricks): introduces Lakeflow Connect, Spark Declarative Pipelines, and Lakeflow Jobs at a conceptual level; this chapter applies them specifically to migration scenarios.
-- Ch.6 (Implement CDC Data Load and SCD Type 2 With Lakeflow) and Ch.7 (Optimizing Materialized Views Recomputes), per `audit/CHAPTER_MAP.csv`: later chapters covering specific Lakeflow-based patterns referenced here only at a high level (streaming migration, storage optimization).
+- [[ch01_introduction_to_data_engineering_on_databricks|Ch.1]] (Introduction to Data Engineering on Databricks): introduces Lakeflow Connect, Spark Declarative Pipelines, and Lakeflow Jobs at a conceptual level; this chapter applies them specifically to migration scenarios.
+- [[ch06_implement_cdc_and_scd_type_2_with_lakeflow|Ch.6]] (Implement CDC Data Load and SCD Type 2 With Lakeflow) and [[ch07_optimizing_materialized_views_recomputes|Ch.7]] (Optimizing Materialized Views Recomputes), per `audit/CHAPTER_MAP.csv`: later chapters covering specific Lakeflow-based patterns referenced here only at a high level (streaming migration, storage optimization).
 - External Databricks documentation referenced but not reproduced: migration strategy documentation, performance-efficiency/tune-file-size/delta-vacuum best practices, cluster configuration and cost-optimization guides, and dashboard/system-tables documentation (p17, p20-21).
 
 ## Exclusions (declared, not silently dropped)

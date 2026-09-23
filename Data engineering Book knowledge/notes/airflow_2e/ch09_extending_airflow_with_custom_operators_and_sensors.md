@@ -126,10 +126,10 @@
 
 ## 9. Cross-references
 
-- Chapter 5 (templating): `templates_dict` mechanism reused as the pre-custom-operator baseline (p223-224).
-- Chapter 6 (defining dependencies between tasks): sensor deadlock and reschedule mode, directly extended into the deferrable-operator motivation (p243).
-- Chapter 8 (communicating with external systems): the `execute` method pattern for regular operators, referenced as "as we did for a regular operator in chapter 8" (p246).
-- Chapter 11 (running tasks in containers, referenced as a future chapter): contrasted as an alternative to custom operators — "Some people prefer to rely on generic operators such as the built-in Docker"
+- [[ch05_templating_tasks_using_the_airflow_context|Chapter 5]] (templating): `templates_dict` mechanism reused as the pre-custom-operator baseline (p223-224).
+- [[ch06_defining_dependencies_between_tasks|Chapter 6]] (defining dependencies between tasks): sensor deadlock and reschedule mode, directly extended into the deferrable-operator motivation (p243).
+- [[ch08_communicating_with_external_systems|Chapter 8]] (communicating with external systems): the `execute` method pattern for regular operators, referenced as "as we did for a regular operator in chapter 8" (p246).
+- [[ch11_running_tasks_in_containers|Chapter 11]] (running tasks in containers, referenced as a future chapter): contrasted as an alternative to custom operators — "Some people prefer to rely on generic operators such as the built-in Docker"
 (p255, Summary) [D] (source continues "-Operator and the KubernetesPodOperator to execute their tasks... We'll focus on this approach in chapter 11" across a hyphenated line wrap).
 
 ## Exclusions (declared, not silently dropped)

@@ -123,9 +123,9 @@ A further named reason for that perception follows (p468): "one of the reasons t
 
 ## 9. Cross-references
 
-- Directly extends and is fully consistent with the four key dimensional design decisions from Ch.3 (Retail Sales), the business requirements gathering process and prioritization grid from Ch.17 (Kimball DW/BI Lifecycle Overview), the bus matrix concept from Ch.4 (Inventory), and the detailed implementation bus matrix from Ch.16 (Insurance) — no contradiction found.
-- The chapter's own text signals the next chapters shift focus specifically to ETL: forward-references to ETL subsystems 17 and 18 in Ch.19 (p468) for conformed dimension/fact build processes.
-- No unresolved forward-references beyond the explicitly noted Ch.19 pointer were found in this chapter's body.
+- Directly extends and is fully consistent with the four key dimensional design decisions from [[ch03_retail_sales|Ch.3]] (Retail Sales), the business requirements gathering process and prioritization grid from [[ch17_kimball_dwbi_lifecycle_overview|Ch.17]] (Kimball DW/BI Lifecycle Overview), the bus matrix concept from [[ch04_inventory|Ch.4]] (Inventory), and the detailed implementation bus matrix from [[ch16_insurance|Ch.16]] (Insurance) — no contradiction found.
+- The chapter's own text signals the next chapters shift focus specifically to ETL: forward-references to ETL subsystems 17 and 18 in [[ch19_etl_subsystems_and_techniques|Ch.19]] (p468) for conformed dimension/fact build processes.
+- No unresolved forward-references beyond the explicitly noted [[ch19_etl_subsystems_and_techniques|Ch.19]] pointer were found in this chapter's body.
 
 ---
 

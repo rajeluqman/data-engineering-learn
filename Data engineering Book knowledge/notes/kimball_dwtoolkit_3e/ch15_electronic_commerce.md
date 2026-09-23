@@ -122,9 +122,9 @@ A named benefit of the chosen approach follows: "you get a view of profitability
 
 ## 9. Cross-references
 
-- Directly reuses and is fully consistent with the step dimension from Ch.8 (Customer Relationship Management), mini-dimension volatility criteria from Ch.5 (Procurement), degenerate dimension vocabulary established across multiple chapters, shrunken rollup conformed dimensions from Ch.4 (Inventory), and the P&L fact table structure from Ch.6 (Order Management) — no contradiction found; this chapter is a direct, explicit continuation and integration exercise built on these prior techniques.
-- The chapter's own text explicitly signals the next chapter is a recap chapter: "In the next chapter, we'll turn our attention to the primary business processes in an insurance company as we recap many of the dimensional modeling patterns presented throughout this book" (p409) — Ch.16 is expected to be a consolidation chapter, consistent with Ch.11's and Ch.13's similar consolidation roles.
-- No unresolved forward-references to not-yet-synthesized chapters beyond the explicit Ch.16 pointer were found in this chapter's body.
+- Directly reuses and is fully consistent with the step dimension from [[ch08_customer_relationship_management|Ch.8]] (Customer Relationship Management), mini-dimension volatility criteria from [[ch05_procurement|Ch.5]] (Procurement), degenerate dimension vocabulary established across multiple chapters, shrunken rollup conformed dimensions from [[ch04_inventory|Ch.4]] (Inventory), and the P&L fact table structure from [[ch06_order_management|Ch.6]] (Order Management) — no contradiction found; this chapter is a direct, explicit continuation and integration exercise built on these prior techniques.
+- The chapter's own text explicitly signals the next chapter is a recap chapter: "In the next chapter, we'll turn our attention to the primary business processes in an insurance company as we recap many of the dimensional modeling patterns presented throughout this book" (p409) — [[ch16_insurance|Ch.16]] is expected to be a consolidation chapter, consistent with [[ch11_telecommunications|Ch.11]]'s and [[ch13_education|Ch.13]]'s similar consolidation roles.
+- No unresolved forward-references to not-yet-synthesized chapters beyond the explicit [[ch16_insurance|Ch.16]] pointer were found in this chapter's body.
 
 ---
 

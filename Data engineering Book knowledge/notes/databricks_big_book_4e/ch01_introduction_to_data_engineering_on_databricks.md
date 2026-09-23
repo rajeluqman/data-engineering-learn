@@ -84,7 +84,7 @@
 
 ## 9. Cross-references
 
-- Later chapters in this same source (per `audit/CHAPTER_MAP.csv`) cover several of the components introduced here in operational depth: "Migrating Apache Spark ETL Workloads to Databricks" (ch.2), "Implement CDC Data Load and SCD Type 2 With Lakeflow" (ch.6), "Optimizing Materialized Views Recomputes" (ch.7), and "Production-Grade Data Quality Using Spark Declarative Pipelines" (ch.9) — this introductory chapter explicitly signals it will be followed by "best practices for data engineering and end-to-end use cases drawn from real-world examples" (p15).
+- Later chapters in this same source (per `audit/CHAPTER_MAP.csv`) cover several of the components introduced here in operational depth: "Migrating Apache Spark ETL Workloads to Databricks" ([[ch02_migrating_apache_spark_etl_workloads_to_databricks|ch.2]]), "Implement CDC Data Load and SCD Type 2 With Lakeflow" ([[ch06_implement_cdc_and_scd_type_2_with_lakeflow|ch.6]]), "Optimizing Materialized Views Recomputes" ([[ch07_optimizing_materialized_views_recomputes|ch.7]]), and "Production-Grade Data Quality Using Spark Declarative Pipelines" ([[ch09_production_grade_data_quality_using_sdp|ch.9]]) — this introductory chapter explicitly signals it will be followed by "best practices for data engineering and end-to-end use cases drawn from real-world examples" (p15).
 - Delta Lake and Unity Catalog, referenced as foundational platform components underlying Lakeflow's storage and governance claims, not independently defined in this chapter (p14).
 
 ## Exclusions (declared, not silently dropped)

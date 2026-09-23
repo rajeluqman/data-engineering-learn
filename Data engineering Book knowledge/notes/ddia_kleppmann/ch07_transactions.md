@@ -144,10 +144,10 @@ Unlike serial execution (p279), SSI is not capped at one CPU core, since Foundat
 
 ## 9. Cross-references
 
-- Directly extends Ch.5's replication durability and conflict-resolution material — read committed/snapshot isolation lost-update prevention explicitly does not carry over to multi-leader/leaderless replicated systems, which instead rely on sibling-merging (Ch.5's own mechanism). No contradiction found. `[S]`
-- Directly extends Ch.6's partitioning material for the serial-execution and cross-partition transaction cost discussion. No contradiction found. `[S]`
-- Directly extends Ch.3's storage-engine internals (WAL for atomicity; B-tree append-only/copy-on-write variants reused by MVCC implementations). No contradiction found. `[S]`
-- Forward-references (not yet synthesized in this vault): Ch.9 for distributed transactions, two-phase commit (2PC, explicitly distinguished from 2PL), and generalizing this chapter's single-node serializability techniques across multiple nodes; Ch.8 for network-unreliability context underlying the "retry after ambiguous failure" discussion.
+- Directly extends [[ch05_replication|Ch.5]]'s replication durability and conflict-resolution material — read committed/snapshot isolation lost-update prevention explicitly does not carry over to multi-leader/leaderless replicated systems, which instead rely on sibling-merging ([[ch05_replication|Ch.5]]'s own mechanism). No contradiction found. `[S]`
+- Directly extends [[ch06_partitioning|Ch.6]]'s partitioning material for the serial-execution and cross-partition transaction cost discussion. No contradiction found. `[S]`
+- Directly extends [[ch03_storage_and_retrieval|Ch.3]]'s storage-engine internals (WAL for atomicity; B-tree append-only/copy-on-write variants reused by MVCC implementations). No contradiction found. `[S]`
+- Forward-references (not yet synthesized in this vault): [[ch09_consistency_and_consensus|Ch.9]] for distributed transactions, two-phase commit (2PC, explicitly distinguished from 2PL), and generalizing this chapter's single-node serializability techniques across multiple nodes; [[ch08_trouble_with_distributed_systems|Ch.8]] for network-unreliability context underlying the "retry after ambiguous failure" discussion.
 - No contradiction found with any already-synthesized source in this vault.
 
 ---

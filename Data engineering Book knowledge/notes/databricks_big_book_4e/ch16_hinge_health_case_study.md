@@ -82,9 +82,9 @@
 
 ## 9. Cross-references
 
-- Ch.1 (Introduction to Data Engineering on Databricks): introduces Spark Declarative Pipelines' unified batch/streaming and materialized-view capabilities at a conceptual level, directly applied here.
-- Ch.6 (Implement CDC Data Load and SCD Type 2 With Lakeflow): provides a detailed technical walkthrough of CDC-based ingestion patterns; this case study is a large-scale, heterogeneous-source production application of similar underlying concepts.
-- Ch.7 (Optimizing Materialized Views Recomputes): the incrementally-updated materialized view mechanism credited here with avoiding full view rebuilds is the same Enzyme-engine-based incremental refresh detailed in that chapter.
+- [[ch01_introduction_to_data_engineering_on_databricks|Ch.1]] (Introduction to Data Engineering on Databricks): introduces Spark Declarative Pipelines' unified batch/streaming and materialized-view capabilities at a conceptual level, directly applied here.
+- [[ch06_implement_cdc_and_scd_type_2_with_lakeflow|Ch.6]] (Implement CDC Data Load and SCD Type 2 With Lakeflow): provides a detailed technical walkthrough of CDC-based ingestion patterns; this case study is a large-scale, heterogeneous-source production application of similar underlying concepts.
+- [[ch07_optimizing_materialized_views_recomputes|Ch.7]] (Optimizing Materialized Views Recomputes): the incrementally-updated materialized view mechanism credited here with avoiding full view rebuilds is the same Enzyme-engine-based incremental refresh detailed in that chapter.
 
 ## Exclusions (declared, not silently dropped)
 

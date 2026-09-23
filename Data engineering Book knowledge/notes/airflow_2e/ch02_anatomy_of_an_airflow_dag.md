@@ -96,8 +96,8 @@ Docker Compose is explicitly preferred by the chapter for the case "when the Air
 
 ## 9. Cross-references
 
-- Directly extends Ch.1's five-component Airflow architecture, reused here as the concrete list of services a minimal deployment runs. No contradiction found. `[S]`
-- Forward-references detailed scheduling semantics to Ch.3, the Taskflow API and failure-handling configuration to Ch.6, run-time context usage to Ch.5, and DAG bundles to Ch.17 — none yet synthesized in this vault.
+- Directly extends [[ch01_meet_apache_airflow|Ch.1]]'s five-component Airflow architecture, reused here as the concrete list of services a minimal deployment runs. No contradiction found. `[S]`
+- Forward-references detailed scheduling semantics to [[ch03_time_based_scheduling|Ch.3]], the Taskflow API and failure-handling configuration to [[ch06_defining_dependencies_between_tasks|Ch.6]], run-time context usage to [[ch05_templating_tasks_using_the_airflow_context|Ch.5]], and DAG bundles to [[ch17_airflow_deployment_options|Ch.17]] — none yet synthesized in this vault.
 - No contradiction found with any already-synthesized source in this vault.
 
 ---

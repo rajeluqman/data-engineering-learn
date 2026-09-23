@@ -67,7 +67,7 @@
 
 ## 9. Cross-references
 
-- Chapter 15 (operating Airflow in production): cited as the chapter whose examples require the extra Grafana/Prometheus/Flower/Redis monitoring services configured via `compose.override.yaml` (p501).
+- [[ch15_operating_airflow_in_production|Chapter 15]] (operating Airflow in production): cited as the chapter whose examples require the extra Grafana/Prometheus/Flower/Redis monitoring services configured via `compose.override.yaml` (p501).
 
 ## Exclusions (declared, not silently dropped)
 

@@ -95,8 +95,8 @@ Poor fits (p49): streaming pipelines — Airflow is "designed primarily to run r
 
 ## 9. Cross-references
 
-- Forward-references dynamic DAG generation and custom operators/sensors to Ch.9 and Ch.12 — not yet synthesized in this vault.
-- Forward-references detailed scheduling semantics to Ch.3 (Time-based scheduling) and Ch.4 (Asset-aware scheduling) — not yet synthesized in this vault.
+- Forward-references dynamic DAG generation and custom operators/sensors to [[ch09_extending_airflow_with_custom_operators_and_sensors|Ch.9]] and [[ch12_best_practices|Ch.12]] — not yet synthesized in this vault.
+- Forward-references detailed scheduling semantics to [[ch03_time_based_scheduling|Ch.3]] (Time-based scheduling) and [[ch04_asset_aware_scheduling|Ch.4]] (Asset-aware scheduling) — not yet synthesized in this vault.
 - No cross-reference yet possible to other sources in this vault, since this is the first `airflow_2e` chapter synthesized.
 
 ---

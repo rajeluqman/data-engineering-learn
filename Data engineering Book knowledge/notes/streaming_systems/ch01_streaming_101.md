@@ -105,9 +105,9 @@
 
 ## 9. Cross-references
 
-- Chapter 3 (watermarks) and Chapter 4 (advanced windowing): referenced for the mechanisms estimating event-time window completeness (p45).
-- Chapter 5 (exactly-once and side effects): referenced for a deeper treatment of consistency guarantees and the exactly-once/effectively-once terminology (p28, p47).
-- Chapter 6, 8, 9 (streams and tables, streaming SQL, streaming joins): referenced for the deeper table/stream constitution relationship only briefly introduced here (p25, p46).
+- [[ch03_watermarks|Chapter 3]] (watermarks) and [[ch04_advanced_windowing|Chapter 4]] (advanced windowing): referenced for the mechanisms estimating event-time window completeness (p45).
+- [[ch05_exactly_once_and_side_effects|Chapter 5]] (exactly-once and side effects): referenced for a deeper treatment of consistency guarantees and the exactly-once/effectively-once terminology (p28, p47).
+- [[ch06_streams_and_tables|Chapter 6]], 8, 9 (streams and tables, streaming SQL, streaming joins): referenced for the deeper table/stream constitution relationship only briefly introduced here (p25, p46).
 - Blog posts "Streaming 101"/"Streaming 102" (Tyler Akidau) and Jay Kreps's "Questioning the Lambda Architecture" / "Why local state is a fundamental primitive in stream processing," cited as direct sources this chapter is based on (p22, p26, p27).
 - MillWheel, Spark Streaming, and Flink snapshotting papers, cited for further detail on strong-consistency mechanisms (p28).
 

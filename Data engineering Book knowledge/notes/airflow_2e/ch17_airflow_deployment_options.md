@@ -96,10 +96,10 @@ Confirm the "You should set a static" secret-key warning
 
 ## 9. Cross-references
 
-- Chapter 1 (Airflow architecture): the component diagram is reused to map Kubernetes pods to Airflow components (p480, Figure 17.3, "we link the list of running pods to the architecture described in chapter 1").
-- Chapter 15 (operating Airflow in production): executor types and trade-offs are referenced rather than repeated: "The options are covered in chapter 15, so we won't repeat them here."
+- [[ch01_meet_apache_airflow|Chapter 1]] (Airflow architecture): the component diagram is reused to map Kubernetes pods to Airflow components (p480, Figure 17.3, "we link the list of running pods to the architecture described in chapter 1").
+- [[ch15_operating_airflow_in_production|Chapter 15]] (operating Airflow in production): executor types and trade-offs are referenced rather than repeated: "The options are covered in chapter 15, so we won't repeat them here."
 (p494)
-- Chapter 2 (DAG examples): the Git-sync example deploys `chapter02/dags` directly from the book's own repository (p490).
+- [[ch02_anatomy_of_an_airflow_dag|Chapter 2]] (DAG examples): the Git-sync example deploys `[[ch02_anatomy_of_an_airflow_dag|chapter02]]/dags` directly from the book's own repository (p490).
 - Appendix A (referenced for the Docker Compose–based Kubernetes setup used throughout this chapter's examples) (p478).
 
 ## Exclusions (declared, not silently dropped)

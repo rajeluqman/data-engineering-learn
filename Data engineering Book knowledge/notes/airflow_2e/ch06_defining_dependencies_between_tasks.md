@@ -139,8 +139,8 @@ Fall back to the regular operator API for any operator not covered by table 6.2'
 
 ## 9. Cross-references
 
-- Chapter 1 (umbrella ML use case) and Chapter 2 (rocket-launch DAG): source examples reused throughout this chapter (p142-143).
-- Chapter 3 (atomicity and idempotency): referenced for the XCom-breaking-atomicity discussion (p165).
+- [[ch01_meet_apache_airflow|Chapter 1]] (umbrella ML use case) and [[ch02_anatomy_of_an_airflow_dag|Chapter 2]] (rocket-launch DAG): source examples reused throughout this chapter (p142-143).
+- [[ch03_time_based_scheduling|Chapter 3]] (atomicity and idempotency): referenced for the XCom-breaking-atomicity discussion (p165).
 - Later chapters (unspecified in the extracted range): Table 6.2 notes several Taskflow decorators are covered via "delve into most of them in subsequent chapters" (p168).
 
 ## Exclusions (declared, not silently dropped)

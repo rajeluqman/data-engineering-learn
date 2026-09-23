@@ -106,8 +106,8 @@
 
 ## 9. Cross-references
 
-- Chapter 11 (running tasks in containers): `DockerOperator` pattern reused for every task in this project (p381).
-- Chapter 13 (NYC transportation project): Docker-Compose-based reproducible project structure reused (p378).
+- [[ch11_running_tasks_in_containers|Chapter 11]] (running tasks in containers): `DockerOperator` pattern reused for every task in this project (p381).
+- [[ch13_project_finding_the_fastest_way_to_get_around_nyc|Chapter 13]] (NYC transportation project): Docker-Compose-based reproducible project structure reused (p378).
 
 ## Exclusions (declared, not silently dropped)
 

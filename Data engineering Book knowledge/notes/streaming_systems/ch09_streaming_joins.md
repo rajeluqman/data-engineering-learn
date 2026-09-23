@@ -100,11 +100,11 @@
 
 ## 9. Cross-references
 
-- Chapter 6: stream/table theory (grouping = stream→table), the direct conceptual foundation for "all joins are streaming joins" (p313).
-- Chapter 8: TVR theory and the `TABLE`/`STREAM`/`TVR`/`Sys.Undo`/`Sys.EmitTime` vocabulary, used throughout to render every join example (p317-319).
+- [[ch06_streams_and_tables|Chapter 6]]: stream/table theory (grouping = stream→table), the direct conceptual foundation for "all joins are streaming joins" (p313).
+- [[ch08_streaming_sql|Chapter 8]]: TVR theory and the `TABLE`/`STREAM`/`TVR`/`Sys.Undo`/`Sys.EmitTime` vocabulary, used throughout to render every join example (p317-319).
 - Chapters 2 and 3: watermark mechanics, reused for timing out unmatched windowed outer-join rows (p334-335).
 - Julian Hyde's "Streams, joins, and temporal tables" document, credited as the source of "the example data and the temporal join use case motivating it," lifted "almost wholesale" (p358, footnote).
-- Chapter 10 (The Evolution of Large-Scale Data Processing): not explicitly cross-referenced within this chapter's visible text, but follows as the book's closing chapter per `CHAPTER_MAP.csv` sequencing.
+- [[ch10_evolution_of_large_scale_data_processing|Chapter 10]] (The Evolution of Large-Scale Data Processing): not explicitly cross-referenced within this chapter's visible text, but follows as the book's closing chapter per `CHAPTER_MAP.csv` sequencing.
 
 ## Exclusions (declared, not silently dropped)
 

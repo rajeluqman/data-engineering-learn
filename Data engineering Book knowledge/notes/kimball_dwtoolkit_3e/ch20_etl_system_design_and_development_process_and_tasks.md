@@ -136,8 +136,8 @@ Explicitly not needed for accumulating snapshots (p561): "We have not found this
 
 ## 9. Cross-references
 
-- Directly extends and is fully consistent with the 34 ETL subsystems from Ch.19 (ETL Subsystems and Techniques), particularly the SCD manager (subsystem 9), surrogate key pipeline (subsystem 14), fact table builders (subsystem 13), and the real-time data quality discussion explicitly deferred from Ch.19 (p482 there) and completed here — no contradiction found; this chapter is the direct practical-process continuation Ch.19 itself promised.
-- The chapter's own text signals this is the final ETL-focused chapter before the book's closing scope: the summary makes no forward chapter reference (unlike Ch.17, 18, and 19), consistent with this being deep in the book's process/methodology closing section.
+- Directly extends and is fully consistent with the 34 ETL subsystems from [[ch19_etl_subsystems_and_techniques|Ch.19]] (ETL Subsystems and Techniques), particularly the SCD manager (subsystem 9), surrogate key pipeline (subsystem 14), fact table builders (subsystem 13), and the real-time data quality discussion explicitly deferred from [[ch19_etl_subsystems_and_techniques|Ch.19]] (p482 there) and completed here — no contradiction found; this chapter is the direct practical-process continuation [[ch19_etl_subsystems_and_techniques|Ch.19]] itself promised.
+- The chapter's own text signals this is the final ETL-focused chapter before the book's closing scope: the summary makes no forward chapter reference (unlike [[ch17_kimball_dwbi_lifecycle_overview|Ch.17]], 18, and 19), consistent with this being deep in the book's process/methodology closing section.
 - No unresolved forward-references to not-yet-synthesized chapters were found in this chapter's body.
 
 ---
