@@ -1,0 +1,290 @@
+const DATA={"Q001":{"answer":1,"feedback":["Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Correct: NOT NULL rejects a row that does not supply a value for a required column without a default.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach."]},"Q005":{"answer":2,"feedback":["Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Correct: Composite uniqueness encodes the stated grain.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach."]},"Q007":{"answer":1,"feedback":["Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Correct: Senior review must distinguish physical uniqueness from business grain and pipeline stage.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach."]},"Q009":{"answer":1,"feedback":["Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Correct: WHERE filters input rows before grouping.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach."]},"Q013":{"answer":0,"feedback":["Correct: Because `(F AND France) OR recent`, recent rows are no longer required to be female.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach."]},"Q016":{"answer":1,"feedback":["Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Correct: The correctness contract comes first; pushdown is valid only if semantics are preserved.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach."]},"Q019":{"answer":1,"feedback":["Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Correct: Group key determines output grain aggregate.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach."]},"Q022":{"answer":1,"feedback":["Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Correct: Reconciliation need both aggregate and key-level checks.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach."]},"Q025":{"answer":1,"feedback":["Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Correct: Aggregation faithfully sums its input; if join fan-out multiplied rows, KPI changes.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach."]},"Q027":{"answer":1,"feedback":["Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Correct: Only 101 and 201 match.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach."]},"Q031":{"answer":2,"feedback":["Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Correct: Join emits one output row per matching pair.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach."]},"Q036":{"answer":0,"feedback":["Correct: The root cause is cardinality/business rules; DISTINCT operates on projected row equality, not relationship correctness.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach."]},"Q041":{"answer":1,"feedback":["Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Correct: WHERE scopes the UPDATE to matching rows.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach."]},"Q043":{"answer":1,"feedback":["Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Correct: UPDATE changes name but email remains aa; subsequent DELETE removes that row.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach."]},"Q045":{"answer":1,"feedback":["Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Correct: Controlled correction requires scope, evidence, safe rerun and validation.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach."]},"Q047":{"answer":1,"feedback":["Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Correct: 200\u00d70.90=180.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach."]},"Q052":{"answer":0,"feedback":["Correct: Those specifiers format full weekday/month names, day-of-month and four-digit year.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach."]},"Q057":{"answer":0,"feedback":["Correct: Type normalization should be governed upstream; runtime casts can hide bad values and affect plans.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach."]},"Q061":{"answer":0,"feedback":["Correct: CASE returns first matching branch.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach."]},"Q063":{"answer":0,"feedback":["Correct: More specific/priority conditions must be ordered intentionally.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach."]},"Q065":{"answer":0,"feedback":["Correct: Complex rules benefit from explicit data/model governance rather than buried logic.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach."]},"Q067":{"answer":0,"feedback":["Correct: Explicit ROWS frame accumulates from partition start to current row.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach."]},"Q069":{"answer":1,"feedback":["Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Correct: Cumulative sums are 10;10+20=30;10+20+30=60.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach."]},"Q072":{"answer":0,"feedback":["Correct: Window semantics depend on input set; optimization cannot alter required history.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach."]},"Q075":{"answer":1,"feedback":["Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Correct: Dense rank repeats ties without gaps.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach."]},"Q078":{"answer":1,"feedback":["Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Correct: Most expensive requires descending price.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach."]},"Q083":{"answer":1,"feedback":["Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Correct: Data may be insufficient to infer authoritative winner.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach."]},"Q089":{"answer":0,"feedback":["Correct: Notes introduce subquery as query within query.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach."]},"Q090":{"answer":0,"feedback":["Correct: Scalar subquery supplies comparison value.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach."]},"Q095":{"answer":1,"feedback":["Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Correct: MySQL can merge or materialize CTEs/derived tables; inspect plan rather than assume.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach.","Incorrect: this option does not satisfy the rule being tested. Re-check the question's grain and semantics before choosing an approach."]}};const KEY='sqlGuidedCourseV2';let st={};try{st=JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){};const boxes=[...document.querySelectorAll('[data-module]')];function progress(){const n=boxes.filter(b=>b.checked).length;document.getElementById('ptext').textContent=`${n} / ${boxes.length} modules understood`;document.getElementById('pbar').style.width=`${n/boxes.length*100}%`}boxes.forEach(b=>{b.checked=!!st[b.dataset.module];b.onchange=()=>{st[b.dataset.module]=b.checked;localStorage.setItem(KEY,JSON.stringify(st));progress()}});document.querySelectorAll('.qcard').forEach(card=>{const id=card.dataset.qid,info=DATA[id],buttons=[...card.querySelectorAll('.opt')],fb=card.querySelector('.feedback');buttons.forEach((b,i)=>b.onclick=()=>{buttons.forEach((x,j)=>{x.disabled=true;if(j===info.answer)x.classList.add('correct');else if(j===i)x.classList.add('wrong')});fb.hidden=false;fb.textContent=info.feedback[i]})});progress();
+window.AtlasCatalog={"schemaVersion":1,"source":"Aila site 432 live page inventory, 2026-09-25","routes":{"sql":"/project-engineering-atlas/sql-learning-path","guided":"/project-engineering-atlas/sql-field-lab","assessment":"/project-engineering-atlas/sql-field-lab-full","senior":"/project-engineering-atlas/de-senior-lab"},"modules":["M01","M02","M03","M04","M05","M06","M07","M08","M09","M10"],"guided":["W01","W02","W03","W04","W05","W06","W07","W08","W09","W10","W11","W12","W13","W14","W15"],"questions":["Q001","Q002","Q003","Q004","Q005","Q006","Q007","Q008","Q009","Q010","Q011","Q012","Q013","Q014","Q015","Q016","Q017","Q018","Q019","Q020","Q021","Q022","Q023","Q024","Q025","Q026","Q027","Q028","Q029","Q030","Q031","Q032","Q033","Q034","Q035","Q036","Q037","Q038","Q039","Q040","Q041","Q042","Q043","Q044","Q045","Q046","Q047","Q048","Q049","Q050","Q051","Q052","Q053","Q054","Q055","Q056","Q057","Q058","Q059","Q060","Q061","Q062","Q063","Q064","Q065","Q066","Q067","Q068","Q069","Q070","Q071","Q072","Q073","Q074","Q075","Q076","Q077","Q078","Q079","Q080","Q081","Q082","Q083","Q084","Q085","Q086","Q087","Q088","Q089","Q090","Q091","Q092","Q093","Q094","Q095","Q096","Q097","Q098","Q099","Q100"],"labs":["LAB-M01","LAB-M02","LAB-M03","LAB-M04","LAB-M05","LAB-M06","LAB-M07","LAB-M08","LAB-O01","LAB-O02","LAB-O03","LAB-O04","LAB-O05","LAB-O06","LAB-O07","LAB-O08","LAB-R01","LAB-R02","LAB-R03","LAB-R04","LAB-R05","LAB-R06","LAB-R07","LAB-R08"],"senior":{"operations":["OP-IDEM-01","OP-IDEM-02","OP-IDEM-03","OP-IDEM-04","OP-IDEM-05","OP-IDEM-06","OP-INC-01","OP-INC-02","OP-INC-03","OP-INC-04","OP-INC-05","OP-INC-06","OP-ORCH-01","OP-ORCH-02","OP-ORCH-03","OP-ORCH-04","OP-ORCH-05","OP-ORCH-06","OP-MON-01","OP-MON-02","OP-MON-03","OP-MON-04","OP-MON-05","OP-MON-06","OP-REC-01","OP-REC-02","OP-REC-03","OP-REC-04","OP-REC-05","OP-REC-06","OP-DQ-01","OP-DQ-02","OP-DQ-03","OP-DQ-04","OP-DQ-05","OP-DQ-06","OP-OWN-01","OP-OWN-02","OP-OWN-03","OP-OWN-04","OP-OWN-05","OP-OWN-06","OP-OWN-07"],"platform":["PA-SCHEMA-01","PA-SCHEMA-02","PA-SCHEMA-03","PA-SCHEMA-04","PA-SCHEMA-05","PA-SCHEMA-06","PA-STREAM-01","PA-STREAM-02","PA-STREAM-03","PA-STREAM-04","PA-STREAM-05","PA-STREAM-06","PA-SPARK-01","PA-SPARK-02","PA-SPARK-03","PA-SPARK-04","PA-SPARK-05","PA-SPARK-06","PA-SPARK-07","PA-SEC-01","PA-SEC-02","PA-SEC-03","PA-SEC-04","PA-SEC-05","PA-SEC-06","PA-SEC-07","PA-COST-01","PA-COST-02","PA-COST-03","PA-COST-04","PA-COST-05","PA-COST-06","PA-LAYER-01","PA-LAYER-02","PA-LAYER-03","PA-LAYER-04","PA-LAYER-05","PA-LAYER-06","PA-SERVE-01","PA-SERVE-02","PA-SERVE-03","PA-SERVE-04","PA-SERVE-05","PA-SERVE-06","PA-SCD-01","PA-SCD-02","PA-SCD-03","PA-SCD-04","PA-SCD-05","PA-SCD-06","PA-ARCH-01","PA-ARCH-02","PA-ARCH-03","PA-ARCH-04","PA-ARCH-05","PA-ARCH-06"],"drills":["DR-F01-01","DR-F01-02","DR-F01-03","DR-F02-01","DR-F02-02","DR-F02-03","DR-F03-01","DR-F03-02","DR-F03-03","DR-F04-01","DR-F04-02","DR-F04-03","DR-F05-01","DR-F05-02","DR-F05-03","DR-F06-01","DR-F06-02","DR-F06-03","DR-F07-01","DR-F07-02","DR-F07-03","DR-F08-01","DR-F08-02","DR-F08-03","DR-F09-01","DR-F09-02","DR-F09-03","DR-F10-01","DR-F10-02","DR-F10-03","DR-F11-01","DR-F11-02","DR-F11-03","DR-F12-01","DR-F12-02","DR-F12-03","DR-F13-01","DR-F13-02","DR-F13-03","DR-F14-01","DR-F14-02","DR-F14-03","DR-F15-01","DR-F15-02","DR-F15-03","DR-F16-01","DR-F16-02","DR-F16-03","DR-F17-01","DR-F17-02","DR-F17-03","DR-F18-01","DR-F18-02","DR-F18-03"],"capstones":["CAP-01","CAP-02","CAP-03","CAP-04","CAP-05","CAP-06","CAP-07","CAP-08","CAP-09","CAP-10","CAP-11","CAP-12"]}};
+/* Atlas learner state v1. Plain JS for Aila pages and Node tests. */
+(function (root, factory) {
+  const api = factory(root);
+  if (typeof module === 'object' && module.exports) module.exports = api;
+  else root.AtlasProgress = api;
+})(typeof globalThis !== 'undefined' ? globalThis : this, function (root) {
+  'use strict';
+  const KEY = 'pe-atlas:432:learner:v1';
+  const LEGACY = {
+    modules: 'sqlGuidedCourseV2',
+    guided: 'sqlFieldLabWindowModuleV2',
+    questions: 'sqlFieldLabFullQ1',
+    labs: 'sqlFieldLabFullL1',
+    senior: 'seniorDeLabV4'
+  };
+  const BASE = '/project-engineering-atlas';
+  const isObject = x => x !== null && typeof x === 'object' && !Array.isArray(x);
+  const validTime = x => typeof x === 'string' &&
+    /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}/.test(x) &&
+    !Number.isNaN(Date.parse(x)) && x.length <= 40;
+  const dict = () => Object.create(null);
+  const own = (o, k) => Object.prototype.hasOwnProperty.call(o, k);
+  const clone = x => JSON.parse(JSON.stringify(x));
+
+  function empty() {
+    return {schemaVersion: 1, lastLocation: null, read: dict(), attempts: dict(),
+      senior: dict(), review: dict(), bookmarks: [], legacyMigration: null};
+  }
+
+  function ids(catalog) {
+    if (!isObject(catalog) || catalog.schemaVersion !== 1) throw new Error('Invalid Atlas catalog');
+    const sets = {};
+    for (const key of ['modules', 'guided', 'questions', 'labs']) {
+      if (!Array.isArray(catalog[key]) || new Set(catalog[key]).size !== catalog[key].length)
+        throw new Error('Invalid catalog ' + key);
+      sets[key] = new Set(catalog[key]);
+    }
+    if (!isObject(catalog.senior)) throw new Error('Invalid Senior catalog');
+    sets.senior = new Set();
+    for (const key of ['operations', 'platform', 'drills', 'capstones']) {
+      if (!Array.isArray(catalog.senior[key])) throw new Error('Invalid Senior ' + key);
+      for (const id of catalog.senior[key]) {
+        if (sets.senior.has(id)) throw new Error('Duplicate Senior ID');
+        sets.senior.add(id);
+      }
+    }
+    return sets;
+  }
+
+  function validContent(contentId, sets) {
+    return typeof contentId === 'string' && contentId.startsWith('sql-') &&
+      sets.modules.has(contentId.slice(4));
+  }
+
+  function safeState(raw, sets, strict) {
+    if (!isObject(raw) || raw.schemaVersion !== 1) throw new Error('Unsupported learner state');
+    if (strict && (!isObject(raw.read) || !isObject(raw.attempts) ||
+        !isObject(raw.senior) || !isObject(raw.review) || !Array.isArray(raw.bookmarks)))
+      throw new Error('Incomplete learner state');
+    const out = empty();
+    const accept = (ok, label) => {
+      if (!ok && strict) throw new Error('Invalid learner state: ' + label);
+      return ok;
+    };
+    if (raw.lastLocation !== null && raw.lastLocation !== undefined) {
+      const v = raw.lastLocation;
+      if (accept(isObject(v) && validContent(v.contentId, sets) &&
+          v.section === 'module' && validTime(v.visitedAt), 'lastLocation'))
+        out.lastLocation = {contentId: v.contentId, section: 'module', visitedAt: v.visitedAt};
+    }
+    for (const [key, value] of Object.entries(isObject(raw.read) ? raw.read : {})) {
+      if (!accept(validContent(key, sets) && isObject(value) &&
+          validTime(value.markedAt) && typeof value.selfReported === 'boolean', 'read:' + key)) continue;
+      out.read[key] = {markedAt: value.markedAt, selfReported: value.selfReported};
+    }
+    for (const [key, value] of Object.entries(isObject(raw.attempts) ? raw.attempts : {})) {
+      const [kind, id, extra] = key.split(':');
+      const recognized = !extra && ((kind === 'guided' && sets.guided.has(id)) ||
+        (kind === 'question' && sets.questions.has(id)) ||
+        (kind === 'lab' && sets.labs.has(id)));
+      if (!accept(recognized && isObject(value) && Number.isInteger(value.attemptCount) &&
+          value.attemptCount >= 0 && value.attemptCount <= 10000 &&
+          typeof value.completed === 'boolean' &&
+          (value.lastCorrect === null || typeof value.lastCorrect === 'boolean') &&
+          validTime(value.updatedAt), 'attempt:' + key)) continue;
+      out.attempts[key] = {attemptCount: value.attemptCount, completed: value.completed,
+        lastCorrect: value.lastCorrect, updatedAt: value.updatedAt};
+    }
+    for (const [key, value] of Object.entries(isObject(raw.senior) ? raw.senior : {})) {
+      if (!accept(sets.senior.has(key) && isObject(value) &&
+          ['review', 'complete'].includes(value.status) && validTime(value.updatedAt),
+          'senior:' + key)) continue;
+      out.senior[key] = {status: value.status, updatedAt: value.updatedAt};
+    }
+    for (const [key, value] of Object.entries(isObject(raw.review) ? raw.review : {})) {
+      if (!accept(validContent(key, sets) && isObject(value) &&
+          validTime(value.dueAt) && typeof value.reason === 'string' &&
+          value.reason.length <= 120, 'review:' + key)) continue;
+      out.review[key] = {dueAt: value.dueAt, reason: value.reason};
+    }
+    if (!accept(Array.isArray(raw.bookmarks), 'bookmarks')) out.bookmarks = [];
+    else {
+      out.bookmarks = [...new Set(raw.bookmarks.filter(x => validContent(x, sets)))];
+      accept(out.bookmarks.length === raw.bookmarks.length, 'bookmarks');
+    }
+    const migration = raw.legacyMigration;
+    if (migration !== null && migration !== undefined) {
+      if (accept(isObject(migration) && migration.version === 1 &&
+          validTime(migration.completedAt), 'legacyMigration'))
+        out.legacyMigration = {version: 1, completedAt: migration.completedAt};
+    }
+    return out;
+  }
+
+  function readJson(storage, key, warnings) {
+    try {
+      const raw = storage.getItem(key);
+      if (raw === null) return null;
+      const parsed = JSON.parse(raw);
+      if (!isObject(parsed)) throw new Error('Expected object');
+      return parsed;
+    } catch (_) {
+      warnings.push('Cannot read ' + key);
+      return null;
+    }
+  }
+
+  function create(storage, catalog, clock) {
+    const sets = ids(catalog);
+    const warnings = [];
+    const now = () => (clock ? clock() : new Date().toISOString());
+    let persistent = !!storage;
+    let state = empty();
+    if (storage) {
+      const current = readJson(storage, KEY, warnings);
+      if (current) {
+        try { state = safeState(current, sets, false); }
+        catch (_) { warnings.push('Learner state could not be recovered'); }
+      }
+    } else warnings.push('Browser storage unavailable');
+
+    function persist() {
+      if (!persistent) return false;
+      try { storage.setItem(KEY, JSON.stringify(state)); return true; }
+      catch (_) { persistent = false; warnings.push('Progress is in memory only'); return false; }
+    }
+    function migrate() {
+      const stamp = now();
+      if (!validTime(stamp)) throw new Error('Invalid clock');
+      let changed = !state.legacyMigration;
+      const old = {};
+      for (const [name, key] of Object.entries(LEGACY))
+        old[name] = storage ? readJson(storage, key, warnings) : null;
+      for (const id of sets.modules) {
+        if (old.modules && old.modules[id] === true && !own(state.read, 'sql-' + id))
+          { state.read['sql-' + id] = {markedAt: stamp, selfReported: true}; changed = true; }
+      }
+      const take = (record, kind, allowed, attempted, completed) => {
+        for (const [id, value] of Object.entries(record || {})) {
+          if (!allowed.has(id) || !isObject(value) || (!attempted(value) && !completed(value))) continue;
+          const key = kind + ':' + id;
+          if (!own(state.attempts, key)) {
+            state.attempts[key] = {attemptCount: attempted(value) ? 1 : 0,
+              completed: completed(value), lastCorrect: null, updatedAt: stamp};
+            changed = true;
+          } else if (completed(value) && !state.attempts[key].completed) {
+            state.attempts[key].completed = true;
+            state.attempts[key].updatedAt = stamp;
+            changed = true;
+          }
+        }
+      };
+      take(old.guided, 'guided', sets.guided, v => v.answered === true, v => v.done === true);
+      take(old.questions, 'question', sets.questions, v => v.answered === true, v => v.done === true);
+      take(old.labs, 'lab', sets.labs, v => v.touched === true, v => v.touched === true);
+      const items = isObject(old.senior?.items) ? old.senior.items : {};
+      for (const [id, value] of Object.entries(items)) {
+        if (sets.senior.has(id) && isObject(value) &&
+            ['review', 'complete'].includes(value.status) &&
+            (!own(state.senior, id) ||
+             (value.status === 'complete' && state.senior[id].status !== 'complete'))) {
+          state.senior[id] = {status: value.status, updatedAt: stamp};
+          changed = true;
+        }
+      }
+      // Legacy Senior "last" stores a tab, not a visited card.
+      if (!state.legacyMigration) state.legacyMigration = {version: 1, completedAt: stamp};
+      if (changed) persist();
+      return state;
+    }
+    function snapshot() { return clone(state); }
+    function summary() {
+      const count = (array, f) => array.filter(f).length;
+      const seniorIds = [...sets.senior];
+      return {
+        modules: {read: count(catalog.modules, id => own(state.read, 'sql-' + id)), total: catalog.modules.length},
+        guided: {completed: count(catalog.guided, id => state.attempts['guided:' + id]?.completed === true),
+          total: catalog.guided.length},
+        questions: {completed: count(catalog.questions, id => state.attempts['question:' + id]?.completed === true),
+          attempted: count(catalog.questions, id => (state.attempts['question:' + id]?.attemptCount || 0) > 0),
+          total: catalog.questions.length},
+        labs: {touched: count(catalog.labs, id => state.attempts['lab:' + id]?.completed === true),
+          total: catalog.labs.length},
+        senior: {completed: count(seniorIds, id => state.senior[id]?.status === 'complete'),
+          review: count(seniorIds, id => state.senior[id]?.status === 'review'),
+          total: seniorIds.length}
+      };
+    }
+    function location(id, stamp) {
+      if (!validContent(id, sets)) throw new Error('Unknown content ID');
+      const visitedAt = stamp || now();
+      if (!validTime(visitedAt)) throw new Error('Invalid visit time');
+      state.lastLocation = {contentId: id, section: 'module', visitedAt};
+      persist();
+      return snapshot();
+    }
+    function setModuleRead(id, checked) {
+      if (!sets.modules.has(id)) throw new Error('Unknown module ID');
+      const key = 'sql-' + id;
+      if (checked) state.read[key] = {markedAt: now(), selfReported: true};
+      else delete state.read[key];
+      // Keep the older page writer in step so a later migration cannot undo an unmark.
+      if (storage) {
+        const legacy = readJson(storage, LEGACY.modules, warnings) || {};
+        legacy[id] = !!checked;
+        try { storage.setItem(LEGACY.modules, JSON.stringify(legacy)); }
+        catch (_) { warnings.push('Legacy module state could not be saved'); }
+      }
+      persist();
+      return snapshot();
+    }
+    function resume() {
+      const last = state.lastLocation;
+      if (last && validContent(last.contentId, sets)) {
+        const id = last.contentId.slice(4);
+        return {kind: 'resume', contentId: last.contentId,
+          href: BASE + '/sql-learning-path#' + id.toLowerCase(), label: id};
+      }
+      const next = catalog.modules.find(id => !own(state.read, 'sql-' + id));
+      return next ? {kind: 'start', contentId: 'sql-' + next,
+        href: BASE + '/sql-learning-path#' + next.toLowerCase(), label: next} :
+        {kind: 'practice', contentId: null, href: BASE + '/sql-field-lab-full',
+          label: 'SQL Assessment Bank'};
+    }
+    function exportState() { return JSON.stringify(state, null, 2); }
+    function importState(json) {
+      const parsed = JSON.parse(json);
+      const replacement = safeState(parsed, sets, true);
+      state = replacement;
+      persist();
+      return snapshot();
+    }
+    function reset() {
+      state = empty();
+      if (persistent) {
+        try {
+          storage.removeItem(KEY);
+          for (const key of Object.values(LEGACY)) storage.removeItem(key);
+        }
+        catch (_) { persistent = false; warnings.push('Progress reset in memory only'); }
+      }
+      return snapshot();
+    }
+    function subscribeStorage(onChange) {
+      if (typeof root.addEventListener !== 'function') return () => {};
+      const listener = event => {
+        if (Object.values(LEGACY).includes(event.key)) {
+          migrate();
+          onChange(snapshot());
+          return;
+        }
+        if (event.key !== KEY) return;
+        try {
+          state = event.newValue ? safeState(JSON.parse(event.newValue), sets, false) : empty();
+          onChange(snapshot());
+        } catch (_) { warnings.push('Other tab sent invalid progress'); }
+      };
+      root.addEventListener('storage', listener);
+      return () => root.removeEventListener('storage', listener);
+    }
+    return {migrate, snapshot, summary, location, setModuleRead, resume, exportState,
+      importState, reset, subscribeStorage, warnings, get persistent() { return persistent; }};
+  }
+
+  return {KEY, LEGACY, create, safeState};
+});
+
+(function(){let storage=null;try{storage=localStorage}catch(_){}const p=AtlasProgress.create(storage,AtlasCatalog);p.migrate();document.querySelectorAll('input[data-module]').forEach(el=>el.addEventListener('change',()=>p.setModuleRead(el.dataset.module,el.checked)));document.querySelectorAll('.module[id]').forEach(el=>{el.addEventListener('pointerdown',()=>{const id=el.id.toUpperCase();if(/^M\d{2}$/.test(id))p.location('sql-'+id)},{once:true})})})();

@@ -1,0 +1,82 @@
+
+:root{--a-bg:#f4f6fa;--a-sf:#ffffff;--a-sf2:#edf3ff;--a-bdr:#cbd8e9;--a-tx:#17283f;--a-mt:#516079;--a-ac:#2353b6;--a-warm:#875509;--a-ok:#176b42;--a-err:#a32334}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--a-bg);color:var(--a-tx);font-family:Inter,ui-sans-serif,system-ui,-apple-system,sans-serif}
+.an{position:fixed;z-index:100;inset:0 auto 0 0;width:240px;padding:20px 14px;border-right:1px solid var(--a-bdr);background:#0a1220;overflow-y:auto}
+.an-logo{display:flex;gap:12px;align-items:center;padding:6px 8px 24px;color:white;text-decoration:none}
+.an-mark{display:grid;place-items:center;width:40px;height:40px;border-radius:12px;background:linear-gradient(135deg,#64b5f6,#42a5f5);color:#0a1220;font-weight:900;font-size:14px}
+.an-logo b{font-size:13px;display:block}.an-logo small{font-size:11px;color:var(--a-mt);display:block;margin-top:2px}
+.an nav{display:grid;gap:3px}
+.an nav a{padding:10px 12px;border-radius:10px;color:#9cafc6;text-decoration:none;font-size:13.5px;font-weight:600;transition:all .15s}
+.an nav a:hover{background:var(--a-sf);color:white}
+.an nav a.active{background:var(--a-sf);color:white;box-shadow:inset 3px 0 0 var(--a-ac)}
+.an-sep{margin:16px 12px 6px;color:#506580;font-size:10px;font-weight:800;letter-spacing:.14em}
+.an-top{display:none}.an-btm{display:none}
+.an-main{margin-left:240px;min-height:100vh;padding:40px clamp(24px,4vw,56px) 80px}
+@media(max-width:760px){
+.an{display:none}.an-main{margin:0;padding:62px 14px 86px}
+.an-top{position:fixed;z-index:110;inset:0 0 auto 0;height:54px;display:flex;align-items:center;padding:0 16px;border-bottom:1px solid var(--a-bdr);background:rgba(12,21,36,.95);backdrop-filter:blur(14px)}
+.an-top-brand{color:white;text-decoration:none;font-weight:900;font-size:14px}
+.an-btm{position:fixed;z-index:120;display:grid;grid-template-columns:repeat(5,1fr);left:0;right:0;bottom:0;height:68px;padding:4px 6px calc(4px + env(safe-area-inset-bottom));border-top:1px solid var(--a-bdr);background:rgba(10,18,32,.97);backdrop-filter:blur(14px)}
+.an-btm a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;color:#607590;text-decoration:none;font-size:16px}
+.an-btm a b{font-size:9px;font-weight:700}.an-btm a.active{color:var(--a-ac)}}
+
+:root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--a-tx);background:var(--a-bg);line-height:1.5}*{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,var(--a-bg),#0a1423 35%,var(--a-bg))}header,main,footer{width:min(1180px,calc(100% - 32px));margin:auto}header{padding:28px 0 12px;display:flex;gap:24px;align-items:flex-start}.brand{color:#8fb5ff;text-decoration:none;font-weight:700;white-space:nowrap}h1{margin:0;font-size:clamp(24px,4vw,38px)}h2{margin:.25rem 0;font-size:clamp(22px,3vw,32px)}p{color:#aebcd1}.hero{margin:22px 0;padding:24px;border:1px solid #273653;border-radius:20px;background:#0e1a2d;display:flex;justify-content:space-between;gap:24px}.eyebrow{font-size:12px;letter-spacing:.14em;color:#76d2b3;font-weight:800}.hero-actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap}button,.tab{border:0;border-radius:12px;padding:11px 15px;background:#5d87ef;color:white;font-weight:700;cursor:pointer}.secondary{background:#1b2940;color:#dbe5f5;border:1px solid #34445f}nav{display:flex;gap:8px;overflow:auto;padding:4px 0 14px}.tab{background:#111e32;border:1px solid #273653;white-space:nowrap}.tab.active{background:#2b4e91}.toolbar{display:flex;gap:12px;align-items:end;flex-wrap:wrap;padding:14px 0}.toolbar label{display:grid;gap:5px;color:#aebcd1;font-size:13px}.toolbar input,.toolbar select{background:#0d1828;color:#fff;border:1px solid #2a3b58;border-radius:10px;padding:10px;min-width:220px}.toolbar span{margin-left:auto;color:#89a3c9}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:14px}.card{background:#0e1a2b;border:1px solid #273653;border-radius:18px;padding:18px;display:grid;gap:12px;overflow:hidden;word-wrap:break-word;overflow-wrap:break-word}.card.done{border-color:#378267}.id{font:700 12px ui-monospace,SFMono-Regular,Menlo,monospace;color:#8fb5ff}.badge{display:inline-block;padding:4px 8px;border-radius:999px;background:#172740;border:1px solid #304363;font-size:11px;color:#c6d4e9;margin:2px 4px 2px 0}.badge.synthetic{color:#ffc6cf;border-color:#723849;background:#2a1720}.section{padding:10px 0;border-top:1px solid #1f304a}.section h4{margin:0 0 6px;color:#d7e3f5}.section p,.section li{color:#b4c1d4}.details{background:#091321;border-radius:12px;padding:12px}.details summary{cursor:pointer;font-weight:700;color:#9fc0ff}.rubric{font-size:13px}.card-actions{display:flex;gap:8px;flex-wrap:wrap}.complete{background:#2f7e62}.review{background:#986f2f}.needs{background:#743c48}.capstone{max-width:900px;margin:auto}.unlock{border-left:3px solid #355b99;padding-left:12px;margin:10px 0}.hidden-evidence{filter:blur(5px);user-select:none}.pattern-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}.pattern{padding:16px;background:#0e1a2b;border:1px solid #273653;border-radius:14px}footer{padding:36px 0 60px;color:#7086a8;font-size:13px}@media(max-width:680px){header{display:block}.brand{display:inline-block;margin-bottom:14px}.hero{display:block}.toolbar span{margin-left:0;width:100%}}
+
+/* Card overflow fixes */
+.card *{max-width:100%;overflow-wrap:break-word;word-break:break-word}
+.card h3,.card h4,.card p,.card li,.card span{overflow-wrap:break-word}
+.grid{overflow:hidden}
+
+
+/* Atlas v3 shared wayfinding. Existing lab styles and IDs are preserved. */
+.an{overflow-y:auto}.an nav{display:flex;flex-direction:column;gap:4px}
+.an .atlas-nav-label{font-size:11px;letter-spacing:.1em;color:#8ea5c3;margin:18px 15px 6px;font-weight:800}
+.an .atlas-nav-link{display:block;padding:10px 14px;min-height:44px;border-radius:10px;text-decoration:none}
+.an .atlas-nav-link.active{background:#dce9ff;color:#123b78;font-weight:800}
+.an .atlas-nav-sub{font-size:13px;margin-left:12px;padding:7px 12px}
+.an-top{display:flex;align-items:center;justify-content:space-between;gap:14px}
+.an-top .atlas-top-links{display:flex;gap:16px;align-items:center;font-size:13px}
+.an-top .atlas-top-links a{text-decoration:none}
+.an-btm a{min-width:0;flex:1;text-align:center}.an-btm b{font-size:11px}
+.an-btm .active{font-weight:800}
+.atlas-route{border:1px solid #ccd9ea;background:#f4f8ff;border-radius:16px;padding:20px;margin:20px 0;color:#193455}
+.atlas-route h2{font-size:22px;margin:0 0 8px}.atlas-route p{margin:0 0 12px;line-height:1.6}
+.atlas-route-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+.atlas-route-grid a,.atlas-button{display:block;border:1px solid #b7cbea;border-radius:9px;background:white;color:#16418f;padding:11px 14px;text-decoration:none;min-height:44px;font-weight:700}
+.atlas-route-grid a:hover,.atlas-button:hover{background:#eaf2ff}
+.atlas-lesson{border:1px solid #d2deef;background:#f6f9ff;border-radius:14px;padding:18px;margin:20px 0}
+.atlas-lesson h2{margin:0 0 8px}.atlas-lesson p{line-height:1.65}
+.atlas-lesson textarea{display:block;width:100%;min-height:100px;border:1px solid #9cb2d2;border-radius:8px;padding:12px;font:inherit}
+.atlas-lesson button{min-height:44px;margin:10px 0;padding:9px 14px;border:1px solid #2362ba;border-radius:8px;background:#1454ad;color:white;font:inherit;cursor:pointer}
+.atlas-lesson .atlas-feedback{min-height:1.5em;color:#174b82}
+.atlas-source-details{margin:22px 0}.atlas-source-details>summary{font-weight:800;cursor:pointer;padding:14px;background:#eef3fb;border-radius:9px}
+.atlas-source-details[open]>summary{margin-bottom:12px}
+button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,summary:focus-visible{outline:3px solid #d07710;outline-offset:3px}
+@media(max-width:700px){.an-top .atlas-top-links{display:none}.atlas-route{padding:15px}.an-btm{display:flex}.an-btm a{padding:8px 2px}.an-btm b{font-size:10px}}
+
+
+
+/* Atlas v4 shared shell. This component has the same tokens and geometry on every route. */
+.atlas-v4-side{position:fixed;inset:0 auto 0 0;width:224px;background:#fff;color:#17283f;border-right:1px solid #cbd8e9;padding:20px 14px;z-index:100;overflow-y:auto;font:16px/1.5 Inter,system-ui,sans-serif}
+.atlas-v4-brand{display:block;padding:7px 12px;margin-bottom:22px;color:#17283f;text-decoration:none;font-size:18px;font-weight:800}.atlas-v4-brand small{display:block;color:#516079;font-size:12px;font-weight:500}
+.atlas-v4-nav{display:grid;gap:4px}.atlas-v4-nav a{display:block;min-height:44px;padding:10px 12px;border-radius:9px;text-decoration:none;color:#334763;font-size:16px;font-weight:550}.atlas-v4-nav a[aria-current]{background:#e9f0ff;color:#153d8b;font-weight:750}
+.atlas-v4-top{position:relative;margin-left:224px;width:calc(100% - 224px)!important;min-height:62px;padding:17px 30px;border-bottom:1px solid #cbd8e9;background:#fff;display:flex;justify-content:space-between;gap:12px;color:#516079;font:14px/1.4 Inter,system-ui,sans-serif}.atlas-v4-top a{color:#2353b6}
+body{background:#f4f6fa;color:#17283f}.an-main{margin-left:224px!important;max-width:1100px;padding:28px 32px 85px;color:#17283f}
+.atlas-v4-bottom{display:none}
+body .atlas-lesson,body .atlas-route,body .atlas-source-details>summary{color:#17283f}body .atlas-lesson p,body .atlas-lesson h2,body .atlas-source-details>summary{color:#17283f}
+.an-main h1{color:#17283f!important;-webkit-text-fill-color:#17283f!important;background-image:none!important}
+.an-main textarea,.an-main input,.an-main select{background:#fff!important;color:#17283f!important;border-color:#9cafca!important}.an-main textarea::placeholder,.an-main input::placeholder{color:#516079}
+.an-main .continue-cta{background:#fff!important;color:#17283f!important;border-color:#cbd8e9!important}.an-main .continue-cta h3{color:#17283f!important}.an-main .continue-cta p{color:#516079!important}.an-main .continue-cta .cc-go{color:#fff!important}
+.an-main .hero{background:#fff!important;background-image:none!important;border-color:#cbd8e9!important}.an-main .hero *{color:#17283f!important;-webkit-text-fill-color:#17283f!important}.an-main .hero .eyebrow,.an-main .hero .kicker{color:#2353b6!important;-webkit-text-fill-color:#2353b6!important}
+.an-main .hero button{background:#2353b6!important;color:#fff!important;-webkit-text-fill-color:#fff!important}.an-main .hero button:hover{background:#163e8f!important}
+.an-main .card h3,.an-main .page h2,.an-main .status-cand{color:#17283f!important;-webkit-text-fill-color:#17283f!important}
+.an-main .status-cand{background:#fff5df!important}.an-main .progress-text,.an-main .progress-label{color:#17283f!important}
+.an-main .stats>div,.an-main .pathway>div,.an-main .source-contract{background:#edf3ff!important;color:#17283f!important;border-color:#cbd8e9!important}
+.an-main .stats>div *,.an-main .pathway>div *,.an-main .source-contract *{color:#17283f!important;-webkit-text-fill-color:#17283f!important}
+.an-main .atlas-route p,.an-main .atlas-route label,.an-main .atlas-route .brand,.an-main .atlas-route .progress-row,.an-main .atlas-route .progress-row *{color:#17283f!important;-webkit-text-fill-color:#17283f!important}
+.an-main>.brand,.an-main>header .brand,.an-main>header p,.an-main .toolbar label,.an-main .toolbar #progressText{color:#17283f!important;-webkit-text-fill-color:#17283f!important}
+.an-main .progress-row,.an-main .progress-row *{color:#17283f!important;-webkit-text-fill-color:#17283f!important}
+body .an-main .lab-shell .progress-row,body .an-main .lab-shell .progress-row *{color:#17283f!important;-webkit-text-fill-color:#17283f!important}
+.atlas-v4-nav a:focus-visible,.atlas-v4-bottom a:focus-visible,.atlas-v4-top a:focus-visible{outline:3px solid #a95d00;outline-offset:3px}
+@media(max-width:800px){.atlas-v4-side{display:none}.atlas-v4-top{margin-left:0;width:100%!important;padding:13px 16px;min-height:52px}.an-main{margin-left:0!important;padding:20px 15px 100px}.atlas-v4-bottom{display:flex;position:fixed;inset:auto 0 0;background:#fff;border-top:1px solid #cbd8e9;z-index:150;min-height:60px}.atlas-v4-bottom a{flex:1;text-align:center;padding:12px 2px;color:#334763;text-decoration:none;font:13px/1.35 Inter,system-ui,sans-serif}.atlas-v4-bottom a[aria-current]{color:#153d8b;background:#e9f0ff;font-weight:750}}

@@ -1,0 +1,177 @@
+
+
+/* ── Atlas Nav v2 ── */
+
+:root{--a-bg:#f4f6fa;--a-sf:#ffffff;--a-sf2:#edf3ff;--a-bdr:#cbd8e9;--a-tx:#17283f;--a-mt:#516079;--a-ac:#2353b6;--a-warm:#875509;--a-ok:#176b42;--a-err:#a32334}
+
+*{box-sizing:border-box}
+
+html,body{margin:0;background:var(--a-bg);color:var(--a-tx);font-family:Inter,ui-sans-serif,system-ui,-apple-system,sans-serif}
+
+
+
+.an{position:fixed;z-index:100;inset:0 auto 0 0;width:240px;padding:20px 14px;border-right:1px solid var(--a-bdr);background:#0a1220;overflow-y:auto}
+
+.an-logo{display:flex;gap:12px;align-items:center;padding:6px 8px 24px;color:white;text-decoration:none}
+
+.an-mark{display:grid;place-items:center;width:40px;height:40px;border-radius:12px;background:linear-gradient(135deg,#64b5f6,#42a5f5);color:#0a1220;font-weight:900;font-size:14px}
+
+.an-logo b{font-size:13px;display:block}
+
+.an-logo small{font-size:11px;color:var(--a-mt);display:block;margin-top:2px}
+
+.an nav{display:grid;gap:3px}
+
+.an nav a{padding:10px 12px;border-radius:10px;color:#9cafc6;text-decoration:none;font-size:13.5px;font-weight:600;transition:all .15s}
+
+.an nav a:hover{background:var(--a-sf);color:white}
+
+.an nav a.active{background:var(--a-sf);color:white;box-shadow:inset 3px 0 0 var(--a-ac)}
+
+.an-sep{margin:16px 12px 6px;color:#506580;font-size:10px;font-weight:800;letter-spacing:.14em}
+
+
+
+.an-top{display:none}
+
+.an-btm{display:none}
+
+
+
+/* Main content offset for sidebar */
+
+.an-main{margin-left:240px;min-height:100vh;padding:40px clamp(24px,4vw,56px) 80px}
+
+
+
+@media(max-width:760px){
+
+  .an{display:none}
+
+  .an-main{margin:0;padding:62px 14px 86px}
+
+  .an-top{position:fixed;z-index:110;inset:0 0 auto 0;height:54px;display:flex;align-items:center;padding:0 16px;border-bottom:1px solid var(--a-bdr);background:rgba(12,21,36,.95);backdrop-filter:blur(14px)}
+
+  .an-top-brand{color:white;text-decoration:none;font-weight:900;font-size:14px}
+
+  .an-btm{position:fixed;z-index:120;display:grid;grid-template-columns:repeat(5,1fr);left:0;right:0;bottom:0;height:68px;padding:4px 6px calc(4px + env(safe-area-inset-bottom));border-top:1px solid var(--a-bdr);background:rgba(10,18,32,.97);backdrop-filter:blur(14px)}
+
+  .an-btm a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;color:#607590;text-decoration:none;font-size:16px}
+
+  .an-btm a b{font-size:9px;font-weight:700}
+
+  .an-btm a.active{color:var(--a-ac)}
+
+}
+
+*{box-sizing:border-box}body{margin:0;background:var(--a-bg);color:var(--a-tx);font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif}.shell{width:min(1180px,calc(100% - 28px));margin:auto;padding:28px 0 70px}.hero{border:1px solid #2a3955;border-radius:24px;padding:30px;background:linear-gradient(145deg,#111e35,#0a1426)}.back{color:#abc0df;text-decoration:none}.eyebrow{color:var(--a-ac);font-size:12px;font-weight:800;letter-spacing:.14em;margin-top:28px}.hero h1{font-size:clamp(34px,6vw,66px);line-height:1;margin:.2em 0}.lead{max-width:850px;color:#bbc8dc;font-size:17px;line-height:1.6}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:22px}.stats div,.card,.lab,.coverage-card{border:1px solid #293854;background:#0c1729;border-radius:15px;padding:15px}.stats strong{display:block;font-size:25px}.stats span{display:block;color:#91a1bd;font-size:12px;margin-top:5px}.tabs,.filters{display:flex;gap:8px;flex-wrap:wrap}.tabs{padding:18px 0}.tabs button,.filters button,.toolbar button,.action{border:1px solid #364764;background:#101b2e;color:#dde7f7;border-radius:10px;padding:9px 12px;cursor:pointer}.tabs button.active,.filters button.active{background:#dbeafe;color:#0c1424}.toolbar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 0}.toolbar>div{flex:1}.bar{height:7px;background:#18253b;border-radius:999px;overflow:hidden;margin-top:7px}.bar i{display:block;height:100%;background:var(--a-ac);width:0}.filters{margin:10px 0}.card,.lab{margin:12px 0}.qid{color:var(--a-ac);font-size:12px;font-weight:800}.title{font-size:20px;margin:5px 0}.meta{color:#91a2be;font-size:12px}.badge{display:inline-block;border:1px solid #405171;border-radius:999px;padding:4px 7px;margin:8px 5px 5px 0;font-size:11px}.source{color:#9bd8ff}.repo{color:#88e5c0}.extension{color:#f6d873}.synthetic{color:#f2aad5}.anchor{font:12px/1.5 ui-monospace,monospace;color:#adbad0;background:#07101d;border-radius:9px;padding:9px;margin:10px 0;overflow-wrap:anywhere}.question,.requirement{line-height:1.6;margin:14px 0}.opts{display:grid;gap:7px}.opt{width:100%;text-align:left;border:1px solid #32425f;background:#081322;color:#ecf2fb;border-radius:10px;padding:10px;cursor:pointer}.opt.correct{border-color:#36846d;background:#10281f}.opt.wrong{border-color:#95546f;background:#2c1420}.feedback,.rubric,.guide{background:#091526;border-left:3px solid #507c9f;padding:11px 13px;margin-top:10px;color:#bdc9dc;line-height:1.55}.done{border-color:#2f816a}.checkpoint{border-top:1px solid #293854;padding:12px 0}.checkpoint:first-of-type{border-top:0}.variants{color:#aebbd0}.coverage-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.coverage-card table{width:100%;border-collapse:collapse}.coverage-card td,.coverage-card th{padding:8px;border-bottom:1px solid #26354f;text-align:left;font-size:13px}footer{color:#8798b6;border-top:1px solid #293854;margin-top:25px;padding-top:18px;font-size:12px}@media(max-width:760px){.stats,.coverage-grid{grid-template-columns:1fr 1fr}.toolbar{align-items:flex-start;flex-direction:column}}@media(max-width:520px){.stats,.coverage-grid{grid-template-columns:1fr}}
+
+.shell{max-width:960px!important;width:100%!important}
+
+
+
+
+
+/* Atlas v3 shared wayfinding. Existing lab styles and IDs are preserved. */
+
+.an{overflow-y:auto}.an nav{display:flex;flex-direction:column;gap:4px}
+
+.an .atlas-nav-label{font-size:11px;letter-spacing:.1em;color:#8ea5c3;margin:18px 15px 6px;font-weight:800}
+
+.an .atlas-nav-link{display:block;padding:10px 14px;min-height:44px;border-radius:10px;text-decoration:none}
+
+.an .atlas-nav-link.active{background:#dce9ff;color:#123b78;font-weight:800}
+
+.an .atlas-nav-sub{font-size:13px;margin-left:12px;padding:7px 12px}
+
+.an-top{display:flex;align-items:center;justify-content:space-between;gap:14px}
+
+.an-top .atlas-top-links{display:flex;gap:16px;align-items:center;font-size:13px}
+
+.an-top .atlas-top-links a{text-decoration:none}
+
+.an-btm a{min-width:0;flex:1;text-align:center}.an-btm b{font-size:11px}
+
+.an-btm .active{font-weight:800}
+
+.atlas-route{border:1px solid #ccd9ea;background:#f4f8ff;border-radius:16px;padding:20px;margin:20px 0;color:#193455}
+
+.atlas-route h2{font-size:22px;margin:0 0 8px}.atlas-route p{margin:0 0 12px;line-height:1.6}
+
+.atlas-route-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+
+.atlas-route-grid a,.atlas-button{display:block;border:1px solid #b7cbea;border-radius:9px;background:white;color:#16418f;padding:11px 14px;text-decoration:none;min-height:44px;font-weight:700}
+
+.atlas-route-grid a:hover,.atlas-button:hover{background:#eaf2ff}
+
+.atlas-lesson{border:1px solid #d2deef;background:#f6f9ff;border-radius:14px;padding:18px;margin:20px 0}
+
+.atlas-lesson h2{margin:0 0 8px}.atlas-lesson p{line-height:1.65}
+
+.atlas-lesson textarea{display:block;width:100%;min-height:100px;border:1px solid #9cb2d2;border-radius:8px;padding:12px;font:inherit}
+
+.atlas-lesson button{min-height:44px;margin:10px 0;padding:9px 14px;border:1px solid #2362ba;border-radius:8px;background:#1454ad;color:white;font:inherit;cursor:pointer}
+
+.atlas-lesson .atlas-feedback{min-height:1.5em;color:#174b82}
+
+.atlas-source-details{margin:22px 0}.atlas-source-details>summary{font-weight:800;cursor:pointer;padding:14px;background:#eef3fb;border-radius:9px}
+
+.atlas-source-details[open]>summary{margin-bottom:12px}
+
+button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,summary:focus-visible{outline:3px solid #d07710;outline-offset:3px}
+
+@media(max-width:700px){.an-top .atlas-top-links{display:none}.atlas-route{padding:15px}.an-btm{display:flex}.an-btm a{padding:8px 2px}.an-btm b{font-size:10px}}
+
+
+
+
+
+/* Atlas v4 shared shell. This component has the same tokens and geometry on every route. */
+.atlas-v4-side{position:fixed;inset:0 auto 0 0;width:224px;background:#fff;color:#17283f;border-right:1px solid #cbd8e9;padding:20px 14px;z-index:100;overflow-y:auto;font:16px/1.5 Inter,system-ui,sans-serif}
+.atlas-v4-brand{display:block;padding:7px 12px;margin-bottom:22px;color:#17283f;text-decoration:none;font-size:18px;font-weight:800}.atlas-v4-brand small{display:block;color:#516079;font-size:12px;font-weight:500}
+.atlas-v4-nav{display:grid;gap:4px}.atlas-v4-nav a{display:block;min-height:44px;padding:10px 12px;border-radius:9px;text-decoration:none;color:#334763;font-size:16px;font-weight:550}.atlas-v4-nav a[aria-current]{background:#e9f0ff;color:#153d8b;font-weight:750}
+.atlas-v4-top{position:relative;margin-left:224px;width:calc(100% - 224px)!important;min-height:62px;padding:17px 30px;border-bottom:1px solid #cbd8e9;background:#fff;display:flex;justify-content:space-between;gap:12px;color:#516079;font:14px/1.4 Inter,system-ui,sans-serif}.atlas-v4-top a{color:#2353b6}
+body{background:#f4f6fa;color:#17283f}.an-main{margin-left:224px!important;max-width:1100px;padding:28px 32px 85px;color:#17283f}
+.atlas-v4-bottom{display:none}
+body .atlas-lesson,body .atlas-route,body .atlas-source-details>summary{color:#17283f}body .atlas-lesson p,body .atlas-lesson h2,body .atlas-source-details>summary{color:#17283f}
+.an-main h1{color:#17283f!important;-webkit-text-fill-color:#17283f!important;background-image:none!important}
+.an-main textarea,.an-main input,.an-main select{background:#fff!important;color:#17283f!important;border-color:#9cafca!important}.an-main textarea::placeholder,.an-main input::placeholder{color:#516079}
+.an-main .continue-cta{background:#fff!important;color:#17283f!important;border-color:#cbd8e9!important}.an-main .continue-cta h3{color:#17283f!important}.an-main .continue-cta p{color:#516079!important}.an-main .continue-cta .cc-go{color:#fff!important}
+.an-main .hero{background:#fff!important;background-image:none!important;border-color:#cbd8e9!important}.an-main .hero *{color:#17283f!important;-webkit-text-fill-color:#17283f!important}.an-main .hero .eyebrow,.an-main .hero .kicker{color:#2353b6!important;-webkit-text-fill-color:#2353b6!important}
+.an-main .hero button{background:#2353b6!important;color:#fff!important;-webkit-text-fill-color:#fff!important}.an-main .hero button:hover{background:#163e8f!important}
+.an-main .card h3,.an-main .page h2,.an-main .status-cand{color:#17283f!important;-webkit-text-fill-color:#17283f!important}
+.an-main .status-cand{background:#fff5df!important}.an-main .progress-text,.an-main .progress-label{color:#17283f!important}
+.an-main .stats>div,.an-main .pathway>div,.an-main .source-contract{background:#edf3ff!important;color:#17283f!important;border-color:#cbd8e9!important}
+.an-main .stats>div *,.an-main .pathway>div *,.an-main .source-contract *{color:#17283f!important;-webkit-text-fill-color:#17283f!important}
+.an-main .atlas-route p,.an-main .atlas-route label,.an-main .atlas-route .brand,.an-main .atlas-route .progress-row,.an-main .atlas-route .progress-row *{color:#17283f!important;-webkit-text-fill-color:#17283f!important}
+.an-main>.brand,.an-main>header .brand,.an-main>header p,.an-main .toolbar label,.an-main .toolbar #progressText{color:#17283f!important;-webkit-text-fill-color:#17283f!important}
+.an-main .progress-row,.an-main .progress-row *{color:#17283f!important;-webkit-text-fill-color:#17283f!important}
+body .an-main .lab-shell .progress-row,body .an-main .lab-shell .progress-row *{color:#17283f!important;-webkit-text-fill-color:#17283f!important}
+.atlas-v4-nav a:focus-visible,.atlas-v4-bottom a:focus-visible,.atlas-v4-top a:focus-visible{outline:3px solid #a95d00;outline-offset:3px}
+@media(max-width:800px){.atlas-v4-side{display:none}.atlas-v4-top{margin-left:0;width:100%!important;padding:13px 16px;min-height:52px}.an-main{margin-left:0!important;padding:20px 15px 100px}.atlas-v4-bottom{display:flex;position:fixed;inset:auto 0 0;background:#fff;border-top:1px solid #cbd8e9;z-index:150;min-height:60px}.atlas-v4-bottom a{flex:1;text-align:center;padding:12px 2px;color:#334763;text-decoration:none;font:13px/1.35 Inter,system-ui,sans-serif}.atlas-v4-bottom a[aria-current]{color:#153d8b;background:#e9f0ff;font-weight:750}}
+
+/* Atlas v4 light repaint: question/lab cards (dark-theme leftovers) */
+.card,.lab,.coverage-card{border:1px solid #cbd8e9;background:#fff;color:#17283f;min-width:0;overflow-wrap:anywhere;word-wrap:break-word}
+#questions,#labs{display:flex;flex-direction:column;gap:16px}
+#questions>.card,#labs>.lab{margin:0}
+.qid{color:#2353b6}
+.title{color:#17283f}
+.meta{color:#516079}
+.badge{border:1px solid #b7cbea;background:#f4f8ff}
+.source{color:#1a5fa8}.repo{color:#176b42}.extension{color:#875509}.synthetic{color:#a3286f}
+.anchor{color:#334763;background:#edf3ff;border:1px solid #cbd8e9;white-space:normal;overflow-wrap:anywhere}
+.question,.requirement{color:#17283f;overflow-wrap:anywhere}
+.opts{display:grid;grid-template-columns:minmax(0,1fr);gap:8px}
+.opt{display:block;width:100%;max-width:100%;height:auto;min-height:44px;text-align:left;white-space:normal;overflow-wrap:anywhere;word-wrap:break-word;line-height:1.5;font:inherit;border:1px solid #b7cbea;background:#f4f8ff;color:#17283f}
+.opt:hover:not(:disabled){background:#eaf2ff;border-color:#2353b6}
+.opt.correct{border-color:#2e8a5f;background:#e3f5ea;color:#0f4d2e}
+.opt.wrong{border-color:#c0546f;background:#fdeaee;color:#7d1a30}
+.feedback,.rubric,.guide{background:#f4f8ff;border-left:3px solid #2353b6;color:#334763;overflow-wrap:anywhere}
+.done{border-color:#2e8a5f}
+.checkpoint{border-top:1px solid #cbd8e9}
+.variants{color:#334763}
+.tabs button,.filters button,.toolbar button,.action{border:1px solid #b7cbea;background:#fff;color:#17283f}
+.tabs button.active,.filters button.active{background:#2353b6;border-color:#2353b6;color:#fff}
+.bar{background:#dbe6f5}
+.coverage-card td,.coverage-card th{border-bottom:1px solid #cbd8e9}
+footer{color:#516079;border-top:1px solid #cbd8e9}

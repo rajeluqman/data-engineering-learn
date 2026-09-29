@@ -1,0 +1,176 @@
+<aside class="atlas-v4-side"><a class="atlas-v4-brand" href="/project-engineering-atlas">Project Engineering<small>Atlas</small></a><nav aria-label="Main navigation" class="atlas-v4-nav"><a aria-current="page" href="/project-engineering-atlas">Learn</a><a href="/project-engineering-atlas/sql-field-lab-full">Practice</a><a href="/project-engineering-atlas/concept-atlas">References</a><a href="/project-engineering-atlas/progress">Progress</a></nav></aside><header class="atlas-v4-top"><span>Project Engineering Atlas</span><span>Learn</span></header><main class="an-main"><section class="atlas-route"><h2>Goal: build complex SQL independently</h2><p>The 10 modules provide the foundation. B01–B08 teach output grain → feature CTEs → JOINs → fixture checks.</p><div class="atlas-route-grid"><a href="/project-engineering-atlas/sql-build-lab">Start B01–B08 →</a><a href="/project-engineering-atlas/progress">View progress →</a></div></section><main class="wrap"><header><div class="eyebrow">PROJECT ENGINEERING ATLAS · SQL COURSE</div><h1>SQL Learning Path<br/>Foundation → Senior</h1><p class="lead">This is a <b>course path</b>, not just a question bank. Each module moves through a lesson map → guided checkpoint → applied/repo reasoning → senior edge case. Once you understand the concepts, move on to the 100-question + 24-incident assessment.</p></header>
+<div class="progress"><b id="ptext">0 / 10 modules understood</b><div><i id="pbar"></i></div></div>
+<section class="stages"><article><b>Stage 1 · Foundation</b><p>Syntax, output, execution order, small fixture.</p></article><article><b>Stage 2 · Applied/Repo</b><p>Grain, business rule, repo bridge, validation.</p></article><article><b>Stage 3 · Senior</b><p>Failure mode, RCA, idempotency, reconciliation, optimization.</p></article></section>
+<section class="how"><h2>Pass rule</h2><p>Do not mark a module complete just because you memorised the answer. Mark it when you can: <b>explain expected grain → predict edge case → choose validation → defend fix.</b></p></section>
+<section class="module" id="m01">
+<div class="mhead"><span>M01</span><div><h2>DDL, Constraints &amp; Keys</h2><p>M01 DDL / Constraints / Keys</p></div></div>
+<div class="ladder"><div><b>Foundation</b><p>Structure, constraints, key types, and grain.</p></div><div><b>Applied / Repo</b><p>Use grain to design uniqueness/business keys.</p></div><div><b>Senior</b><p>Schema contracts, natural vs surrogate keys, NULL/uniqueness semantics.</p></div></div>
+<div class="guided"><h3>3 guided checkpoints</h3><article class="qcard" data-answer="1" data-qid="Q001">
+<div class="qmeta">FOUNDATION · Q001 · Ansh CP1</div>
+<h4>NOT NULL contract</h4><p>stores_new.store_name is NOT NULL. What happens when an insert supplies only store_id=3?</p><div class="opts"><button class="opt" data-choice="0">A. The row is inserted with an empty string</button><button class="opt" data-choice="1">B. The insert is rejected because store_name is NULL</button><button class="opt" data-choice="2">C. MySQL automatically uses store_id as the name</button><button class="opt" data-choice="3">D. The table is immediately dropped</button></div>
+<div class="feedback" hidden=""></div><details><summary>Why this matters</summary><p>NOT NULL rejects a row that does not supply a value for a required column without a default.</p><p class="prov">Provenance: source</p></details>
+</article><article class="qcard" data-answer="2" data-qid="Q005">
+<div class="qmeta">APPLIED · Q005 · Olist grain evidence</div>
+<h4>Grain to key bridge</h4><p>The order-item grain is one row per (order_id, order_item_id). Which constraint best matches that rule?</p><div class="opts"><button class="opt" data-choice="0">A. UNIQUE(order_id)</button><button class="opt" data-choice="1">B. UNIQUE(order_item_id) only, without context</button><button class="opt" data-choice="2">C. UNIQUE(order_id, order_item_id)</button><button class="opt" data-choice="3">D. CHECK(order_id &gt; 0) only</button></div>
+<div class="feedback" hidden=""></div><details><summary>Why this matters</summary><p>Composite uniqueness encodes the stated grain.</p><p class="prov">Provenance: source+repo bridge</p></details>
+</article><article class="qcard" data-answer="1" data-qid="Q007">
+<div class="qmeta">SENIOR · Q007 · Repo grain reasoning</div>
+<h4>A constraint is not the entire contract</h4><p>A table has a PRIMARY KEY, but the pipeline can still produce business duplicates. Why?</p><div class="opts"><button class="opt" data-choice="0">A. The primary key syntax must be wrong</button><button class="opt" data-choice="1">B. The physical key may differ from the business grain, or duplication may occur before/after the table constraint</button><button class="opt" data-choice="2">C. PRIMARY KEY allows duplicates</button><button class="opt" data-choice="3">D. The constraint works only during SELECT</button></div>
+<div class="feedback" hidden=""></div><details><summary>Why this matters</summary><p>Senior review must distinguish physical uniqueness from business grain and pipeline stage.</p><p class="prov">Provenance: extension</p></details>
+</article></div>
+<label class="done"><input data-module="M01" type="checkbox"/> I can explain this module without answer choices</label>
+</section><section class="module" id="m02">
+<div class="mhead"><span>M02</span><div><h2>SELECT, WHERE, LIKE &amp; ORDER BY</h2><p>M02 SELECT / WHERE / LIKE / ORDER BY</p></div></div>
+<div class="ladder"><div><b>Foundation</b><p>Projection, filters, precedence, LIKE, sorting, aliases.</p></div><div><b>Applied / Repo</b><p>Translate business filters explicitly and predict result rows.</p></div><div><b>Senior</b><p>Filter placement, deterministic ordering, sargability, portability.</p></div></div>
+<div class="guided"><h3>3 guided checkpoints</h3><article class="qcard" data-answer="1" data-qid="Q009">
+<div class="qmeta">FOUNDATION · Q009 · Ansh CP2</div>
+<h4>WHERE filters rows</h4><p>Which clause filters rows before GROUP BY?</p><div class="opts"><button class="opt" data-choice="0">A. HAVING</button><button class="opt" data-choice="1">B. WHERE</button><button class="opt" data-choice="2">C. ORDER BY</button><button class="opt" data-choice="3">D. LIMIT</button></div>
+<div class="feedback" hidden=""></div><details><summary>Why this matters</summary><p>WHERE filters input rows before grouping.</p><p class="prov">Provenance: source</p></details>
+</article><article class="qcard" data-answer="0" data-qid="Q013">
+<div class="qmeta">APPLIED · Q013 · Ansh CP2</div>
+<h4>Silent AND/OR leak</h4><p>Rule boss: female AND (France OR joined after 2022-01-01). What is the risk query `gender="F" AND country="France" OR join_date&gt;...`?</p><div class="opts"><button class="opt" data-choice="0">A. Male rows with a recent join_date can leak into the result</button><button class="opt" data-choice="1">B. All France rows disappear</button><button class="opt" data-choice="2">C. The query must produce a syntax error</button><button class="opt" data-choice="3">D. ORDER BY berubah</button></div>
+<div class="feedback" hidden=""></div><details><summary>Why this matters</summary><p>Because `(F AND France) OR recent`, recent rows are no longer required to be female.</p><p class="prov">Provenance: source</p></details>
+</article><article class="qcard" data-answer="1" data-qid="Q016">
+<div class="qmeta">SENIOR · Q016 · Optimization contract</div>
+<h4>Filter early caveat</h4><p>Is “filter as early as possible” always correct?</p><div class="opts"><button class="opt" data-choice="0">A. Yes, without exception</button><button class="opt" data-choice="1">B. No; early filtering can change ranking, history, or outer-join semantics</button><button class="opt" data-choice="2">C. No, because WHERE is always slow</button><button class="opt" data-choice="3">D. Yes, if there is an index</button></div>
+<div class="feedback" hidden=""></div><details><summary>Why this matters</summary><p>The correctness contract comes first; pushdown is valid only if semantics are preserved.</p><p class="prov">Provenance: extension</p></details>
+</article></div>
+<label class="done"><input data-module="M02" type="checkbox"/> I can explain this module without answer choices</label>
+</section><section class="module" id="m03">
+<div class="mhead"><span>M03</span><div><h2>GROUP BY, Aggregates &amp; HAVING</h2><p>M03 GROUP BY / Aggregate / HAVING</p></div></div>
+<div class="ladder"><div><b>Foundation</b><p>Aggregate functions, grouping, HAVING and execution order.</p></div><div><b>Applied / Repo</b><p>Define output grain before aggregation.</p></div><div><b>Senior</b><p>Reconciliation by grain; detect aggregation hiding duplicate problems.</p></div></div>
+<div class="guided"><h3>3 guided checkpoints</h3><article class="qcard" data-answer="1" data-qid="Q019">
+<div class="qmeta">FOUNDATION · Q019 · Ansh CP2</div>
+<h4>GROUP BY grain</h4><p>What grain does `GROUP BY category` produce?</p><div class="opts"><button class="opt" data-choice="0">A. One row per product</button><button class="opt" data-choice="1">B. One row per category (for the selected aggregates)</button><button class="opt" data-choice="2">C. One row per customer</button><button class="opt" data-choice="3">D. One row per date</button></div>
+<div class="feedback" hidden=""></div><details><summary>Why this matters</summary><p>Group key determines output grain aggregate.</p><p class="prov">Provenance: source</p></details>
+</article><article class="qcard" data-answer="1" data-qid="Q022">
+<div class="qmeta">APPLIED · Q022 · Creative reconciliation reasoning</div>
+<h4>Reconciliation by grain</h4><p>Total sales match, but one store is missing and another is duplicated. What is the lesson?</p><div class="opts"><button class="opt" data-choice="0">A. Total equality prove correctness</button><button class="opt" data-choice="1">B. An aggregate total can mask offsetting missing and duplicate rows; validate keys and grain too</button><button class="opt" data-choice="2">C. GROUP BY is always wrong</button><button class="opt" data-choice="3">D. SUM should be replaced with MAX</button></div>
+<div class="feedback" hidden=""></div><details><summary>Why this matters</summary><p>Reconciliation need both aggregate and key-level checks.</p><p class="prov">Provenance: extension+repo</p></details>
+</article><article class="qcard" data-answer="1" data-qid="Q025">
+<div class="qmeta">SENIOR · Q025 · Join/cardinality reasoning</div>
+<h4>Wrong grain KPI</h4><p>Revenue grouped by customer doubles after joining to a multi-address table. What is the first concern?</p><div class="opts"><button class="opt" data-choice="0">A. SUM function bug</button><button class="opt" data-choice="1">B. Join changed multiplicity before aggregation</button><button class="opt" data-choice="2">C. HAVING too slow</button><button class="opt" data-choice="3">D. Need ROUND</button></div>
+<div class="feedback" hidden=""></div><details><summary>Why this matters</summary><p>Aggregation faithfully sums its input; if join fan-out multiplied rows, KPI changes.</p><p class="prov">Provenance: extension+repo</p></details>
+</article></div>
+<label class="done"><input data-module="M03" type="checkbox"/> I can explain this module without answer choices</label>
+</section><section class="module" id="m04">
+<div class="mhead"><span>M04</span><div><h2>JOIN, UNION &amp; Cardinality</h2><p>M04 JOIN / UNION / Cardinality</p></div></div>
+<div class="ladder"><div><b>Foundation</b><p>INNER/LEFT/RIGHT, UNION and unmatched-row behaviour.</p></div><div><b>Applied / Repo</b><p>Predict 1:1, 1:M and M:M cardinality.</p></div><div><b>Senior</b><p>Fan-out RCA, ON vs WHERE, UNION vs UNION ALL, pre/post join validation.</p></div></div>
+<div class="guided"><h3>3 guided checkpoints</h3><article class="qcard" data-answer="1" data-qid="Q027">
+<div class="qmeta">FOUNDATION · Q027 · Ansh CP2 fixture</div>
+<h4>INNER JOIN trace</h4><p>orders cust_id 101,201,501; customers id 101,201,3. INNER JOIN on cust_id=id returns how many order matches?</p><div class="opts"><button class="opt" data-choice="0">A. 1</button><button class="opt" data-choice="1">B. 2</button><button class="opt" data-choice="2">C. 3</button><button class="opt" data-choice="3">D. 4</button></div>
+<div class="feedback" hidden=""></div><details><summary>Why this matters</summary><p>Only 101 and 201 match.</p><p class="prov">Provenance: source</p></details>
+</article><article class="qcard" data-answer="2" data-qid="Q031">
+<div class="qmeta">APPLIED · Q031 · Cardinality bridge</div>
+<h4>Join multiplicity</h4><p>Left row key K matches 3 right rows key K. How many output rows are produced for that left row?</p><div class="opts"><button class="opt" data-choice="0">A. 1</button><button class="opt" data-choice="1">B. 2</button><button class="opt" data-choice="2">C. 3</button><button class="opt" data-choice="3">D. 0</button></div>
+<div class="feedback" hidden=""></div><details><summary>Why this matters</summary><p>Join emits one output row per matching pair.</p><p class="prov">Provenance: extension</p></details>
+</article><article class="qcard" data-answer="0" data-qid="Q036">
+<div class="qmeta">SENIOR · Q036 · RCA join multiplication</div>
+<h4>DISTINCT as fan-out fix</h4><p>Revenue doubles after the join. Why is `SELECT DISTINCT` not a universal fix?</p><div class="opts"><button class="opt" data-choice="0">A. DISTINCT may hide multiplicity and can remove legitimate repeated rows without repairing the relationship</button><button class="opt" data-choice="1">B. DISTINCT is always a syntax error</button><button class="opt" data-choice="2">C. DISTINCT adds duplicates</button><button class="opt" data-choice="3">D. DISTINCT is only for dates</button></div>
+<div class="feedback" hidden=""></div><details><summary>Why this matters</summary><p>The root cause is cardinality/business rules; DISTINCT operates on projected row equality, not relationship correctness.</p><p class="prov">Provenance: extension</p></details>
+</article></div>
+<label class="done"><input data-module="M04" type="checkbox"/> I can explain this module without answer choices</label>
+</section><section class="module" id="m05">
+<div class="mhead"><span>M05</span><div><h2>DML &amp; Maintenance Safety</h2><p>M05 UPDATE / DELETE / DROP / TRUNCATE / Maintenance</p></div></div>
+<div class="ladder"><div><b>Foundation</b><p>UPDATE, DELETE, DROP, TRUNCATE and state changes.</p></div><div><b>Applied / Repo</b><p>Make corrections with explicit predicates and safe scope.</p></div><div><b>Senior</b><p>Retry/idempotency, partial rerun, transaction/recovery reasoning.</p></div></div>
+<div class="guided"><h3>3 guided checkpoints</h3><article class="qcard" data-answer="1" data-qid="Q041">
+<div class="qmeta">FOUNDATION · Q041 · Ansh CP3</div>
+<h4>UPDATE scope</h4><p>`UPDATE customers SET name="sam" WHERE id=101` changes?</p><div class="opts"><button class="opt" data-choice="0">A. All rows</button><button class="opt" data-choice="1">B. Only rows matching id=101</button><button class="opt" data-choice="2">C. Table schema</button><button class="opt" data-choice="3">D. Nothing</button></div>
+<div class="feedback" hidden=""></div><details><summary>Why this matters</summary><p>WHERE scopes the UPDATE to matching rows.</p><p class="prov">Provenance: source</p></details>
+</article><article class="qcard" data-answer="1" data-qid="Q043">
+<div class="qmeta">APPLIED · Q043 · Ansh CP3</div>
+<h4>Trace state update then delete</h4><p>CP3 updates id101 name to sam, then deletes email aa. What is the final state for id101?</p><div class="opts"><button class="opt" data-choice="0">A. Still sam</button><button class="opt" data-choice="1">B. Removed if same row retains email aa</button><button class="opt" data-choice="2">C. Name returns love</button><button class="opt" data-choice="3">D. Two rows</button></div>
+<div class="feedback" hidden=""></div><details><summary>Why this matters</summary><p>UPDATE changes name but email remains aa; subsequent DELETE removes that row.</p><p class="prov">Provenance: source</p></details>
+</article><article class="qcard" data-answer="1" data-qid="Q045">
+<div class="qmeta">SENIOR · Q045 · Maintenance contract</div>
+<h4>Historical correction</h4><p>Need correct one month history. What is the safest principle?</p><div class="opts"><button class="opt" data-choice="0">A. Delete entire warehouse</button><button class="opt" data-choice="1">B. Define affected scope, preserve evidence, apply correction, reconcile, then prevention</button><button class="opt" data-choice="2">C. Use UPDATE without WHERE</button><button class="opt" data-choice="3">D. Ignore lineage</button></div>
+<div class="feedback" hidden=""></div><details><summary>Why this matters</summary><p>Controlled correction requires scope, evidence, safe rerun and validation.</p><p class="prov">Provenance: extension</p></details>
+</article></div>
+<label class="done"><input data-module="M05" type="checkbox"/> I can explain this module without answer choices</label>
+</section><section class="module" id="m06">
+<div class="mhead"><span>M06</span><div><h2>Numeric, Date, String &amp; CAST</h2><p>M06 Numeric / Date / String / CAST</p></div></div>
+<div class="ladder"><div><b>Foundation</b><p>Arithmetic, date functions, CAST and string transformations.</p></div><div><b>Applied / Repo</b><p>Normalize types/keys/time before joins and dedup.</p></div><div><b>Senior</b><p>Timezone, money precision, key-normalization and index/casting side effects.</p></div></div>
+<div class="guided"><h3>3 guided checkpoints</h3><article class="qcard" data-answer="1" data-qid="Q047">
+<div class="qmeta">FOUNDATION · Q047 · Ansh CP3</div>
+<h4>10% discount</h4><p>unit_price 200, expression unit_price*0.90 gives?</p><div class="opts"><button class="opt" data-choice="0">A. 20</button><button class="opt" data-choice="1">B. 180</button><button class="opt" data-choice="2">C. 190</button><button class="opt" data-choice="3">D. 220</button></div>
+<div class="feedback" hidden=""></div><details><summary>Why this matters</summary><p>200×0.90=180.</p><p class="prov">Provenance: source</p></details>
+</article><article class="qcard" data-answer="0" data-qid="Q052">
+<div class="qmeta">APPLIED · Q052 · Ansh CP4/5</div>
+<h4>DATE_FORMAT</h4><p>`%W %M %e %Y` represents?</p><div class="opts"><button class="opt" data-choice="0">A. weekday name, month name, day without leading zero, 4-digit year</button><button class="opt" data-choice="1">B. week number only</button><button class="opt" data-choice="2">C. ISO timestamp</button><button class="opt" data-choice="3">D. month numeric only</button></div>
+<div class="feedback" hidden=""></div><details><summary>Why this matters</summary><p>Those specifiers format full weekday/month names, day-of-month and four-digit year.</p><p class="prov">Provenance: source</p></details>
+</article><article class="qcard" data-answer="0" data-qid="Q057">
+<div class="qmeta">SENIOR · Q057 · Type contract</div>
+<h4>Cast and join key</h4><p>Joining INT customer_id to dirty VARCHAR ids with on-the-fly CAST can create what concern?</p><div class="opts"><button class="opt" data-choice="0">A. Correctness failures on malformed values and possible index-use cost</button><button class="opt" data-choice="1">B. It guarantees faster query</button><button class="opt" data-choice="2">C. It auto-enforces PK</button><button class="opt" data-choice="3">D. No concern ever</button></div>
+<div class="feedback" hidden=""></div><details><summary>Why this matters</summary><p>Type normalization should be governed upstream; runtime casts can hide bad values and affect plans.</p><p class="prov">Provenance: extension</p></details>
+</article></div>
+<label class="done"><input data-module="M06" type="checkbox"/> I can explain this module without answer choices</label>
+</section><section class="module" id="m07">
+<div class="mhead"><span>M07</span><div><h2>CASE &amp; Business Rules</h2><p>M07 CASE / Business Rules</p></div></div>
+<div class="ladder"><div><b>Foundation</b><p>CASE ordering, ELSE and rule classification.</p></div><div><b>Applied / Repo</b><p>Encode business rules and check overlap/defaults.</p></div><div><b>Senior</b><p>Govern rule precedence, NULL/default behaviour and change impact.</p></div></div>
+<div class="guided"><h3>3 guided checkpoints</h3><article class="qcard" data-answer="0" data-qid="Q061">
+<div class="qmeta">FOUNDATION · Q061 · Ansh CP6</div>
+<h4>CASE first match</h4><p>unit_price=80. CASE WHEN &lt;=100 affordable WHEN &lt;=200 normal ELSE expensive. Result?</p><div class="opts"><button class="opt" data-choice="0">A. affordable</button><button class="opt" data-choice="1">B. normal</button><button class="opt" data-choice="2">C. expensive</button><button class="opt" data-choice="3">D. NULL</button></div>
+<div class="feedback" hidden=""></div><details><summary>Why this matters</summary><p>CASE returns first matching branch.</p><p class="prov">Provenance: source</p></details>
+</article><article class="qcard" data-answer="0" data-qid="Q063">
+<div class="qmeta">APPLIED · Q063 · Ansh CP6</div>
+<h4>Rule order</h4><p>Why branch order matters when conditions overlap?</p><div class="opts"><button class="opt" data-choice="0">A. First matching WHEN wins</button><button class="opt" data-choice="1">B. All WHEN outputs concatenate</button><button class="opt" data-choice="2">C. MySQL randomizes branches</button><button class="opt" data-choice="3">D. ELSE executes first</button></div>
+<div class="feedback" hidden=""></div><details><summary>Why this matters</summary><p>More specific/priority conditions must be ordered intentionally.</p><p class="prov">Provenance: source+extension</p></details>
+</article><article class="qcard" data-answer="0" data-qid="Q065">
+<div class="qmeta">SENIOR · Q065 · Pharma match tiers</div>
+<h4>CASE as hidden model</h4><p>Huge CASE with many entity-resolution priorities becomes risky because?</p><div class="opts"><button class="opt" data-choice="0">A. Rule precedence and maintainability can become opaque; may deserve reference/rules table or staged model</button><button class="opt" data-choice="1">B. CASE cannot have &gt;2 WHEN</button><button class="opt" data-choice="2">C. CASE always slow</button><button class="opt" data-choice="3">D. CASE cannot return strings</button></div>
+<div class="feedback" hidden=""></div><details><summary>Why this matters</summary><p>Complex rules benefit from explicit data/model governance rather than buried logic.</p><p class="prov">Provenance: extension+repo bridge</p></details>
+</article></div>
+<label class="done"><input data-module="M07" type="checkbox"/> I can explain this module without answer choices</label>
+</section><section class="module" id="m08">
+<div class="mhead"><span>M08</span><div><h2>Window Aggregates &amp; Frames</h2><p>M08 Window Aggregates / Frames</p></div></div>
+<div class="ladder"><div><b>Foundation</b><p>Window vs aggregate, running metrics and frames.</p></div><div><b>Applied / Repo</b><p>Trace row-preserving calculations.</p></div><div><b>Senior</b><p>Frame surprises, scope filtering and window-order vs final-order reasoning.</p></div></div>
+<div class="guided"><h3>3 guided checkpoints</h3><article class="qcard" data-answer="0" data-qid="Q067">
+<div class="qmeta">FOUNDATION · Q067 · Ansh CP6</div>
+<h4>Running sum frame</h4><p>ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW means?</p><div class="opts"><button class="opt" data-choice="0">A. First row in partition through current row</button><button class="opt" data-choice="1">B. Current to last row</button><button class="opt" data-choice="2">C. Current only</button><button class="opt" data-choice="3">D. Entire database</button></div>
+<div class="feedback" hidden=""></div><details><summary>Why this matters</summary><p>Explicit ROWS frame accumulates from partition start to current row.</p><p class="prov">Provenance: source</p></details>
+</article><article class="qcard" data-answer="1" data-qid="Q069">
+<div class="qmeta">APPLIED · Q069 · Ansh CP6</div>
+<h4>Trace running sum</h4><p>prices ordered 10,20,30. Running sums?</p><div class="opts"><button class="opt" data-choice="0">A. 10,20,30</button><button class="opt" data-choice="1">B. 10,30,60</button><button class="opt" data-choice="2">C. 60,50,30</button><button class="opt" data-choice="3">D. 30,30,30</button></div>
+<div class="feedback" hidden=""></div><details><summary>Why this matters</summary><p>Cumulative sums are 10;10+20=30;10+20+30=60.</p><p class="prov">Provenance: source</p></details>
+</article><article class="qcard" data-answer="0" data-qid="Q072">
+<div class="qmeta">SENIOR · Q072 · Window input scope optimization</div>
+<h4>Filter before window</h4><p>You rank full customer history then need current top event. Can filtering history first be unsafe?</p><div class="opts"><button class="opt" data-choice="0">A. Yes if ranking/history logic requires rows that filter removes</button><button class="opt" data-choice="1">B. No, filters never change window output</button><button class="opt" data-choice="2">C. Only with strings</button><button class="opt" data-choice="3">D. Only on Sunday</button></div>
+<div class="feedback" hidden=""></div><details><summary>Why this matters</summary><p>Window semantics depend on input set; optimization cannot alter required history.</p><p class="prov">Provenance: extension</p></details>
+</article></div>
+<label class="done"><input data-module="M08" type="checkbox"/> I can explain this module without answer choices</label>
+</section><section class="module" id="m09">
+<div class="mhead"><span>M09</span><div><h2>Ranking, Dedup &amp; LAG/LEAD</h2><p>M09 Ranking / PARTITION / Dedup / LAG-LEAD</p></div></div>
+<div class="ladder"><div><b>Foundation</b><p>ROW_NUMBER/RANK/DENSE_RANK/PARTITION/LAG/LEAD.</p></div><div><b>Applied / Repo</b><p>Choose grain + meaningful winner ordering.</p></div><div><b>Senior</b><p>Deterministic winner, total order, previous row vs previous time period.</p></div></div>
+<div class="guided"><h3>3 guided checkpoints</h3><article class="qcard" data-answer="1" data-qid="Q075">
+<div class="qmeta">FOUNDATION · Q075 · Ansh CP6</div>
+<h4>Ranking ties</h4><p>For values 100,100,200, DENSE_RANK ranks?</p><div class="opts"><button class="opt" data-choice="0">A. 1,2,3</button><button class="opt" data-choice="1">B. 1,1,2</button><button class="opt" data-choice="2">C. 1,1,3</button><button class="opt" data-choice="3">D. 1,2,2</button></div>
+<div class="feedback" hidden=""></div><details><summary>Why this matters</summary><p>Dense rank repeats ties without gaps.</p><p class="prov">Provenance: source</p></details>
+</article><article class="qcard" data-answer="1" data-qid="Q078">
+<div class="qmeta">APPLIED · Q078 · Ansh CP6 nth value</div>
+<h4>Nth most expensive direction</h4><p>For “5th most expensive distinct price”, ranking order should be?</p><div class="opts"><button class="opt" data-choice="0">A. unit_price ASC</button><button class="opt" data-choice="1">B. unit_price DESC</button><button class="opt" data-choice="2">C. product_id ASC only</button><button class="opt" data-choice="3">D. No order</button></div>
+<div class="feedback" hidden=""></div><details><summary>Why this matters</summary><p>Most expensive requires descending price.</p><p class="prov">Provenance: source issue+correction</p></details>
+</article><article class="qcard" data-answer="1" data-qid="Q083">
+<div class="qmeta">SENIOR · Q083 · Determinism hardening</div>
+<h4>Same timestamp conflict</h4><p>Two conflicting rows have same business key and same updated_at, no sequence/priority. Best response?</p><div class="opts"><button class="opt" data-choice="0">A. Claim either one is latest</button><button class="opt" data-choice="1">B. Declare ambiguity and define authoritative rule; arbitrary deterministic tie-break is not business truth</button><button class="opt" data-choice="2">C. Use RANDOM</button><button class="opt" data-choice="3">D. Delete both</button></div>
+<div class="feedback" hidden=""></div><details><summary>Why this matters</summary><p>Data may be insufficient to infer authoritative winner.</p><p class="prov">Provenance: extension</p></details>
+</article></div>
+<label class="done"><input data-module="M09" type="checkbox"/> I can explain this module without answer choices</label>
+</section><section class="module" id="m10">
+<div class="mhead"><span>M10</span><div><h2>Subquery, CTE, View, Procedure &amp; Function</h2><p>M10 Subquery / CTE / View / Procedure / Function</p></div></div>
+<div class="ladder"><div><b>Foundation</b><p>Stage complex SQL and reusable objects.</p></div><div><b>Applied / Repo</b><p>Break transformations into understandable steps.</p></div><div><b>Senior</b><p>CTE/view assumptions, portability and maintainability boundaries.</p></div></div>
+<div class="guided"><h3>3 guided checkpoints</h3><article class="qcard" data-answer="0" data-qid="Q089">
+<div class="qmeta">FOUNDATION · Q089 · Ansh CP6</div>
+<h4>Subquery definition</h4><p>A subquery is?</p><div class="opts"><button class="opt" data-choice="0">A. Query inside another query</button><button class="opt" data-choice="1">B. Index type</button><button class="opt" data-choice="2">C. DDL only</button><button class="opt" data-choice="3">D. Stored file</button></div>
+<div class="feedback" hidden=""></div><details><summary>Why this matters</summary><p>Notes introduce subquery as query within query.</p><p class="prov">Provenance: source</p></details>
+</article><article class="qcard" data-answer="0" data-qid="Q090">
+<div class="qmeta">APPLIED · Q090 · Ansh CP6</div>
+<h4>Above-average products</h4><p>Pattern `WHERE unit_price &gt; (SELECT AVG(unit_price)...)` does?</p><div class="opts"><button class="opt" data-choice="0">A. Filters products above overall average</button><button class="opt" data-choice="1">B. Groups by category</button><button class="opt" data-choice="2">C. Updates prices</button><button class="opt" data-choice="3">D. Creates view</button></div>
+<div class="feedback" hidden=""></div><details><summary>Why this matters</summary><p>Scalar subquery supplies comparison value.</p><p class="prov">Provenance: source</p></details>
+</article><article class="qcard" data-answer="1" data-qid="Q095">
+<div class="qmeta">SENIOR · Q095 · MySQL 8.4 derived-table optimization</div>
+<h4>CTE materialization myth</h4><p>Statement “CTE is always materialized and therefore faster” is?</p><div class="opts"><button class="opt" data-choice="0">A. True</button><button class="opt" data-choice="1">B. False; MySQL optimizer may merge or materialize depending on query/plan</button><button class="opt" data-choice="2">C. True only if named cte</button><button class="opt" data-choice="3">D. Always syntax error</button></div>
+<div class="feedback" hidden=""></div><details><summary>Why this matters</summary><p>MySQL can merge or materialize CTEs/derived tables; inspect plan rather than assume.</p><p class="prov">Provenance: extension verified</p></details>
+</article></div>
+<label class="done"><input data-module="M10" type="checkbox"/> I can explain this module without answer choices</label>
+</section><section class="finish"><h2>Final SQL gate</h2><p>After all 10 modules, complete <a href="/project-engineering-atlas/sql-field-lab-full">100-question + 24-lab assessment</a>. The target is not the score alone; you should be able to explain why the other choices are wrong and solve incidents without hints.</p><p>After SQL/Data reasoning, continue to <a href="/project-engineering-atlas/de-senior-lab">Senior DE Operations / Platform Lab</a>.</p></section></main></main>
+<nav aria-label="Mobile navigation" class="atlas-v4-bottom"><a aria-current="page" href="/project-engineering-atlas">Learn</a><a href="/project-engineering-atlas/sql-field-lab-full">Practice</a><a href="/project-engineering-atlas/concept-atlas">References</a><a href="/project-engineering-atlas/progress">Progress</a></nav>
